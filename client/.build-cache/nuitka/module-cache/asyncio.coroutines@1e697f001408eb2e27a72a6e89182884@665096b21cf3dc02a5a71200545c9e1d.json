@@ -1,0 +1,86 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "asyncio.coroutines",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import path parent",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\collections\\abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections.abc",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\inspect.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "inspect",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\traceback.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "traceback",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "D:\\python\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 8
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      4,
+      {
+        "1": 34,
+        "2": 34,
+        "3": 8,
+        "4": 2,
+        "12": 4
+      }
+    ]
+  ]
+}

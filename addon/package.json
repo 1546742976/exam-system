@@ -1,0 +1,19 @@
+{
+  "name": "addon",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "preferUnplugged": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@hydrooj/ui-default": "^4.58.5",
+    "@types/node": "^22.0.0",
+    "hydrooj": "^5.0.2",
+    "typescript": "^5.9.0"
+  },
+  "peerDependencies": {
+    "hydrooj": ">=5.0.4 <6"
+  }
+}

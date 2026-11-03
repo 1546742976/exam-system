@@ -1,0 +1,238 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "numpy.f2py.rules",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\copy.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "copy",
+      "reason": "import",
+      "source_ref_line": 49
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 50
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 51
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "time",
+      "reason": "import",
+      "source_ref_line": 52
+    },
+    {
+      "filename": "D:\\python\\Lib\\pathlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "pathlib",
+      "reason": "import",
+      "source_ref_line": 53
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "numpy",
+      "reason": "import path parent",
+      "source_ref_line": 56
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\f2py",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "numpy.f2py",
+      "reason": "import",
+      "source_ref_line": 56
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\f2py\\__version__.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "numpy.f2py.__version__",
+      "reason": "import fromlist",
+      "source_ref_line": 56
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\f2py\\capi_maps.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "numpy.f2py.capi_maps",
+      "reason": "import fromlist",
+      "source_ref_line": 56
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\f2py\\cfuncs.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "numpy.f2py.cfuncs",
+      "reason": "import fromlist",
+      "source_ref_line": 56
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\f2py\\common_rules.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "numpy.f2py.common_rules",
+      "reason": "import fromlist",
+      "source_ref_line": 56
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\f2py\\f90mod_rules.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "numpy.f2py.f90mod_rules",
+      "reason": "import fromlist",
+      "source_ref_line": 56
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\f2py\\func2subr.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "numpy.f2py.func2subr",
+      "reason": "import fromlist",
+      "source_ref_line": 56
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\f2py\\use_rules.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "numpy.f2py.use_rules",
+      "reason": "import fromlist",
+      "source_ref_line": 56
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "numpy",
+      "reason": "import path parent",
+      "source_ref_line": 65
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\f2py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "numpy.f2py",
+      "reason": "import path parent",
+      "source_ref_line": 65
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\f2py\\auxfuncs.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "numpy.f2py.auxfuncs",
+      "reason": "import",
+      "source_ref_line": 65
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 1422
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 1429
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 1437
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 1452
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 1476
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.15625,
+      null,
+      null,
+      7,
+      {
+        "1": 454,
+        "2": 421,
+        "3": 78,
+        "4": 36,
+        "5": 28,
+        "6": 48,
+        "7": 16,
+        "8": 11,
+        "9": 24,
+        "10": 24,
+        "12": 1,
+        "13": 1,
+        "14": 2,
+        "17": 7,
+        "19": 6,
+        "24": 1,
+        "29": 5,
+        "30": 1,
+        "45": 1,
+        "48": 5,
+        "50": 1,
+        "67": 7
+      }
+    ]
+  ]
+}

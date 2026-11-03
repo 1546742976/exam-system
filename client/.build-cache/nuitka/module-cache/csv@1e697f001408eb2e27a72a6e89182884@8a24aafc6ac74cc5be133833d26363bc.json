@@ -1,0 +1,73 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "csv",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_csv",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_csv",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 14
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.046875,
+      null,
+      null,
+      8,
+      {
+        "1": 1024,
+        "2": 360,
+        "3": 109,
+        "4": 34,
+        "5": 25,
+        "6": 25,
+        "7": 27,
+        "8": 49,
+        "9": 19,
+        "10": 1,
+        "11": 23,
+        "12": 8,
+        "13": 1,
+        "14": 10,
+        "15": 8,
+        "17": 2,
+        "28": 6,
+        "31": 1,
+        "35": 1
+      }
+    ]
+  ]
+}

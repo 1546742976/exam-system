@@ -1,0 +1,103 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "fractions",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\decimal.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "decimal",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "math",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "D:\\python\\Lib\\numbers.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "numbers",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\operator.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "operator",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "D:\\python\\Lib\\decimal.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "decimal",
+      "reason": "import",
+      "source_ref_line": 185
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.09375,
+      null,
+      null,
+      7,
+      {
+        "1": 257,
+        "2": 333,
+        "3": 158,
+        "4": 101,
+        "5": 33,
+        "6": 9,
+        "7": 1,
+        "8": 2,
+        "9": 13,
+        "10": 7,
+        "11": 7,
+        "12": 6,
+        "13": 8,
+        "15": 18,
+        "16": 1,
+        "17": 1,
+        "18": 5,
+        "19": 1,
+        "41": 1,
+        "43": 5,
+        "46": 1,
+        "51": 7
+      }
+    ]
+  ]
+}

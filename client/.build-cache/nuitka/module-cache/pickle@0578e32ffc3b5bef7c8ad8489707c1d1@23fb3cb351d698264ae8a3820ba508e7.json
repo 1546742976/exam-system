@@ -1,0 +1,238 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "pickle",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\copyreg.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "copyreg",
+      "reason": "import",
+      "source_ref_line": 27
+    },
+    {
+      "filename": "D:\\python\\Lib\\copyreg.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "copyreg",
+      "reason": "import",
+      "source_ref_line": 28
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 29
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 30
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 31
+    },
+    {
+      "filename": "D:\\python\\Lib\\struct.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "struct",
+      "reason": "import",
+      "source_ref_line": 33
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 34
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 35
+    },
+    {
+      "filename": "D:\\python\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 36
+    },
+    {
+      "filename": "D:\\python\\Lib\\_compat_pickle.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_compat_pickle",
+      "reason": "import",
+      "source_ref_line": 37
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_pickle",
+      "reason": "import",
+      "source_ref_line": 43
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "org",
+      "reason": "import path parent",
+      "source_ref_line": 103
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "org.python",
+      "reason": "import path parent",
+      "source_ref_line": 103
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "org.python.core",
+      "reason": "import",
+      "source_ref_line": 103
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 210
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 239
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 317
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 1755
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 1771
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_pickle",
+      "reason": "import",
+      "source_ref_line": 1777
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.234375,
+      null,
+      null,
+      7,
+      {
+        "1": 1693,
+        "2": 947,
+        "3": 450,
+        "4": 168,
+        "5": 159,
+        "6": 78,
+        "7": 18,
+        "8": 36,
+        "9": 35,
+        "10": 11,
+        "11": 2,
+        "12": 1,
+        "14": 15,
+        "15": 4,
+        "16": 1,
+        "17": 13,
+        "18": 1,
+        "19": 12,
+        "20": 1,
+        "21": 6,
+        "23": 2,
+        "24": 5,
+        "25": 1,
+        "28": 6,
+        "29": 1,
+        "31": 1,
+        "35": 5,
+        "36": 2,
+        "37": 5,
+        "69": 6,
+        "79": 1
+      }
+    ]
+  ]
+}

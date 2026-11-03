@@ -1,0 +1,87 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "copy",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 51
+    },
+    {
+      "filename": "D:\\python\\Lib\\weakref.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "weakref",
+      "reason": "import",
+      "source_ref_line": 52
+    },
+    {
+      "filename": "D:\\python\\Lib\\copyreg.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "copyreg",
+      "reason": "import",
+      "source_ref_line": 53
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "org",
+      "reason": "import path parent",
+      "source_ref_line": 60
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "org.python",
+      "reason": "import path parent",
+      "source_ref_line": 60
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "org.python.core",
+      "reason": "import",
+      "source_ref_line": 60
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.140625,
+      null,
+      null,
+      5,
+      {
+        "1": 228,
+        "2": 206,
+        "3": 43,
+        "4": 39,
+        "5": 20,
+        "6": 5,
+        "8": 1,
+        "9": 7,
+        "10": 2,
+        "18": 4,
+        "20": 3,
+        "22": 1,
+        "23": 5,
+        "25": 1,
+        "27": 1
+      }
+    ]
+  ]
+}

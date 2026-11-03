@@ -1,0 +1,126 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "glob",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\contextlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "contextlib",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "D:\\python\\Lib\\fnmatch.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "fnmatch",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "D:\\python\\Lib\\stat.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "stat",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 62
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 194
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 217
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 243
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      5,
+      {
+        "1": 242,
+        "2": 207,
+        "3": 47,
+        "4": 12,
+        "5": 14,
+        "6": 15,
+        "7": 18,
+        "8": 9,
+        "13": 4
+      }
+    ]
+  ]
+}

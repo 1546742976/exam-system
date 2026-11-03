@@ -1,0 +1,48 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "getopt",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 36
+    },
+    {
+      "filename": "D:\\python\\Lib\\gettext.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "gettext",
+      "reason": "import",
+      "source_ref_line": 38
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      6,
+      {
+        "1": 187,
+        "2": 167,
+        "3": 96,
+        "4": 13,
+        "5": 6,
+        "7": 2,
+        "8": 7,
+        "9": 10,
+        "10": 12,
+        "11": 6,
+        "12": 4,
+        "13": 1
+      }
+    ]
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "rlcompleter",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "atexit",
+      "reason": "import",
+      "source_ref_line": 32
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "builtins",
+      "reason": "import",
+      "source_ref_line": 33
+    },
+    {
+      "filename": "D:\\python\\Lib\\inspect.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "inspect",
+      "reason": "import",
+      "source_ref_line": 34
+    },
+    {
+      "filename": "D:\\python\\Lib\\keyword.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "keyword",
+      "reason": "import",
+      "source_ref_line": 35
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 36
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "__main__",
+      "reason": "import",
+      "source_ref_line": 37
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "readline",
+      "reason": "import",
+      "source_ref_line": 210
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.03125,
+      null,
+      null,
+      7,
+      {
+        "1": 272,
+        "2": 163,
+        "3": 24,
+        "4": 21,
+        "5": 20,
+        "6": 4,
+        "7": 3,
+        "8": 6,
+        "14": 6,
+        "15": 5,
+        "16": 2
+      }
+    ]
+  ]
+}

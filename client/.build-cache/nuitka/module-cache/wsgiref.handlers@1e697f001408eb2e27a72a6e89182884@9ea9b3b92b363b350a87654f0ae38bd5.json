@@ -1,0 +1,112 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "wsgiref.handlers",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\wsgiref",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "wsgiref",
+      "reason": "import path parent",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\wsgiref\\util.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "wsgiref.util",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\wsgiref",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "wsgiref",
+      "reason": "import path parent",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\Lib\\wsgiref\\headers.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "wsgiref.headers",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "time",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\traceback.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "traceback",
+      "reason": "import",
+      "source_ref_line": 366
+    },
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 469
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0625,
+      null,
+      null,
+      6,
+      {
+        "1": 460,
+        "2": 184,
+        "3": 48,
+        "4": 25,
+        "5": 2,
+        "6": 8,
+        "7": 5,
+        "8": 37,
+        "9": 13,
+        "10": 11,
+        "11": 6,
+        "12": 5,
+        "45": 1
+      }
+    ]
+  ]
+}

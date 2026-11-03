@@ -1,0 +1,117 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "re._compiler",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_sre",
+      "reason": "import",
+      "source_ref_line": 13
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\re\\_parser.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "re._parser",
+      "reason": "import fromlist",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import path parent",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "D:\\python\\Lib\\re\\_constants.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "re._constants",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import path parent",
+      "source_ref_line": 16
+    },
+    {
+      "filename": "D:\\python\\Lib\\re\\_casefix.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "re._casefix",
+      "reason": "import",
+      "source_ref_line": 16
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 592
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.21875,
+      null,
+      null,
+      5,
+      {
+        "1": 471,
+        "2": 583,
+        "3": 162,
+        "4": 80,
+        "5": 54,
+        "6": 18,
+        "7": 10,
+        "8": 12,
+        "9": 14,
+        "10": 4,
+        "12": 1,
+        "13": 1,
+        "14": 4,
+        "15": 4,
+        "16": 1,
+        "17": 4,
+        "18": 1,
+        "19": 8,
+        "25": 2,
+        "27": 4,
+        "29": 4,
+        "35": 1,
+        "40": 4,
+        "54": 1,
+        "99": 1,
+        "119": 4,
+        "138": 4
+      }
+    ]
+  ]
+}

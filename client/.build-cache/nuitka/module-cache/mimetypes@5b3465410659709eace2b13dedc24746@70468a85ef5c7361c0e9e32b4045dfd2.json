@@ -1,0 +1,96 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "mimetypes",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 27
+    },
+    {
+      "filename": "D:\\python\\Lib\\posixpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "posixpath",
+      "reason": "import",
+      "source_ref_line": 28
+    },
+    {
+      "filename": "D:\\python\\Lib\\urllib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "urllib",
+      "reason": "import path parent",
+      "source_ref_line": 29
+    },
+    {
+      "filename": "D:\\python\\Lib\\urllib\\parse.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "urllib.parse",
+      "reason": "import",
+      "source_ref_line": 29
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_winapi",
+      "reason": "import",
+      "source_ref_line": 32
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "winreg",
+      "reason": "import",
+      "source_ref_line": 37
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.03125,
+      null,
+      null,
+      6,
+      {
+        "1": 396,
+        "2": 227,
+        "3": 103,
+        "4": 45,
+        "5": 19,
+        "6": 18,
+        "7": 15,
+        "8": 5,
+        "10": 4,
+        "11": 2,
+        "12": 1,
+        "14": 1,
+        "16": 5,
+        "22": 1,
+        "25": 5
+      }
+    ]
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "decimal",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\DLLs\\_decimal.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_decimal",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_decimal.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_decimal",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_decimal.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_decimal",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_decimal.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_decimal",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\_pydecimal.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_pydecimal",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\_pydecimal.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_pydecimal",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\_pydecimal.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_pydecimal",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\_pydecimal.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_pydecimal",
+      "reason": "import",
+      "source_ref_line": 11
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.125,
+      null,
+      null,
+      2,
+      {
+        "1": 2,
+        "2": 2,
+        "4": 2,
+        "5": 2
+      }
+    ]
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "importlib.abc",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import",
+      "source_ref_line": 2
+    },
+    {
+      "filename": null,
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "built-in",
+      "module_name": "importlib._bootstrap_external",
+      "reason": "import fromlist",
+      "source_ref_line": 2
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\machinery.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.machinery",
+      "reason": "import fromlist",
+      "source_ref_line": 3
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_frozen_importlib",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_frozen_importlib_external",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\_abc.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib._abc",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "abc",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 16
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.resources",
+      "reason": "import path parent",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources\\abc.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.resources.abc",
+      "reason": "import",
+      "source_ref_line": 19
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.046875,
+      null,
+      null,
+      5,
+      {
+        "1": 314,
+        "2": 107,
+        "3": 20,
+        "4": 6,
+        "5": 23,
+        "6": 34,
+        "7": 5,
+        "8": 30,
+        "11": 5
+      }
+    ]
+  ]
+}

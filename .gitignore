@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+client/.venv/
+client/logs/
+client/media/
+logs/
+media/
+server/data/
+server/keys/private.pem
+server/.env

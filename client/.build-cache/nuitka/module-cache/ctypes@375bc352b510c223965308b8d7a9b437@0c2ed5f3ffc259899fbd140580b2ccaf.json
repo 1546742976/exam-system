@@ -1,0 +1,346 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "ctypes",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 13
+    },
+    {
+      "filename": "D:\\python\\Lib\\struct.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "struct",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 21
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 33
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 109
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 110
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 140
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 141
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 142
+    },
+    {
+      "filename": "D:\\python\\Lib\\struct.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "struct",
+      "reason": "import",
+      "source_ref_line": 147
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 254
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 364
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 416
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 474
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 495
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_ctypes.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_ctypes",
+      "reason": "import",
+      "source_ref_line": 522
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\comtypes",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "comtypes",
+      "reason": "import path parent",
+      "source_ref_line": 537
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\comtypes\\server",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "comtypes.server",
+      "reason": "import path parent",
+      "source_ref_line": 537
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\comtypes\\server\\inprocserver.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "comtypes.server.inprocserver",
+      "reason": "import",
+      "source_ref_line": 537
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\comtypes",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "comtypes",
+      "reason": "import path parent",
+      "source_ref_line": 545
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\comtypes\\server",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "comtypes.server",
+      "reason": "import path parent",
+      "source_ref_line": 545
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\comtypes\\server\\inprocserver.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "comtypes.server.inprocserver",
+      "reason": "import",
+      "source_ref_line": 545
+    },
+    {
+      "filename": "D:\\python\\Lib\\ctypes",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ctypes",
+      "reason": "import path parent",
+      "source_ref_line": 550
+    },
+    {
+      "filename": "D:\\python\\Lib\\ctypes\\_endian.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ctypes._endian",
+      "reason": "import",
+      "source_ref_line": 550
+    },
+    {
+      "filename": "D:\\python\\Lib\\ctypes",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ctypes",
+      "reason": "import path parent",
+      "source_ref_line": 551
+    },
+    {
+      "filename": "D:\\python\\Lib\\ctypes\\_endian.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ctypes._endian",
+      "reason": "import",
+      "source_ref_line": 551
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.125,
+      null,
+      null,
+      5,
+      {
+        "1": 1109,
+        "2": 592,
+        "3": 31,
+        "4": 32,
+        "5": 95,
+        "6": 36,
+        "7": 23,
+        "8": 135,
+        "9": 15,
+        "10": 20,
+        "11": 4,
+        "12": 3,
+        "14": 5
+      }
+    ]
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "pickletools",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 13
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\pickle.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "pickle",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 16
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 17
+    },
+    {
+      "filename": "D:\\python\\Lib\\struct.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "struct",
+      "reason": "import",
+      "source_ref_line": 210
+    },
+    {
+      "filename": "D:\\python\\Lib\\pickle.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "pickle",
+      "reason": "import",
+      "source_ref_line": 871
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 2270
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 2364
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.09375,
+      null,
+      null,
+      7,
+      {
+        "1": 609,
+        "2": 462,
+        "3": 53,
+        "4": 59,
+        "5": 53,
+        "6": 41,
+        "7": 50,
+        "8": 9,
+        "9": 16,
+        "10": 13,
+        "11": 3,
+        "12": 6,
+        "13": 13,
+        "14": 6,
+        "15": 5,
+        "16": 2,
+        "18": 5,
+        "19": 1,
+        "20": 1,
+        "37": 1,
+        "44": 5,
+        "50": 1
+      }
+    ]
+  ]
+}

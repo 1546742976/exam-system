@@ -1,0 +1,151 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "gettext",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\operator.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "operator",
+      "reason": "import",
+      "source_ref_line": 49
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 50
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 51
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 52
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 62
+    },
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 175
+    },
+    {
+      "filename": "D:\\python\\Lib\\locale.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "locale",
+      "reason": "import",
+      "source_ref_line": 225
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "builtins",
+      "reason": "import",
+      "source_ref_line": 316
+    },
+    {
+      "filename": "D:\\python\\Lib\\struct.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "struct",
+      "reason": "import",
+      "source_ref_line": 344
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 506
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "errno",
+      "reason": "import",
+      "source_ref_line": 527
+    },
+    {
+      "filename": "D:\\python\\Lib\\copy.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "copy",
+      "reason": "import",
+      "source_ref_line": 544
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.078125,
+      null,
+      null,
+      7,
+      {
+        "1": 614,
+        "2": 536,
+        "3": 216,
+        "4": 31,
+        "5": 47,
+        "6": 17,
+        "7": 26,
+        "8": 19,
+        "9": 11,
+        "10": 11,
+        "11": 1,
+        "12": 3,
+        "13": 5,
+        "14": 8,
+        "16": 6,
+        "17": 5,
+        "18": 2,
+        "22": 1,
+        "23": 11,
+        "25": 1,
+        "27": 1,
+        "29": 1,
+        "33": 5,
+        "35": 1,
+        "36": 1
+      }
+    ]
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "webbrowser",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "D:\\python\\Lib\\shlex.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "shlex",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\shutil.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "shutil",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\subprocess.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "subprocess",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\threading.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "threading",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "D:\\python\\Lib\\copy.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "copy",
+      "reason": "import",
+      "source_ref_line": 129
+    },
+    {
+      "filename": "D:\\python\\Lib\\glob.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "glob",
+      "reason": "import",
+      "source_ref_line": 410
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "pwd",
+      "reason": "import",
+      "source_ref_line": 411
+    },
+    {
+      "filename": "D:\\python\\Lib\\socket.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "socket",
+      "reason": "import",
+      "source_ref_line": 412
+    },
+    {
+      "filename": "D:\\python\\Lib\\tempfile.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "tempfile",
+      "reason": "import",
+      "source_ref_line": 413
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 414
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 417
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 546
+    },
+    {
+      "filename": "D:\\python\\Lib\\getopt.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "getopt",
+      "reason": "import",
+      "source_ref_line": 712
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0625,
+      null,
+      null,
+      5,
+      {
+        "1": 894,
+        "2": 415,
+        "3": 43,
+        "4": 61,
+        "5": 49,
+        "6": 37,
+        "7": 18,
+        "8": 59,
+        "9": 6,
+        "10": 41,
+        "11": 19,
+        "12": 1,
+        "13": 1,
+        "14": 6,
+        "15": 4,
+        "16": 1,
+        "17": 8
+      }
+    ]
+  ]
+}

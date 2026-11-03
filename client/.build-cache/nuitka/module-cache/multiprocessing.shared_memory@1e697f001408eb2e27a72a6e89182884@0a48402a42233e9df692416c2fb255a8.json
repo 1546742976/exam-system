@@ -1,0 +1,127 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "multiprocessing.shared_memory",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "mmap",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 13
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "errno",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\struct.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "struct",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "D:\\python\\Lib\\secrets.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "secrets",
+      "reason": "import",
+      "source_ref_line": 16
+    },
+    {
+      "filename": "D:\\python\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 17
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_winapi",
+      "reason": "import",
+      "source_ref_line": 20
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\resource_tracker.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.resource_tracker",
+      "reason": "import fromlist",
+      "source_ref_line": 26
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.046875,
+      null,
+      null,
+      5,
+      {
+        "1": 463,
+        "2": 162,
+        "3": 38,
+        "4": 36,
+        "5": 19,
+        "6": 13,
+        "7": 5,
+        "8": 8,
+        "9": 2,
+        "10": 2,
+        "11": 1,
+        "12": 3,
+        "13": 1,
+        "19": 1,
+        "21": 1,
+        "25": 3,
+        "26": 2,
+        "27": 1,
+        "31": 4
+      }
+    ]
+  ]
+}

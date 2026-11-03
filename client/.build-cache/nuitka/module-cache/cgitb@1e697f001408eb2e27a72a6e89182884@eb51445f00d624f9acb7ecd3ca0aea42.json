@@ -1,0 +1,154 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "cgitb",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\inspect.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "inspect",
+      "reason": "import",
+      "source_ref_line": 24
+    },
+    {
+      "filename": "D:\\python\\Lib\\keyword.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "keyword",
+      "reason": "import",
+      "source_ref_line": 25
+    },
+    {
+      "filename": "D:\\python\\Lib\\linecache.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "linecache",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 27
+    },
+    {
+      "filename": "D:\\python\\Lib\\pydoc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "pydoc",
+      "reason": "import",
+      "source_ref_line": 28
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 29
+    },
+    {
+      "filename": "D:\\python\\Lib\\tempfile.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "tempfile",
+      "reason": "import",
+      "source_ref_line": 30
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "time",
+      "reason": "import",
+      "source_ref_line": 31
+    },
+    {
+      "filename": "D:\\python\\Lib\\tokenize.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "tokenize",
+      "reason": "import",
+      "source_ref_line": 32
+    },
+    {
+      "filename": "D:\\python\\Lib\\traceback.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "traceback",
+      "reason": "import",
+      "source_ref_line": 33
+    },
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 34
+    },
+    {
+      "filename": "D:\\python\\Lib\\html",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "html",
+      "reason": "import",
+      "source_ref_line": 35
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 1,
+      "module_kind": null,
+      "module_name": "html.escape",
+      "reason": "import fromlist",
+      "source_ref_line": 35
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0625,
+      null,
+      null,
+      7,
+      {
+        "1": 306,
+        "2": 323,
+        "3": 71,
+        "4": 51,
+        "5": 42,
+        "6": 18,
+        "7": 22,
+        "11": 8,
+        "12": 1,
+        "13": 5,
+        "14": 5,
+        "15": 1,
+        "16": 17,
+        "17": 7,
+        "18": 1,
+        "19": 8,
+        "20": 2,
+        "22": 5,
+        "23": 1
+      }
+    ]
+  ]
+}

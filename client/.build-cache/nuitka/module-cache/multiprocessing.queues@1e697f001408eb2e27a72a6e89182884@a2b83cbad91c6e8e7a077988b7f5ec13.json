@@ -1,0 +1,203 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "multiprocessing.queues",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 13
+    },
+    {
+      "filename": "D:\\python\\Lib\\threading.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "threading",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "time",
+      "reason": "import",
+      "source_ref_line": 16
+    },
+    {
+      "filename": "D:\\python\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 17
+    },
+    {
+      "filename": "D:\\python\\Lib\\weakref.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "weakref",
+      "reason": "import",
+      "source_ref_line": 18
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "errno",
+      "reason": "import",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "D:\\python\\Lib\\queue.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "queue",
+      "reason": "import",
+      "source_ref_line": 21
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_multiprocessing.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_multiprocessing",
+      "reason": "import",
+      "source_ref_line": 23
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import",
+      "source_ref_line": 25
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\connection.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.connection",
+      "reason": "import fromlist",
+      "source_ref_line": 25
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\context.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.context",
+      "reason": "import fromlist",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import path parent",
+      "source_ref_line": 29
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\util.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.util",
+      "reason": "import",
+      "source_ref_line": 29
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import path parent",
+      "source_ref_line": 40
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\synchronize.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.synchronize",
+      "reason": "import",
+      "source_ref_line": 40
+    },
+    {
+      "filename": "D:\\python\\Lib\\traceback.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "traceback",
+      "reason": "import",
+      "source_ref_line": 280
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.03125,
+      null,
+      null,
+      5,
+      {
+        "1": 363,
+        "2": 258,
+        "3": 32,
+        "4": 34,
+        "5": 59,
+        "6": 10,
+        "7": 7,
+        "8": 6,
+        "9": 9,
+        "10": 21,
+        "11": 2,
+        "12": 5,
+        "15": 4,
+        "24": 5
+      }
+    ]
+  ]
+}

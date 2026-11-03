@@ -1,0 +1,1674 @@
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/context is deprecated.
+[
+  {
+    detail: undefined,
+    id: 'duplicate-object-key',
+    location: {
+      column: 8,
+      file: '/root/.hydro/addons/hydrooj-welcome-banner/index.ts',
+      length: 6,
+      line: 411,
+      lineText: "        Slides: '横幅列表',",
+      namespace: '',
+      suggestion: ''
+    },
+    notes: [ [Object] ],
+    pluginName: '',
+    text: 'Duplicate key "Slides" in object literal'
+  }
+]
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/context is deprecated.
+[
+  {
+    detail: undefined,
+    id: 'duplicate-object-key',
+    location: {
+      column: 8,
+      file: '/root/.hydro/addons/hydrooj-welcome-banner/index.ts',
+      length: 6,
+      line: 411,
+      lineText: "        Slides: '横幅列表',",
+      namespace: '',
+      suggestion: ''
+    },
+    notes: [ [Object] ],
+    pluginName: '',
+    text: 'Duplicate key "Slides" in object literal'
+  }
+]
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/context is deprecated.
+[
+  {
+    detail: undefined,
+    id: 'duplicate-object-key',
+    location: {
+      column: 8,
+      file: '/root/.hydro/addons/hydrooj-welcome-banner/index.ts',
+      length: 6,
+      line: 411,
+      lineText: "        Slides: '横幅列表',",
+      namespace: '',
+      suggestion: ''
+    },
+    notes: [ [Object] ],
+    pluginName: '',
+    text: 'Duplicate key "Slides" in object literal'
+  }
+]
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/context is deprecated.
+[
+  {
+    detail: undefined,
+    id: 'duplicate-object-key',
+    location: {
+      column: 8,
+      file: '/root/.hydro/addons/hydrooj-welcome-banner/index.ts',
+      length: 6,
+      line: 411,
+      lineText: "        Slides: '横幅列表',",
+      namespace: '',
+      suggestion: ''
+    },
+    notes: [ [Object] ],
+    pluginName: '',
+    text: 'Duplicate key "Slides" in object literal'
+  }
+]
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: write ECONNRESET
+      at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+      at writevGeneric (node:internal/stream_base_commons:142:3)
+      at Socket._writeGeneric (node:net:1024:11)
+      at Socket._writev (node:net:1033:8)
+      at doWrite (node:internal/streams/writable:594:12)
+      at clearBuffer (node:internal/streams/writable:773:5)
+      at Socket.Writable.uncork (node:internal/streams/writable:529:7)
+      at connectionCorkNT (node:_http_outgoing:981:8)
+      at processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+
+  Error: write ECONNRESET
+      at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+      at writevGeneric (node:internal/stream_base_commons:142:3)
+      at Socket._writeGeneric (node:net:1024:11)
+      at Socket._writev (node:net:1033:8)
+      at doWrite (node:internal/streams/writable:594:12)
+      at clearBuffer (node:internal/streams/writable:773:5)
+      at Socket.Writable.uncork (node:internal/streams/writable:529:7)
+      at connectionCorkNT (node:_http_outgoing:981:8)
+      at processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+
+  Error: Premature close
+      at ReadStream.onclose (node:internal/streams/end-of-stream:166:30)
+      at ReadStream.emit (node:events:521:24)
+      at emitCloseNT (node:internal/streams/destroy:148:10)
+      at processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+
+  Error: Premature close
+      at ReadStream.onclose (node:internal/streams/end-of-stream:166:30)
+      at ReadStream.emit (node:events:521:24)
+      at emitCloseNT (node:internal/streams/destroy:148:10)
+      at processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.onclose (node:internal/streams/end-of-stream:171:30)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/context is deprecated.
+[
+  {
+    detail: undefined,
+    id: 'duplicate-object-key',
+    location: {
+      column: 8,
+      file: '/root/.hydro/addons/hydrooj-welcome-banner/index.ts',
+      length: 6,
+      line: 411,
+      lineText: "        Slides: '横幅列表',",
+      namespace: '',
+      suggestion: ''
+    },
+    notes: [ [Object] ],
+    pluginName: '',
+    text: 'Duplicate key "Slides" in object literal'
+  }
+]
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Object.execute (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:544:29
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:139:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:112:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:121:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/context is deprecated.
+[
+  {
+    detail: undefined,
+    id: 'duplicate-object-key',
+    location: {
+      column: 8,
+      file: '/root/.hydro/addons/hydrooj-welcome-banner/index.ts',
+      length: 6,
+      line: 411,
+      lineText: "        Slides: '横幅列表',",
+      namespace: '',
+      suggestion: ''
+    },
+    notes: [ [Object] ],
+    pluginName: '',
+    text: 'Duplicate key "Slides" in object literal'
+  }
+]
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/context is deprecated.
+[
+  {
+    detail: undefined,
+    id: 'duplicate-object-key',
+    location: {
+      column: 8,
+      file: '/root/.hydro/addons/hydrooj-welcome-banner/index.ts',
+      length: 6,
+      line: 411,
+      lineText: "        Slides: '横幅列表',",
+      namespace: '',
+      suggestion: ''
+    },
+    notes: [ [Object] ],
+    pluginName: '',
+    text: 'Duplicate key "Slides" in object literal'
+  }
+]
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/context is deprecated.
+[
+  {
+    detail: undefined,
+    id: 'duplicate-object-key',
+    location: {
+      column: 8,
+      file: '/root/.hydro/addons/hydrooj-welcome-banner/index.ts',
+      length: 6,
+      line: 411,
+      lineText: "        Slides: '横幅列表',",
+      namespace: '',
+      suggestion: ''
+    },
+    notes: [ [Object] ],
+    pluginName: '',
+    text: 'Duplicate key "Slides" in object literal'
+  }
+]
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/context is deprecated.
+[
+  {
+    detail: undefined,
+    id: 'duplicate-object-key',
+    location: {
+      column: 8,
+      file: '/root/.hydro/addons/hydrooj-welcome-banner/index.ts',
+      length: 6,
+      line: 411,
+      lineText: "        Slides: '横幅列表',",
+      namespace: '',
+      suggestion: ''
+    },
+    notes: [ [Object] ],
+    pluginName: '',
+    text: 'Duplicate key "Slides" in object literal'
+  }
+]
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/context is deprecated.
+[
+  {
+    detail: undefined,
+    id: 'duplicate-object-key',
+    location: {
+      column: 8,
+      file: '/root/.hydro/addons/hydrooj-welcome-banner/index.ts',
+      length: 6,
+      line: 411,
+      lineText: "        Slides: '横幅列表',",
+      namespace: '',
+      suggestion: ''
+    },
+    notes: [ [Object] ],
+    pluginName: '',
+    text: 'Duplicate key "Slides" in object literal'
+  }
+]
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/context is deprecated.
+[
+  {
+    detail: undefined,
+    id: 'duplicate-object-key',
+    location: {
+      column: 8,
+      file: '/root/.hydro/addons/hydrooj-welcome-banner/index.ts',
+      length: 6,
+      line: 411,
+      lineText: "        Slides: '横幅列表',",
+      namespace: '',
+      suggestion: ''
+    },
+    notes: [ [Object] ],
+    pluginName: '',
+    text: 'Duplicate key "Slides" in object literal'
+  }
+]
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/context is deprecated.
+[
+  {
+    detail: undefined,
+    id: 'duplicate-object-key',
+    location: {
+      column: 8,
+      file: '/root/.hydro/addons/hydrooj-welcome-banner/index.ts',
+      length: 6,
+      line: 411,
+      lineText: "        Slides: '横幅列表',",
+      namespace: '',
+      suggestion: ''
+    },
+    notes: [ [Object] ],
+    pluginName: '',
+    text: 'Duplicate key "Slides" in object literal'
+  }
+]
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/context is deprecated.
+[
+  {
+    detail: undefined,
+    id: 'duplicate-object-key',
+    location: {
+      column: 8,
+      file: '/root/.hydro/addons/hydrooj-welcome-banner/index.ts',
+      length: 6,
+      line: 411,
+      lineText: "        Slides: '横幅列表',",
+      namespace: '',
+      suggestion: ''
+    },
+    notes: [ [Object] ],
+    pluginName: '',
+    text: 'Duplicate key "Slides" in object literal'
+  }
+]
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+Module require via hydrooj/src/context is deprecated.
+Module require via hydrooj/src/context is deprecated.
+[
+  {
+    detail: undefined,
+    id: 'duplicate-object-key',
+    location: {
+      column: 8,
+      file: '/root/.hydro/addons/hydrooj-welcome-banner/index.ts',
+      length: 6,
+      line: 411,
+      lineText: "        Slides: '横幅列表',",
+      namespace: '',
+      suggestion: ''
+    },
+    notes: [ [Object] ],
+    pluginName: '',
+    text: 'Duplicate key "Slides" in object literal'
+  }
+]
+Module require via hydrooj/src/model/setting is deprecated.
+Module require via hydrooj/src/model/setting is deprecated.
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+ValidationError: $.login-with-github.id missing required value
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:414:37)
+    at property (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:639:37)
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:695:19
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    ... collapsed 3 duplicate lines matching above lines ...
+    at /usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:720:31
+    at Schema.resolve (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:429:12)
+    at schema (/usr/local/share/.config/yarn/global/node_modules/schemastery/src/index.ts:180:19)
+    at Proxy._applySchema (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:54:77)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Fiber.<anonymous> (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:157:22)
+    at file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:808:37
+    at Proxy.requestConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/settings.ts:154:22)
+    at Object.apply (file:///usr/local/share/.config/yarn/global/node_modules/cordis/lib/index.js:140:40)
+    at Proxy.resolveConfig (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:111:38)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Proxy.reloadPlugin (/usr/local/share/.config/yarn/global/node_modules/hydrooj/src/loader.ts:120:24) {
+  options: { path: [ 'login-with-github', 'id' ] }
+}
+
+  Error: Premature close
+      at ServerResponse.<anonymous> (node:internal/streams/pipeline:422:29)
+      at ServerResponse.emit (node:events:521:24)
+      at emitCloseNT (node:_http_server:1131:10)
+      at Socket.onServerResponseClose (node:_http_server:289:5)
+      at Socket.emit (node:events:521:24)
+      at TCP.<anonymous> (node:net:351:12)
+

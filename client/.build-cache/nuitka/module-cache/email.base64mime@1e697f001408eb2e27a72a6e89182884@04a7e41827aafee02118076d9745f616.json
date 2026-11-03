@@ -1,0 +1,43 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "email.base64mime",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\base64.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "base64",
+      "reason": "import",
+      "source_ref_line": 37
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "binascii",
+      "reason": "import",
+      "source_ref_line": 38
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0,
+      null,
+      null,
+      4,
+      {
+        "1": 13,
+        "2": 27,
+        "3": 12,
+        "4": 1,
+        "6": 5,
+        "7": 5,
+        "9": 1
+      }
+    ]
+  ]
+}

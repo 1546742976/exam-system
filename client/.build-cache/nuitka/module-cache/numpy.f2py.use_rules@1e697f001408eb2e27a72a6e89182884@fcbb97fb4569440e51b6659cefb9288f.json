@@ -1,0 +1,56 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "numpy.f2py.use_rules",
+  "modules_used": [
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "numpy",
+      "reason": "import path parent",
+      "source_ref_line": 16
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\f2py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "numpy.f2py",
+      "reason": "import path parent",
+      "source_ref_line": 16
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\f2py\\auxfuncs.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "numpy.f2py.auxfuncs",
+      "reason": "import",
+      "source_ref_line": 16
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0,
+      null,
+      null,
+      5,
+      {
+        "1": 63,
+        "2": 26,
+        "4": 5,
+        "5": 15,
+        "6": 5,
+        "7": 4,
+        "9": 1,
+        "10": 5,
+        "12": 1,
+        "13": 3,
+        "14": 1
+      }
+    ]
+  ]
+}

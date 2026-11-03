@@ -1,0 +1,221 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "pathlib",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\fnmatch.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "fnmatch",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 2
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "D:\\python\\Lib\\posixpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "posixpath",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\_collections_abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_collections_abc",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "errno",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "D:\\python\\Lib\\operator.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "operator",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\Lib\\stat.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "stat",
+      "reason": "import",
+      "source_ref_line": 13
+    },
+    {
+      "filename": "D:\\python\\Lib\\urllib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "urllib",
+      "reason": "import path parent",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\urllib\\parse.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "urllib.parse",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 925
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 993
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "pwd",
+      "reason": "import",
+      "source_ref_line": 1020
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "grp",
+      "reason": "import",
+      "source_ref_line": 1031
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 1383
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.5,
+      null,
+      null,
+      7,
+      {
+        "1": 2162,
+        "2": 1223,
+        "3": 244,
+        "4": 186,
+        "5": 109,
+        "6": 72,
+        "7": 60,
+        "8": 107,
+        "9": 10,
+        "10": 18,
+        "11": 14,
+        "12": 6,
+        "13": 1,
+        "14": 5,
+        "15": 8,
+        "16": 1,
+        "17": 5,
+        "19": 1,
+        "23": 7,
+        "26": 6,
+        "29": 1,
+        "47": 7,
+        "50": 7
+      }
+    ]
+  ]
+}

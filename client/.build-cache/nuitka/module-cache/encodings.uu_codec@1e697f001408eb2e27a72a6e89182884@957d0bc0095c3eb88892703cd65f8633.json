@@ -1,0 +1,55 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "encodings.uu_codec",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "binascii",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 12
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      4,
+      {
+        "1": 158,
+        "2": 56,
+        "3": 7,
+        "5": 16,
+        "6": 4,
+        "8": 20,
+        "12": 1,
+        "13": 3,
+        "16": 1,
+        "17": 3
+      }
+    ]
+  ]
+}

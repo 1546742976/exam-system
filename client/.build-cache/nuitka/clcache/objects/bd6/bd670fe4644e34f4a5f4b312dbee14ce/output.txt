@@ -1,0 +1,1 @@
+module.uvicorn.middleware.asgi2.c

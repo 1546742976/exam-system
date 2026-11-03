@@ -1,0 +1,93 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "email.headerregistry",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\utils.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "email.utils",
+      "reason": "import fromlist",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\errors.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "email.errors",
+      "reason": "import fromlist",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\_header_value_parser.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "email._header_value_parser",
+      "reason": "import fromlist",
+      "source_ref_line": 10
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.171875,
+      null,
+      null,
+      5,
+      {
+        "1": 919,
+        "2": 248,
+        "3": 112,
+        "4": 20,
+        "5": 58,
+        "6": 30,
+        "7": 13,
+        "8": 26,
+        "9": 23,
+        "10": 9,
+        "12": 9,
+        "13": 1
+      }
+    ]
+  ]
+}

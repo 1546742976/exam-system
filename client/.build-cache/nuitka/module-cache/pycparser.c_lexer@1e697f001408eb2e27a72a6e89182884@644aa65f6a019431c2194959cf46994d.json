@@ -1,0 +1,96 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "pycparser.c_lexer",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import path parent",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\collections\\abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections.abc",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\dataclasses.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "dataclasses",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "D:\\python\\Lib\\enum.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "enum",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\Lib\\typing.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "typing",
+      "reason": "import",
+      "source_ref_line": 13
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0625,
+      null,
+      null,
+      7,
+      {
+        "1": 523,
+        "2": 311,
+        "3": 62,
+        "4": 56,
+        "5": 5,
+        "6": 14,
+        "7": 20,
+        "8": 14,
+        "9": 5,
+        "10": 14,
+        "12": 1,
+        "15": 1,
+        "18": 6,
+        "19": 1,
+        "20": 1,
+        "22": 6,
+        "24": 1,
+        "25": 6,
+        "26": 1,
+        "29": 1,
+        "31": 5,
+        "32": 1,
+        "33": 5,
+        "37": 1
+      }
+    ]
+  ]
+}

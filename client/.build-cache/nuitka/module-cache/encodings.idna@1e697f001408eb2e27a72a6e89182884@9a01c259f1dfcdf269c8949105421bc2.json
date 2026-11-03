@@ -1,0 +1,71 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "encodings.idna",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\stringprep.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "stringprep",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\DLLs\\unicodedata.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "unicodedata",
+      "reason": "import",
+      "source_ref_line": 4
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.046875,
+      null,
+      null,
+      5,
+      {
+        "1": 384,
+        "2": 201,
+        "3": 25,
+        "4": 27,
+        "5": 29,
+        "6": 17,
+        "7": 1,
+        "8": 20,
+        "9": 5,
+        "10": 1,
+        "11": 9,
+        "12": 2,
+        "13": 12,
+        "14": 4,
+        "15": 1,
+        "16": 4,
+        "18": 2
+      }
+    ]
+  ]
+}

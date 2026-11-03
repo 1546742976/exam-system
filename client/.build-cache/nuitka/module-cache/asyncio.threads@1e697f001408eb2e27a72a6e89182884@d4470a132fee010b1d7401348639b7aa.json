@@ -1,0 +1,66 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "asyncio.threads",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\contextvars.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "contextvars",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\events.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.events",
+      "reason": "import fromlist",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 24
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0,
+      null,
+      null,
+      3,
+      {
+        "1": 6,
+        "5": 2,
+        "6": 1
+      }
+    ]
+  ]
+}

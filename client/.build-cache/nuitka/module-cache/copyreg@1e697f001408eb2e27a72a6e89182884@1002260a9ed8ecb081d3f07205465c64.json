@@ -1,0 +1,50 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "copyreg",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 40
+    },
+    {
+      "filename": "D:\\python\\Lib\\operator.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "operator",
+      "reason": "import",
+      "source_ref_line": 40
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.046875,
+      null,
+      null,
+      5,
+      {
+        "1": 105,
+        "2": 109,
+        "3": 6,
+        "4": 12,
+        "5": 6,
+        "6": 6,
+        "7": 4,
+        "8": 4,
+        "9": 2,
+        "10": 1,
+        "12": 4,
+        "14": 3,
+        "15": 1,
+        "16": 1
+      }
+    ]
+  ]
+}

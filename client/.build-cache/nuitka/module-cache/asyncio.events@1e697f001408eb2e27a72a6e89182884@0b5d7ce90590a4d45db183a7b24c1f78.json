@@ -1,0 +1,129 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "asyncio.events",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\contextvars.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "contextvars",
+      "reason": "import",
+      "source_ref_line": 18
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "D:\\python\\Lib\\socket.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "socket",
+      "reason": "import",
+      "source_ref_line": 20
+    },
+    {
+      "filename": "D:\\python\\Lib\\subprocess.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "subprocess",
+      "reason": "import",
+      "source_ref_line": 21
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 22
+    },
+    {
+      "filename": "D:\\python\\Lib\\threading.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "threading",
+      "reason": "import",
+      "source_ref_line": 23
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 25
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\format_helpers.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.format_helpers",
+      "reason": "import fromlist",
+      "source_ref_line": 25
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 758
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 1,
+      "module_kind": null,
+      "module_name": "asyncio.DefaultEventLoopPolicy",
+      "reason": "import fromlist",
+      "source_ref_line": 758
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_asyncio.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_asyncio",
+      "reason": "import",
+      "source_ref_line": 836
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0625,
+      null,
+      null,
+      7,
+      {
+        "1": 697,
+        "2": 221,
+        "3": 24,
+        "4": 28,
+        "5": 33,
+        "6": 7,
+        "8": 3,
+        "9": 26,
+        "10": 1,
+        "11": 8,
+        "16": 7,
+        "58": 1
+      }
+    ]
+  ]
+}

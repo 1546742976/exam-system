@@ -1,0 +1,201 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "http.cookiejar",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 31
+    },
+    {
+      "filename": "D:\\python\\Lib\\copy.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "copy",
+      "reason": "import",
+      "source_ref_line": 32
+    },
+    {
+      "filename": "D:\\python\\Lib\\datetime.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "datetime",
+      "reason": "import",
+      "source_ref_line": 33
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 34
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "time",
+      "reason": "import",
+      "source_ref_line": 35
+    },
+    {
+      "filename": "D:\\python\\Lib\\urllib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "urllib",
+      "reason": "import path parent",
+      "source_ref_line": 36
+    },
+    {
+      "filename": "D:\\python\\Lib\\urllib\\parse.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "urllib.parse",
+      "reason": "import",
+      "source_ref_line": 36
+    },
+    {
+      "filename": "D:\\python\\Lib\\urllib\\request.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "urllib.request",
+      "reason": "import",
+      "source_ref_line": 36
+    },
+    {
+      "filename": "D:\\python\\Lib\\threading.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "threading",
+      "reason": "import",
+      "source_ref_line": 37
+    },
+    {
+      "filename": "D:\\python\\Lib\\http",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "http",
+      "reason": "import path parent",
+      "source_ref_line": 38
+    },
+    {
+      "filename": "D:\\python\\Lib\\http\\client.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "http.client",
+      "reason": "import",
+      "source_ref_line": 38
+    },
+    {
+      "filename": "D:\\python\\Lib\\calendar.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "calendar",
+      "reason": "import",
+      "source_ref_line": 39
+    },
+    {
+      "filename": "D:\\python\\Lib\\logging",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "logging",
+      "reason": "import",
+      "source_ref_line": 49
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 70
+    },
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 70
+    },
+    {
+      "filename": "D:\\python\\Lib\\traceback.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "traceback",
+      "reason": "import",
+      "source_ref_line": 70
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 71
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.28125,
+      null,
+      null,
+      8,
+      {
+        "1": 1959,
+        "2": 1983,
+        "3": 403,
+        "4": 202,
+        "5": 130,
+        "6": 88,
+        "7": 114,
+        "8": 94,
+        "9": 33,
+        "10": 10,
+        "11": 7,
+        "12": 8,
+        "13": 7,
+        "14": 8,
+        "15": 15,
+        "16": 8,
+        "17": 16,
+        "18": 2,
+        "19": 6,
+        "20": 13,
+        "21": 7,
+        "22": 10,
+        "23": 7,
+        "25": 1,
+        "28": 1,
+        "29": 1,
+        "30": 1,
+        "33": 16,
+        "35": 6,
+        "36": 1
+      }
+    ]
+  ]
+}

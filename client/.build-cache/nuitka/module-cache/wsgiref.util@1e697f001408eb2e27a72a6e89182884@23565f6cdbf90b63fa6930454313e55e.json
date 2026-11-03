@@ -1,0 +1,80 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "wsgiref.util",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\posixpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "posixpath",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\urllib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "urllib",
+      "reason": "import path parent",
+      "source_ref_line": 40
+    },
+    {
+      "filename": "D:\\python\\Lib\\urllib\\parse.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "urllib.parse",
+      "reason": "import",
+      "source_ref_line": 40
+    },
+    {
+      "filename": "D:\\python\\Lib\\urllib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "urllib",
+      "reason": "import path parent",
+      "source_ref_line": 60
+    },
+    {
+      "filename": "D:\\python\\Lib\\urllib\\parse.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "urllib.parse",
+      "reason": "import",
+      "source_ref_line": 60
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 139
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      7,
+      {
+        "1": 130,
+        "2": 108,
+        "3": 7,
+        "4": 1,
+        "6": 8,
+        "9": 7,
+        "12": 1,
+        "16": 6
+      }
+    ]
+  ]
+}

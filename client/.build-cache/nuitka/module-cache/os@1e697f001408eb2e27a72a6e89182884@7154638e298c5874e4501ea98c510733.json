@@ -1,0 +1,167 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "os",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "abc",
+      "reason": "import",
+      "source_ref_line": 25
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\stat.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "stat",
+      "reason": "import",
+      "source_ref_line": 27
+    },
+    {
+      "filename": "D:\\python\\Lib\\_collections_abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_collections_abc",
+      "reason": "import",
+      "source_ref_line": 29
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 75
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 77
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 81
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 83
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 88
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 96
+    },
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 629
+    },
+    {
+      "filename": "D:\\python\\Lib\\_collections_abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_collections_abc",
+      "reason": "import",
+      "source_ref_line": 664
+    },
+    {
+      "filename": "D:\\python\\Lib\\subprocess.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "subprocess",
+      "reason": "import",
+      "source_ref_line": 985
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 1028
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 1118
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.234375,
+      null,
+      null,
+      7,
+      {
+        "1": 1009,
+        "2": 790,
+        "3": 227,
+        "4": 79,
+        "5": 43,
+        "6": 54,
+        "7": 20,
+        "8": 44,
+        "9": 31,
+        "10": 12,
+        "11": 8,
+        "12": 1,
+        "13": 12,
+        "16": 7
+      }
+    ]
+  ]
+}

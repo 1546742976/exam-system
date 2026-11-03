@@ -1,0 +1,47 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "genericpath",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\stat.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "stat",
+      "reason": "import",
+      "source_ref_line": 7
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      5,
+      {
+        "1": 104,
+        "2": 55,
+        "3": 25,
+        "4": 8,
+        "5": 5,
+        "6": 7,
+        "7": 3,
+        "8": 2,
+        "12": 1,
+        "13": 3,
+        "14": 1
+      }
+    ]
+  ]
+}

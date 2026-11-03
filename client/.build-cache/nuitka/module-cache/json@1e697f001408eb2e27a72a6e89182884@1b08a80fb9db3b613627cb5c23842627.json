@@ -1,0 +1,81 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "json",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\json",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "json",
+      "reason": "import path parent",
+      "source_ref_line": 106
+    },
+    {
+      "filename": "D:\\python\\Lib\\json\\decoder.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "json.decoder",
+      "reason": "import",
+      "source_ref_line": 106
+    },
+    {
+      "filename": "D:\\python\\Lib\\json",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "json",
+      "reason": "import path parent",
+      "source_ref_line": 107
+    },
+    {
+      "filename": "D:\\python\\Lib\\json\\encoder.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "json.encoder",
+      "reason": "import",
+      "source_ref_line": 107
+    },
+    {
+      "filename": "D:\\python\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 108
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.046875,
+      null,
+      null,
+      4,
+      {
+        "1": 26,
+        "2": 55,
+        "3": 5,
+        "4": 5,
+        "5": 1,
+        "6": 4,
+        "8": 7,
+        "12": 1,
+        "15": 2
+      }
+    ]
+  ]
+}

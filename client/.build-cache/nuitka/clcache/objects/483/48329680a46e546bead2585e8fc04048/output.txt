@@ -1,0 +1,1 @@
+module.PIL.Hdf5StubImagePlugin.c

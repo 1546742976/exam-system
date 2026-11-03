@@ -1,0 +1,89 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "ctypes.util",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\shutil.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "shutil",
+      "reason": "import",
+      "source_ref_line": 2
+    },
+    {
+      "filename": "D:\\python\\Lib\\subprocess.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "subprocess",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 50
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\machinery.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.machinery",
+      "reason": "import",
+      "source_ref_line": 50
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 60
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0,
+      null,
+      null,
+      8,
+      {
+        "1": 28,
+        "2": 57,
+        "3": 27,
+        "5": 1,
+        "7": 19,
+        "8": 3,
+        "10": 1,
+        "12": 1
+      }
+    ]
+  ]
+}

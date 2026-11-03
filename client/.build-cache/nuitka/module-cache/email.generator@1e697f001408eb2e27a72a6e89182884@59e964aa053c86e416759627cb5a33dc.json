@@ -1,0 +1,107 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "email.generator",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "time",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "D:\\python\\Lib\\random.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "random",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\Lib\\copy.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "copy",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 16
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\utils.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email.utils",
+      "reason": "import",
+      "source_ref_line": 16
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      4,
+      {
+        "1": 225,
+        "2": 181,
+        "3": 23,
+        "4": 21,
+        "5": 13,
+        "6": 7,
+        "7": 7,
+        "8": 4,
+        "9": 7,
+        "10": 9,
+        "11": 9,
+        "12": 9,
+        "15": 3,
+        "16": 1,
+        "21": 1,
+        "25": 2,
+        "26": 1
+      }
+    ]
+  ]
+}

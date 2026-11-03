@@ -1,0 +1,107 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "asyncio.timeouts",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\enum.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "enum",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\typing.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "typing",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\events.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.events",
+      "reason": "import fromlist",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\exceptions.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.exceptions",
+      "reason": "import fromlist",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\tasks.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.tasks",
+      "reason": "import fromlist",
+      "source_ref_line": 8
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      4,
+      {
+        "1": 99,
+        "2": 24,
+        "3": 14,
+        "4": 8,
+        "5": 4,
+        "7": 1,
+        "9": 8,
+        "11": 1
+      }
+    ]
+  ]
+}

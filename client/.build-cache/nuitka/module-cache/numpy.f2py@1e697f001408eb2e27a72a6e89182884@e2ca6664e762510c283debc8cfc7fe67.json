@@ -1,0 +1,148 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "numpy.f2py",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\Lib\\subprocess.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "subprocess",
+      "reason": "import",
+      "source_ref_line": 13
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "numpy",
+      "reason": "import path parent",
+      "source_ref_line": 17
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\exceptions.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "numpy.exceptions",
+      "reason": "import",
+      "source_ref_line": 17
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "numpy",
+      "reason": "import path parent",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\f2py",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "numpy.f2py",
+      "reason": "import",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\f2py\\diagnose.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "numpy.f2py.diagnose",
+      "reason": "import fromlist",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\f2py\\f2py2e.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "numpy.f2py.f2py2e",
+      "reason": "import fromlist",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 69
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "numpy",
+      "reason": "import path parent",
+      "source_ref_line": 77
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\numpy\\_pytesttester.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "numpy._pytesttester",
+      "reason": "import",
+      "source_ref_line": 77
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.046875,
+      null,
+      null,
+      4,
+      {
+        "1": 4,
+        "2": 4,
+        "4": 2,
+        "5": 2
+      }
+    ]
+  ]
+}

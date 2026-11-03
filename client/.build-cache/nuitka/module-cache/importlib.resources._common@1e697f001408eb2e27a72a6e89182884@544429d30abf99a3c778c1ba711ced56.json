@@ -1,0 +1,149 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "importlib.resources._common",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\pathlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "pathlib",
+      "reason": "import",
+      "source_ref_line": 2
+    },
+    {
+      "filename": "D:\\python\\Lib\\tempfile.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "tempfile",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\Lib\\contextlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "contextlib",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "D:\\python\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "D:\\python\\Lib\\typing.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "typing",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.resources",
+      "reason": "import path parent",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources\\abc.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.resources.abc",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.resources",
+      "reason": "import path parent",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources\\_adapters.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.resources._adapters",
+      "reason": "import",
+      "source_ref_line": 12
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0,
+      null,
+      null,
+      4,
+      {
+        "1": 45,
+        "2": 36,
+        "3": 8,
+        "4": 14,
+        "5": 1
+      }
+    ]
+  ]
+}

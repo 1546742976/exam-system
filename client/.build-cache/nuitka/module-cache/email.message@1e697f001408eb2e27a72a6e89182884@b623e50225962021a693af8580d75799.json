@@ -1,0 +1,236 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "email.message",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "binascii",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\quopri.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "quopri",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\utils.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "email.utils",
+      "reason": "import fromlist",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import",
+      "source_ref_line": 16
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\errors.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "email.errors",
+      "reason": "import fromlist",
+      "source_ref_line": 16
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 17
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\_policybase.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email._policybase",
+      "reason": "import",
+      "source_ref_line": 17
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import",
+      "source_ref_line": 18
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\charset.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "email.charset",
+      "reason": "import fromlist",
+      "source_ref_line": 18
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\_encoded_words.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email._encoded_words",
+      "reason": "import",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 181
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\generator.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email.generator",
+      "reason": "import",
+      "source_ref_line": 181
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 204
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\generator.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email.generator",
+      "reason": "import",
+      "source_ref_line": 204
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 970
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\iterators.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email.iterators",
+      "reason": "import",
+      "source_ref_line": 970
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 977
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\policy.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email.policy",
+      "reason": "import",
+      "source_ref_line": 977
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.15625,
+      null,
+      null,
+      5,
+      {
+        "1": 916,
+        "2": 669,
+        "3": 242,
+        "4": 108,
+        "5": 74,
+        "6": 62,
+        "7": 21,
+        "8": 21,
+        "9": 10,
+        "10": 19,
+        "11": 3,
+        "12": 9,
+        "13": 1,
+        "14": 2,
+        "15": 9,
+        "17": 4,
+        "18": 3,
+        "19": 1,
+        "25": 5,
+        "49": 1
+      }
+    ]
+  ]
+}

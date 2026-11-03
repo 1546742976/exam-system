@@ -1,0 +1,31 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "asyncio.constants",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\enum.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "enum",
+      "reason": "import",
+      "source_ref_line": 5
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0,
+      null,
+      null,
+      2,
+      {
+        "1": 13,
+        "2": 4,
+        "7": 2,
+        "8": 2
+      }
+    ]
+  ]
+}

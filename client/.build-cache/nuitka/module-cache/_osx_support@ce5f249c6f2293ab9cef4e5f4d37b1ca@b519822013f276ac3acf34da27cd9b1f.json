@@ -1,0 +1,98 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "_osx_support",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 39
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 46
+    },
+    {
+      "filename": "D:\\python\\Lib\\contextlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "contextlib",
+      "reason": "import",
+      "source_ref_line": 61
+    },
+    {
+      "filename": "D:\\python\\Lib\\tempfile.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "tempfile",
+      "reason": "import",
+      "source_ref_line": 63
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.046875,
+      null,
+      null,
+      5,
+      {
+        "1": 415,
+        "2": 390,
+        "3": 72,
+        "4": 32,
+        "5": 27,
+        "6": 24,
+        "7": 11,
+        "8": 19,
+        "9": 2,
+        "10": 7,
+        "11": 4,
+        "14": 3,
+        "16": 1,
+        "21": 1,
+        "26": 3,
+        "28": 1,
+        "29": 1
+      }
+    ]
+  ]
+}

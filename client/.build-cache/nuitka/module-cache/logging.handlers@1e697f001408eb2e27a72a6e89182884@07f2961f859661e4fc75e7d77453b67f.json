@@ -1,0 +1,302 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "logging.handlers",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\logging",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "logging",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\socket.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "socket",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\pickle.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "pickle",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\struct.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "struct",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "time",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\stat.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "stat",
+      "reason": "import",
+      "source_ref_line": 27
+    },
+    {
+      "filename": "D:\\python\\Lib\\queue.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "queue",
+      "reason": "import",
+      "source_ref_line": 28
+    },
+    {
+      "filename": "D:\\python\\Lib\\threading.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "threading",
+      "reason": "import",
+      "source_ref_line": 29
+    },
+    {
+      "filename": "D:\\python\\Lib\\copy.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "copy",
+      "reason": "import",
+      "source_ref_line": 30
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 369
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 373
+    },
+    {
+      "filename": "D:\\python\\Lib\\smtplib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "smtplib",
+      "reason": "import",
+      "source_ref_line": 1072
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 1073
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\message.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email.message",
+      "reason": "import",
+      "source_ref_line": 1073
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 1074
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\utils.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email.utils",
+      "reason": "import",
+      "source_ref_line": 1074
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\win32\\lib\\win32evtlogutil.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "win32evtlogutil",
+      "reason": "import",
+      "source_ref_line": 1110
+    },
+    {
+      "filename": "E:\\\u5927\u5b66\\\u5de1\u5929\u5fa1\u98ce\\C\u6d4b\\exam-system\\client\\.venv-build\\Lib\\site-packages\\win32\\win32evtlog.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "win32evtlog",
+      "reason": "import",
+      "source_ref_line": 1110
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 1114
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 1115
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 1116
+    },
+    {
+      "filename": "D:\\python\\Lib\\http",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "http",
+      "reason": "import path parent",
+      "source_ref_line": 1244
+    },
+    {
+      "filename": "D:\\python\\Lib\\http\\client.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "http.client",
+      "reason": "import",
+      "source_ref_line": 1244
+    },
+    {
+      "filename": "D:\\python\\Lib\\urllib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "urllib",
+      "reason": "import path parent",
+      "source_ref_line": 1258
+    },
+    {
+      "filename": "D:\\python\\Lib\\urllib\\parse.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "urllib.parse",
+      "reason": "import",
+      "source_ref_line": 1258
+    },
+    {
+      "filename": "D:\\python\\Lib\\base64.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "base64",
+      "reason": "import",
+      "source_ref_line": 1283
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.1875,
+      null,
+      null,
+      6,
+      {
+        "1": 1281,
+        "2": 810,
+        "3": 130,
+        "4": 97,
+        "5": 26,
+        "6": 38,
+        "7": 23,
+        "8": 100,
+        "9": 35,
+        "10": 30,
+        "11": 13,
+        "12": 14,
+        "13": 12,
+        "14": 16,
+        "15": 1,
+        "16": 5,
+        "17": 1,
+        "20": 5,
+        "22": 1,
+        "26": 6,
+        "27": 1,
+        "28": 4,
+        "49": 6
+      }
+    ]
+  ]
+}

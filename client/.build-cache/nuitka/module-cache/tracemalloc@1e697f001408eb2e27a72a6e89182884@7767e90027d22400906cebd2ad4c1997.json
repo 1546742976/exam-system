@@ -1,0 +1,112 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "tracemalloc",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import path parent",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\collections\\abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections.abc",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 2
+    },
+    {
+      "filename": "D:\\python\\Lib\\fnmatch.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "fnmatch",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\linecache.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "linecache",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "D:\\python\\Lib\\pickle.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "pickle",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_tracemalloc",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_tracemalloc",
+      "reason": "import",
+      "source_ref_line": 10
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.15625,
+      null,
+      null,
+      7,
+      {
+        "1": 1068,
+        "2": 447,
+        "3": 100,
+        "4": 115,
+        "5": 78,
+        "6": 52,
+        "7": 28,
+        "8": 16,
+        "9": 12,
+        "10": 42,
+        "11": 2,
+        "12": 8,
+        "17": 7
+      }
+    ]
+  ]
+}

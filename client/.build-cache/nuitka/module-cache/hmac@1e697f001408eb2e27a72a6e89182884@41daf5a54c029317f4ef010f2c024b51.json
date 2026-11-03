@@ -1,0 +1,65 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "hmac",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_hashlib.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_hashlib",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_operator",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\Lib\\hashlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "hashlib",
+      "reason": "import",
+      "source_ref_line": 17
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      4,
+      {
+        "1": 132,
+        "2": 99,
+        "3": 9,
+        "4": 11,
+        "5": 1,
+        "6": 1,
+        "11": 1,
+        "12": 2,
+        "13": 2,
+        "14": 3,
+        "15": 1
+      }
+    ]
+  ]
+}

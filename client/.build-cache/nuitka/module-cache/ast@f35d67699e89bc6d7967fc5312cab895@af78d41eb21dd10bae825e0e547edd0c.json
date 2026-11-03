@@ -1,0 +1,111 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "ast",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 27
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_ast",
+      "reason": "import",
+      "source_ref_line": 28
+    },
+    {
+      "filename": "D:\\python\\Lib\\contextlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "contextlib",
+      "reason": "import",
+      "source_ref_line": 29
+    },
+    {
+      "filename": "D:\\python\\Lib\\enum.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "enum",
+      "reason": "import",
+      "source_ref_line": 30
+    },
+    {
+      "filename": "D:\\python\\Lib\\inspect.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "inspect",
+      "reason": "import",
+      "source_ref_line": 302
+    },
+    {
+      "filename": "D:\\python\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import",
+      "source_ref_line": 386
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 1,
+      "module_kind": null,
+      "module_name": "collections.deque",
+      "reason": "import fromlist",
+      "source_ref_line": 386
+    },
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 445
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.53125,
+      null,
+      null,
+      6,
+      {
+        "1": 2987,
+        "2": 1838,
+        "3": 329,
+        "4": 216,
+        "5": 354,
+        "6": 191,
+        "7": 37,
+        "8": 72,
+        "9": 59,
+        "10": 56,
+        "11": 16,
+        "12": 2,
+        "13": 1,
+        "14": 25,
+        "15": 6,
+        "17": 1,
+        "19": 5,
+        "21": 1,
+        "23": 1,
+        "26": 5,
+        "112": 6
+      }
+    ]
+  ]
+}

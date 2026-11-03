@@ -1,0 +1,90 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "importlib.resources.simple",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "abc",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "D:\\python\\Lib\\typing.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "typing",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.resources",
+      "reason": "import path parent",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources\\abc.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.resources.abc",
+      "reason": "import",
+      "source_ref_line": 10
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      4,
+      {
+        "1": 191,
+        "2": 60,
+        "3": 5,
+        "4": 11,
+        "5": 1,
+        "6": 7,
+        "8": 17,
+        "10": 8,
+        "12": 4
+      }
+    ]
+  ]
+}

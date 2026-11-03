@@ -1,0 +1,422 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "importlib.metadata",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 2
+    },
+    {
+      "filename": "D:\\python\\Lib\\abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "abc",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\csv.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "csv",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\pathlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "pathlib",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "D:\\python\\Lib\\zipfile.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "zipfile",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\operator.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "operator",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\textwrap.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "textwrap",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 13
+    },
+    {
+      "filename": "D:\\python\\Lib\\posixpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "posixpath",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 17
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\metadata",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.metadata",
+      "reason": "import",
+      "source_ref_line": 17
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\metadata\\_adapters.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.metadata._adapters",
+      "reason": "import fromlist",
+      "source_ref_line": 17
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\metadata\\_meta.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.metadata._meta",
+      "reason": "import fromlist",
+      "source_ref_line": 17
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 18
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\metadata",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.metadata",
+      "reason": "import path parent",
+      "source_ref_line": 18
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\metadata\\_collections.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.metadata._collections",
+      "reason": "import",
+      "source_ref_line": 18
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\metadata",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.metadata",
+      "reason": "import path parent",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\metadata\\_functools.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.metadata._functools",
+      "reason": "import",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 20
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\metadata",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.metadata",
+      "reason": "import path parent",
+      "source_ref_line": 20
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\metadata\\_itertools.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.metadata._itertools",
+      "reason": "import",
+      "source_ref_line": 20
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 21
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\metadata",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.metadata",
+      "reason": "import path parent",
+      "source_ref_line": 21
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\metadata\\_meta.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.metadata._meta",
+      "reason": "import",
+      "source_ref_line": 21
+    },
+    {
+      "filename": "D:\\python\\Lib\\contextlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "contextlib",
+      "reason": "import",
+      "source_ref_line": 23
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import",
+      "source_ref_line": 24
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 25
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.abc",
+      "reason": "import",
+      "source_ref_line": 25
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\typing.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "typing",
+      "reason": "import",
+      "source_ref_line": 27
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 137
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 315
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 435
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 968
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 1011
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.203125,
+      null,
+      null,
+      7,
+      {
+        "1": 2016,
+        "2": 522,
+        "3": 157,
+        "4": 156,
+        "5": 88,
+        "6": 45,
+        "7": 36,
+        "8": 57,
+        "9": 23,
+        "10": 24,
+        "11": 5,
+        "12": 15,
+        "14": 1,
+        "15": 6,
+        "17": 2,
+        "22": 2,
+        "23": 6
+      }
+    ]
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "zoneinfo._zoneinfo",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\bisect.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "bisect",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\calendar.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "calendar",
+      "reason": "import",
+      "source_ref_line": 2
+    },
+    {
+      "filename": "D:\\python\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "D:\\python\\Lib\\weakref.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "weakref",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\datetime.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "datetime",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "D:\\python\\Lib\\zoneinfo",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "zoneinfo",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\zoneinfo\\_common.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "zoneinfo._common",
+      "reason": "import fromlist",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\zoneinfo\\_tzpath.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "zoneinfo._tzpath",
+      "reason": "import fromlist",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\pickle.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "pickle",
+      "reason": "import",
+      "source_ref_line": 209
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.09375,
+      null,
+      null,
+      7,
+      {
+        "1": 904,
+        "2": 464,
+        "3": 200,
+        "4": 101,
+        "5": 11,
+        "6": 28,
+        "7": 39,
+        "8": 9,
+        "9": 13,
+        "10": 17,
+        "11": 2,
+        "12": 5,
+        "13": 20,
+        "15": 7,
+        "16": 7,
+        "17": 1,
+        "18": 1,
+        "21": 6,
+        "22": 1,
+        "23": 7,
+        "31": 7
+      }
+    ]
+  ]
+}

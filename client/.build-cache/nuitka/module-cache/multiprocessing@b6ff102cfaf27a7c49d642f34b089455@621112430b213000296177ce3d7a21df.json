@@ -1,0 +1,58 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "multiprocessing",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import",
+      "source_ref_line": 16
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\context.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.context",
+      "reason": "import fromlist",
+      "source_ref_line": 16
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0,
+      null,
+      null,
+      4,
+      {
+        "1": 40,
+        "3": 6,
+        "4": 3,
+        "5": 3
+      }
+    ]
+  ]
+}

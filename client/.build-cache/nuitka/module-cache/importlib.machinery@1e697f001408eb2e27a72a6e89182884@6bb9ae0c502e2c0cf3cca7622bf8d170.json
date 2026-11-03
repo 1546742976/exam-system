@@ -1,0 +1,217 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "importlib.machinery",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 3
+    },
+    {
+      "filename": null,
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "built-in",
+      "module_name": "importlib._bootstrap",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 4
+    },
+    {
+      "filename": null,
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "built-in",
+      "module_name": "importlib._bootstrap",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 5
+    },
+    {
+      "filename": null,
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "built-in",
+      "module_name": "importlib._bootstrap",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 6
+    },
+    {
+      "filename": null,
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "built-in",
+      "module_name": "importlib._bootstrap_external",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 9
+    },
+    {
+      "filename": null,
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "built-in",
+      "module_name": "importlib._bootstrap_external",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 10
+    },
+    {
+      "filename": null,
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "built-in",
+      "module_name": "importlib._bootstrap_external",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 11
+    },
+    {
+      "filename": null,
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "built-in",
+      "module_name": "importlib._bootstrap_external",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 12
+    },
+    {
+      "filename": null,
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "built-in",
+      "module_name": "importlib._bootstrap_external",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 13
+    },
+    {
+      "filename": null,
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "built-in",
+      "module_name": "importlib._bootstrap_external",
+      "reason": "import",
+      "source_ref_line": 13
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 14
+    },
+    {
+      "filename": null,
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "built-in",
+      "module_name": "importlib._bootstrap_external",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 15
+    },
+    {
+      "filename": null,
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "built-in",
+      "module_name": "importlib._bootstrap_external",
+      "reason": "import",
+      "source_ref_line": 15
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0,
+      null,
+      null,
+      2,
+      {
+        "5": 2
+      }
+    ]
+  ]
+}

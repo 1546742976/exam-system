@@ -1,0 +1,34 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "importlib.metadata._meta",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\typing.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "typing",
+      "reason": "import",
+      "source_ref_line": 1
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0,
+      null,
+      null,
+      3,
+      {
+        "1": 55,
+        "2": 15,
+        "7": 3,
+        "8": 3,
+        "9": 3,
+        "10": 3,
+        "11": 3
+      }
+    ]
+  ]
+}

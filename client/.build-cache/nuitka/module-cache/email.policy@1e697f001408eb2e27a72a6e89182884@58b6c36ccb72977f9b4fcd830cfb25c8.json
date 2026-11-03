@@ -1,0 +1,134 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "email.policy",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\_policybase.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email._policybase",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\utils.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email.utils",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\headerregistry.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email.headerregistry",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\contentmanager.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email.contentmanager",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\message.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email.message",
+      "reason": "import",
+      "source_ref_line": 11
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.046875,
+      null,
+      null,
+      4,
+      {
+        "1": 68,
+        "2": 56,
+        "3": 14,
+        "4": 11,
+        "5": 5,
+        "10": 1,
+        "12": 7,
+        "18": 4
+      }
+    ]
+  ]
+}

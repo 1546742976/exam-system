@@ -1,0 +1,328 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "http.server",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\copy.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "copy",
+      "reason": "import",
+      "source_ref_line": 90
+    },
+    {
+      "filename": "D:\\python\\Lib\\datetime.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "datetime",
+      "reason": "import",
+      "source_ref_line": 91
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 92
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\utils.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email.utils",
+      "reason": "import",
+      "source_ref_line": 92
+    },
+    {
+      "filename": "D:\\python\\Lib\\html",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "html",
+      "reason": "import",
+      "source_ref_line": 93
+    },
+    {
+      "filename": "D:\\python\\Lib\\http",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "http",
+      "reason": "import path parent",
+      "source_ref_line": 94
+    },
+    {
+      "filename": "D:\\python\\Lib\\http\\client.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "http.client",
+      "reason": "import",
+      "source_ref_line": 94
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 95
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 96
+    },
+    {
+      "filename": "D:\\python\\Lib\\mimetypes.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "mimetypes",
+      "reason": "import",
+      "source_ref_line": 97
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 98
+    },
+    {
+      "filename": "D:\\python\\Lib\\posixpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "posixpath",
+      "reason": "import",
+      "source_ref_line": 99
+    },
+    {
+      "filename": "D:\\python\\DLLs\\select.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "select",
+      "reason": "import",
+      "source_ref_line": 100
+    },
+    {
+      "filename": "D:\\python\\Lib\\shutil.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "shutil",
+      "reason": "import",
+      "source_ref_line": 101
+    },
+    {
+      "filename": "D:\\python\\Lib\\socket.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "socket",
+      "reason": "import",
+      "source_ref_line": 102
+    },
+    {
+      "filename": "D:\\python\\Lib\\socketserver.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "socketserver",
+      "reason": "import",
+      "source_ref_line": 103
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 104
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "time",
+      "reason": "import",
+      "source_ref_line": 105
+    },
+    {
+      "filename": "D:\\python\\Lib\\urllib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "urllib",
+      "reason": "import path parent",
+      "source_ref_line": 106
+    },
+    {
+      "filename": "D:\\python\\Lib\\urllib\\parse.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "urllib.parse",
+      "reason": "import",
+      "source_ref_line": 106
+    },
+    {
+      "filename": "D:\\python\\Lib\\http",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "http",
+      "reason": "import",
+      "source_ref_line": 108
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 1,
+      "module_kind": null,
+      "module_name": "http.HTTPStatus",
+      "reason": "import fromlist",
+      "source_ref_line": 108
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 714
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 809
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 815
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 824
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 858
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "pwd",
+      "reason": "import",
+      "source_ref_line": 963
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 1050
+    },
+    {
+      "filename": "D:\\python\\Lib\\base64.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "base64",
+      "reason": "import",
+      "source_ref_line": 1119
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "binascii",
+      "reason": "import",
+      "source_ref_line": 1119
+    },
+    {
+      "filename": "D:\\python\\Lib\\subprocess.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "subprocess",
+      "reason": "import",
+      "source_ref_line": 1198
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.125,
+      null,
+      null,
+      6,
+      {
+        "1": 878,
+        "2": 635,
+        "3": 215,
+        "4": 67,
+        "5": 41,
+        "6": 42,
+        "7": 1,
+        "8": 25,
+        "9": 6,
+        "10": 20,
+        "11": 10,
+        "12": 2,
+        "13": 10,
+        "14": 22,
+        "15": 8,
+        "19": 4,
+        "20": 1,
+        "21": 1,
+        "36": 6,
+        "77": 1,
+        "91": 4,
+        "96": 1
+      }
+    ]
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "logging.config",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "errno",
+      "reason": "import",
+      "source_ref_line": 27
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 28
+    },
+    {
+      "filename": "D:\\python\\Lib\\logging",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "logging",
+      "reason": "import",
+      "source_ref_line": 29
+    },
+    {
+      "filename": "D:\\python\\Lib\\logging",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "logging",
+      "reason": "import path parent",
+      "source_ref_line": 30
+    },
+    {
+      "filename": "D:\\python\\Lib\\logging\\handlers.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "logging.handlers",
+      "reason": "import",
+      "source_ref_line": 30
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 31
+    },
+    {
+      "filename": "D:\\python\\Lib\\queue.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "queue",
+      "reason": "import",
+      "source_ref_line": 32
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 33
+    },
+    {
+      "filename": "D:\\python\\Lib\\struct.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "struct",
+      "reason": "import",
+      "source_ref_line": 34
+    },
+    {
+      "filename": "D:\\python\\Lib\\threading.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "threading",
+      "reason": "import",
+      "source_ref_line": 35
+    },
+    {
+      "filename": "D:\\python\\Lib\\traceback.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "traceback",
+      "reason": "import",
+      "source_ref_line": 36
+    },
+    {
+      "filename": "D:\\python\\Lib\\socketserver.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "socketserver",
+      "reason": "import",
+      "source_ref_line": 38
+    },
+    {
+      "filename": "D:\\python\\Lib\\configparser.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "configparser",
+      "reason": "import",
+      "source_ref_line": 61
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 66
+    },
+    {
+      "filename": "D:\\python\\Lib\\json",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "json",
+      "reason": "import",
+      "source_ref_line": 874
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 881
+    },
+    {
+      "filename": "D:\\python\\DLLs\\select.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "select",
+      "reason": "import",
+      "source_ref_line": 910
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.171875,
+      null,
+      null,
+      6,
+      {
+        "1": 1157,
+        "2": 832,
+        "3": 194,
+        "4": 118,
+        "5": 38,
+        "6": 66,
+        "7": 29,
+        "8": 65,
+        "9": 10,
+        "10": 11,
+        "11": 3,
+        "12": 11,
+        "13": 9,
+        "14": 6,
+        "15": 5,
+        "16": 1,
+        "18": 1,
+        "19": 8,
+        "20": 4,
+        "21": 5,
+        "22": 5,
+        "23": 1,
+        "24": 5,
+        "25": 1,
+        "26": 1,
+        "28": 4,
+        "29": 5,
+        "30": 1,
+        "31": 1,
+        "32": 1,
+        "33": 5,
+        "35": 1
+      }
+    ]
+  ]
+}

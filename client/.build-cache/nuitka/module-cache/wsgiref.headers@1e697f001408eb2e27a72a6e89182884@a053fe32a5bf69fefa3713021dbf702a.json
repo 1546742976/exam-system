@@ -1,0 +1,37 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "wsgiref.headers",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 10
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      7,
+      {
+        "1": 344,
+        "2": 116,
+        "3": 87,
+        "4": 38,
+        "5": 3,
+        "6": 11,
+        "7": 1,
+        "10": 1,
+        "11": 6,
+        "20": 1
+      }
+    ]
+  ]
+}

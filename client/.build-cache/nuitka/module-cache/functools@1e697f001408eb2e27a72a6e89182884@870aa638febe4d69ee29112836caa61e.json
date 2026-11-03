@@ -1,0 +1,179 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "functools",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "abc",
+      "reason": "import",
+      "source_ref_line": 17
+    },
+    {
+      "filename": "D:\\python\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import",
+      "source_ref_line": 18
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 1,
+      "module_kind": null,
+      "module_name": "collections.namedtuple",
+      "reason": "import fromlist",
+      "source_ref_line": 18
+    },
+    {
+      "filename": "D:\\python\\Lib\\reprlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "reprlib",
+      "reason": "import",
+      "source_ref_line": 20
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_thread",
+      "reason": "import",
+      "source_ref_line": 21
+    },
+    {
+      "filename": "D:\\python\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 22
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_functools",
+      "reason": "import",
+      "source_ref_line": 226
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_functools",
+      "reason": "import",
+      "source_ref_line": 266
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_functools",
+      "reason": "import",
+      "source_ref_line": 342
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_functools",
+      "reason": "import",
+      "source_ref_line": 642
+    },
+    {
+      "filename": "D:\\python\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 812
+    },
+    {
+      "filename": "D:\\python\\Lib\\weakref.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "weakref",
+      "reason": "import",
+      "source_ref_line": 812
+    },
+    {
+      "filename": "D:\\python\\Lib\\typing.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "typing",
+      "reason": "import",
+      "source_ref_line": 842
+    },
+    {
+      "filename": "D:\\python\\Lib\\typing.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "typing",
+      "reason": "import",
+      "source_ref_line": 848
+    },
+    {
+      "filename": "D:\\python\\Lib\\typing.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "typing",
+      "reason": "import",
+      "source_ref_line": 878
+    },
+    {
+      "filename": "D:\\python\\Lib\\typing.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "typing",
+      "reason": "import",
+      "source_ref_line": 893
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.3125,
+      null,
+      null,
+      6,
+      {
+        "1": 1352,
+        "2": 695,
+        "3": 178,
+        "4": 153,
+        "5": 107,
+        "6": 43,
+        "7": 24,
+        "8": 39,
+        "9": 18,
+        "10": 13,
+        "11": 12,
+        "12": 12,
+        "13": 1,
+        "15": 1,
+        "18": 5,
+        "19": 2,
+        "20": 5
+      }
+    ]
+  ]
+}

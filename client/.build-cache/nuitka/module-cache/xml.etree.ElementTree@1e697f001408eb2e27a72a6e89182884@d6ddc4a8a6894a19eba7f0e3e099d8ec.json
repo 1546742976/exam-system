@@ -1,0 +1,248 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "xml.etree.ElementTree",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 95
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 96
+    },
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 97
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 98
+    },
+    {
+      "filename": "D:\\python\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import",
+      "source_ref_line": 99
+    },
+    {
+      "filename": "D:\\python\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import path parent",
+      "source_ref_line": 100
+    },
+    {
+      "filename": "D:\\python\\Lib\\collections\\abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections.abc",
+      "reason": "import",
+      "source_ref_line": 100
+    },
+    {
+      "filename": "D:\\python\\Lib\\contextlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "contextlib",
+      "reason": "import",
+      "source_ref_line": 101
+    },
+    {
+      "filename": "D:\\python\\Lib\\weakref.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "weakref",
+      "reason": "import",
+      "source_ref_line": 102
+    },
+    {
+      "filename": "D:\\python\\Lib\\xml",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "xml",
+      "reason": "import path parent",
+      "source_ref_line": 104
+    },
+    {
+      "filename": "D:\\python\\Lib\\xml\\etree",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "xml.etree",
+      "reason": "import",
+      "source_ref_line": 104
+    },
+    {
+      "filename": "D:\\python\\Lib\\xml\\etree\\ElementPath.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "xml.etree.ElementPath",
+      "reason": "import fromlist",
+      "source_ref_line": 104
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 1098
+    },
+    {
+      "filename": "D:\\python\\Lib\\xml",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "xml",
+      "reason": "import path parent",
+      "source_ref_line": 1525
+    },
+    {
+      "filename": "D:\\python\\Lib\\xml\\parsers",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "xml.parsers",
+      "reason": "import",
+      "source_ref_line": 1525
+    },
+    {
+      "filename": "D:\\python\\Lib\\xml\\parsers\\expat.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "xml.parsers.expat",
+      "reason": "import fromlist",
+      "source_ref_line": 1525
+    },
+    {
+      "filename": "D:\\python\\DLLs\\pyexpat.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "pyexpat",
+      "reason": "import",
+      "source_ref_line": 1528
+    },
+    {
+      "filename": "D:\\python\\Lib\\xml",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "xml",
+      "reason": "import path parent",
+      "source_ref_line": 1670
+    },
+    {
+      "filename": "D:\\python\\Lib\\xml\\parsers",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "xml.parsers",
+      "reason": "import",
+      "source_ref_line": 1670
+    },
+    {
+      "filename": "D:\\python\\Lib\\xml\\parsers\\expat.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "xml.parsers.expat",
+      "reason": "import fromlist",
+      "source_ref_line": 1670
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 1758
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_elementtree.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_elementtree",
+      "reason": "import",
+      "source_ref_line": 2081
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_elementtree.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_elementtree",
+      "reason": "import",
+      "source_ref_line": 2082
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.265625,
+      null,
+      null,
+      7,
+      {
+        "1": 2008,
+        "2": 1661,
+        "3": 332,
+        "4": 220,
+        "5": 140,
+        "6": 77,
+        "7": 61,
+        "8": 48,
+        "9": 16,
+        "10": 33,
+        "11": 19,
+        "12": 27,
+        "13": 12,
+        "14": 11,
+        "15": 7,
+        "16": 1,
+        "21": 12,
+        "22": 1,
+        "26": 1,
+        "27": 1,
+        "29": 7,
+        "32": 6,
+        "33": 7
+      }
+    ]
+  ]
+}

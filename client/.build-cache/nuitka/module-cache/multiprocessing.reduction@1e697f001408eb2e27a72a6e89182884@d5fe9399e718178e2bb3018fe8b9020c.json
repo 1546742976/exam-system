@@ -1,0 +1,182 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "multiprocessing.reduction",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "abc",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\copyreg.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "copyreg",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 13
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\pickle.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "pickle",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "D:\\python\\Lib\\socket.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "socket",
+      "reason": "import",
+      "source_ref_line": 16
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 17
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\context.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.context",
+      "reason": "import fromlist",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 50
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_winapi",
+      "reason": "import",
+      "source_ref_line": 69
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 226
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 227
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import path parent",
+      "source_ref_line": 235
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\resource_sharer.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.resource_sharer",
+      "reason": "import",
+      "source_ref_line": 235
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 280
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.03125,
+      null,
+      null,
+      7,
+      {
+        "1": 280,
+        "2": 96,
+        "3": 36,
+        "4": 15,
+        "5": 6,
+        "6": 8,
+        "7": 7,
+        "9": 12,
+        "10": 2,
+        "11": 7,
+        "17": 7
+      }
+    ]
+  ]
+}

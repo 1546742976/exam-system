@@ -1,0 +1,57 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "symtable",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_symtable",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_symtable",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\Lib\\weakref.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "weakref",
+      "reason": "import",
+      "source_ref_line": 8
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.046875,
+      null,
+      null,
+      7,
+      {
+        "1": 548,
+        "2": 199,
+        "3": 28,
+        "4": 40,
+        "5": 26,
+        "6": 18,
+        "7": 2,
+        "8": 8,
+        "9": 6,
+        "15": 14,
+        "16": 1,
+        "18": 1
+      }
+    ]
+  ]
+}

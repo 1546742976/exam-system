@@ -1,0 +1,136 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "tokenize",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 28
+    },
+    {
+      "filename": "D:\\python\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import",
+      "source_ref_line": 29
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 30
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 31
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 32
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 33
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 34
+    },
+    {
+      "filename": "D:\\python\\Lib\\token.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "token",
+      "reason": "import",
+      "source_ref_line": 35
+    },
+    {
+      "filename": "D:\\python\\Lib\\token.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "token",
+      "reason": "import",
+      "source_ref_line": 36
+    },
+    {
+      "filename": "D:\\python\\Lib\\token.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "token",
+      "reason": "import",
+      "source_ref_line": 41
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_tokenize",
+      "reason": "import",
+      "source_ref_line": 687
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.109375,
+      null,
+      null,
+      7,
+      {
+        "1": 588,
+        "2": 475,
+        "3": 154,
+        "4": 80,
+        "5": 36,
+        "6": 29,
+        "7": 27,
+        "8": 21,
+        "10": 8,
+        "11": 7,
+        "13": 5,
+        "14": 1,
+        "15": 2,
+        "19": 6,
+        "22": 5,
+        "25": 1,
+        "72": 1,
+        "104": 5,
+        "106": 1
+      }
+    ]
+  ]
+}

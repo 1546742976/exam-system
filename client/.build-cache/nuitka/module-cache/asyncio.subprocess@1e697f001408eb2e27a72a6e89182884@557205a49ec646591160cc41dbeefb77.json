@@ -1,0 +1,129 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "asyncio.subprocess",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\subprocess.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "subprocess",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\events.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.events",
+      "reason": "import fromlist",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\protocols.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.protocols",
+      "reason": "import fromlist",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\streams.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.streams",
+      "reason": "import fromlist",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\tasks.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.tasks",
+      "reason": "import fromlist",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import path parent",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\log.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.log",
+      "reason": "import",
+      "source_ref_line": 9
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      4,
+      {
+        "1": 166,
+        "2": 106,
+        "3": 34,
+        "4": 13,
+        "5": 4,
+        "6": 3,
+        "7": 1,
+        "8": 1,
+        "9": 8,
+        "10": 3,
+        "13": 6,
+        "15": 3
+      }
+    ]
+  ]
+}

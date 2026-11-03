@@ -1,0 +1,66 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "string",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_string",
+      "reason": "import",
+      "source_ref_line": 21
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 52
+    },
+    {
+      "filename": "D:\\python\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import",
+      "source_ref_line": 53
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 1,
+      "module_kind": null,
+      "module_name": "collections.ChainMap",
+      "reason": "import fromlist",
+      "source_ref_line": 53
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      7,
+      {
+        "1": 269,
+        "2": 145,
+        "3": 61,
+        "4": 42,
+        "5": 30,
+        "6": 12,
+        "7": 11,
+        "8": 1,
+        "10": 1,
+        "11": 1,
+        "14": 6,
+        "16": 1
+      }
+    ]
+  ]
+}

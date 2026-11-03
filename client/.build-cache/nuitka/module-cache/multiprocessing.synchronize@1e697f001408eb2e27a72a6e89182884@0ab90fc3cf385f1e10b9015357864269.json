@@ -1,0 +1,202 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "multiprocessing.synchronize",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\threading.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "threading",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "D:\\python\\Lib\\tempfile.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "tempfile",
+      "reason": "import",
+      "source_ref_line": 16
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_multiprocessing.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_multiprocessing",
+      "reason": "import",
+      "source_ref_line": 17
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "time",
+      "reason": "import",
+      "source_ref_line": 18
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import",
+      "source_ref_line": 20
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\context.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.context",
+      "reason": "import fromlist",
+      "source_ref_line": 20
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import",
+      "source_ref_line": 21
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\process.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.process",
+      "reason": "import fromlist",
+      "source_ref_line": 21
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import",
+      "source_ref_line": 22
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\util.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.util",
+      "reason": "import fromlist",
+      "source_ref_line": 22
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_multiprocessing.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_multiprocessing",
+      "reason": "import",
+      "source_ref_line": 28
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import path parent",
+      "source_ref_line": 79
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\resource_tracker.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.resource_tracker",
+      "reason": "import",
+      "source_ref_line": 79
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import path parent",
+      "source_ref_line": 86
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\resource_tracker.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.resource_tracker",
+      "reason": "import",
+      "source_ref_line": 86
+    },
+    {
+      "filename": "D:\\python\\Lib\\struct.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "struct",
+      "reason": "import",
+      "source_ref_line": 373
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import path parent",
+      "source_ref_line": 374
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\heap.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.heap",
+      "reason": "import",
+      "source_ref_line": 374
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.140625,
+      null,
+      null,
+      6,
+      {
+        "1": 729,
+        "2": 344,
+        "3": 86,
+        "4": 16,
+        "5": 36,
+        "6": 40,
+        "7": 27,
+        "8": 44,
+        "9": 11,
+        "10": 10,
+        "11": 7,
+        "14": 6,
+        "15": 6
+      }
+    ]
+  ]
+}

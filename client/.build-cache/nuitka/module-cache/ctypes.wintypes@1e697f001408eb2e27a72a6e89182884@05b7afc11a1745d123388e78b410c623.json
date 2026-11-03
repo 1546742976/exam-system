@@ -1,0 +1,34 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "ctypes.wintypes",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\ctypes",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ctypes",
+      "reason": "import",
+      "source_ref_line": 2
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0625,
+      null,
+      null,
+      3,
+      {
+        "1": 195,
+        "2": 94,
+        "4": 1,
+        "5": 24,
+        "6": 6,
+        "8": 12,
+        "10": 18
+      }
+    ]
+  ]
+}

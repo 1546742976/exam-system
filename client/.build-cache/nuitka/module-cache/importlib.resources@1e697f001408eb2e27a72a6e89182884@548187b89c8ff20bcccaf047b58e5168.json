@@ -1,0 +1,110 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "importlib.resources",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.resources",
+      "reason": "import path parent",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources\\_common.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.resources._common",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.resources",
+      "reason": "import path parent",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources\\_legacy.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.resources._legacy",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 20
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.resources",
+      "reason": "import path parent",
+      "source_ref_line": 20
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources\\abc.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.resources.abc",
+      "reason": "import",
+      "source_ref_line": 20
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      2,
+      {
+        "3": 2,
+        "8": 2
+      }
+    ]
+  ]
+}

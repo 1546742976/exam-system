@@ -1,0 +1,72 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "calendar",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\datetime.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "datetime",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "D:\\python\\Lib\\locale.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "locale",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 11
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.15625,
+      null,
+      null,
+      7,
+      {
+        "1": 1857,
+        "2": 518,
+        "3": 171,
+        "4": 202,
+        "5": 107,
+        "6": 74,
+        "7": 18,
+        "8": 70,
+        "9": 10,
+        "10": 17,
+        "12": 5,
+        "13": 6,
+        "14": 4,
+        "15": 7,
+        "16": 5,
+        "17": 8,
+        "20": 7,
+        "21": 7
+      }
+    ]
+  ]
+}

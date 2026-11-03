@@ -1,0 +1,45 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "chunk",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 51
+    },
+    {
+      "filename": "D:\\python\\Lib\\struct.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "struct",
+      "reason": "import",
+      "source_ref_line": 57
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      7,
+      {
+        "1": 145,
+        "2": 78,
+        "3": 9,
+        "4": 6,
+        "5": 1,
+        "6": 1,
+        "7": 12,
+        "8": 7,
+        "11": 1
+      }
+    ]
+  ]
+}

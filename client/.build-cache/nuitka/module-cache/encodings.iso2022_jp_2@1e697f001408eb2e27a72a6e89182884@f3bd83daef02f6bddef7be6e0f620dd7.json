@@ -1,0 +1,51 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "encodings.iso2022_jp_2",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_codecs_iso2022",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "D:\\python\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_multibytecodec",
+      "reason": "import",
+      "source_ref_line": 8
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      2,
+      {
+        "1": 65,
+        "2": 20,
+        "5": 8,
+        "6": 2,
+        "8": 8,
+        "9": 2
+      }
+    ]
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "collections",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\_collections_abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_collections_abc",
+      "reason": "import",
+      "source_ref_line": 29
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 30
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 32
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 33
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 34
+    },
+    {
+      "filename": "D:\\python\\Lib\\keyword.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "keyword",
+      "reason": "import",
+      "source_ref_line": 35
+    },
+    {
+      "filename": "D:\\python\\Lib\\operator.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "operator",
+      "reason": "import",
+      "source_ref_line": 36
+    },
+    {
+      "filename": "D:\\python\\Lib\\operator.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "operator",
+      "reason": "import",
+      "source_ref_line": 37
+    },
+    {
+      "filename": "D:\\python\\Lib\\reprlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "reprlib",
+      "reason": "import",
+      "source_ref_line": 38
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_weakref",
+      "reason": "import",
+      "source_ref_line": 39
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_collections",
+      "reason": "import",
+      "source_ref_line": 42
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_collections",
+      "reason": "import",
+      "source_ref_line": 49
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_collections",
+      "reason": "import",
+      "source_ref_line": 335
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_collections",
+      "reason": "import",
+      "source_ref_line": 346
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_collections",
+      "reason": "import",
+      "source_ref_line": 532
+    },
+    {
+      "filename": "D:\\python\\Lib\\heapq.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "heapq",
+      "reason": "import",
+      "source_ref_line": 623
+    },
+    {
+      "filename": "D:\\python\\Lib\\copy.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "copy",
+      "reason": "import",
+      "source_ref_line": 1176
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.25,
+      null,
+      null,
+      6,
+      {
+        "1": 1836,
+        "2": 908,
+        "3": 302,
+        "4": 166,
+        "5": 132,
+        "6": 50,
+        "7": 48,
+        "8": 51,
+        "9": 19,
+        "10": 8,
+        "11": 5,
+        "12": 1,
+        "13": 11,
+        "18": 6,
+        "27": 6,
+        "31": 6,
+        "34": 6,
+        "36": 6,
+        "38": 4,
+        "48": 1,
+        "52": 1,
+        "73": 6
+      }
+    ]
+  ]
+}

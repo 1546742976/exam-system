@@ -1,0 +1,1 @@
+module.numpy._array_api_info.c

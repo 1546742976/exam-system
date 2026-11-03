@@ -1,0 +1,340 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "asyncio.selector_events",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "errno",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "D:\\python\\Lib\\selectors.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "selectors",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\Lib\\socket.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "socket",
+      "reason": "import",
+      "source_ref_line": 13
+    },
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\weakref.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "weakref",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "D:\\python\\Lib\\ssl.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ssl",
+      "reason": "import",
+      "source_ref_line": 17
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 21
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\base_events.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.base_events",
+      "reason": "import fromlist",
+      "source_ref_line": 21
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 22
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\constants.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.constants",
+      "reason": "import fromlist",
+      "source_ref_line": 22
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 23
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\events.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.events",
+      "reason": "import fromlist",
+      "source_ref_line": 23
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 24
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\futures.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.futures",
+      "reason": "import fromlist",
+      "source_ref_line": 24
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 25
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\protocols.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.protocols",
+      "reason": "import fromlist",
+      "source_ref_line": 25
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\sslproto.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.sslproto",
+      "reason": "import fromlist",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 27
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\transports.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.transports",
+      "reason": "import fromlist",
+      "source_ref_line": 27
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import",
+      "source_ref_line": 28
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\trsock.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.trsock",
+      "reason": "import fromlist",
+      "source_ref_line": 28
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "asyncio",
+      "reason": "import path parent",
+      "source_ref_line": 29
+    },
+    {
+      "filename": "D:\\python\\Lib\\asyncio\\log.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "asyncio.log",
+      "reason": "import",
+      "source_ref_line": 29
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 380
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 421
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 461
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 503
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 551
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 600
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 656
+    },
+    {
+      "filename": "D:\\python\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 715
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.15625,
+      null,
+      null,
+      6,
+      {
+        "1": 1173,
+        "2": 1050,
+        "3": 313,
+        "4": 117,
+        "5": 49,
+        "6": 26,
+        "7": 49,
+        "8": 44,
+        "9": 26,
+        "10": 12,
+        "11": 6,
+        "19": 5,
+        "20": 1,
+        "23": 6,
+        "49": 5,
+        "50": 1
+      }
+    ]
+  ]
+}

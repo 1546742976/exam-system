@@ -1,0 +1,86 @@
+Nuitka-Options: Used command line options:
+Nuitka-Options:   --standalone --assume-yes-for-downloads --enable-plugin=pywebview --windows-console-mode=disable --include-data-dir=static=static --include-data-dir=keys=keys --include-data-file=config.json=config.json --include-package=av --include-package=cv2 --include-package=mss --nofollow-import-to=tkinter --nofollow-import-to=unittest --output-dir=dist --company-name=Exam --product-name=ckyf_exam --file-version=3.0.0.0 main.py
+Nuitka-Plugins:WARNING: pywebview: Plugin is defined as always enabled, no need to enable it.
+Nuitka: Starting Python compilation with:
+Nuitka:   Version '4.3.4' on Python 3.11 (flavor 'CPython Official') commercial grade 'not installed'.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av._core' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.audio.codeccontext' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.audio.fifo' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.audio.format' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.audio.frame' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.audio.layout' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.audio.plane' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.audio.resampler' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.audio.stream' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.bitstream' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.buffer' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.codec.codec' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.codec.context' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.codec.hwaccel' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.container.core' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.container.input' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.container.output' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.container.pyio' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.container.streams' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.device' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.dictionary' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.error' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.filter.context' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.filter.filter' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.filter.graph' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.filter.link' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.filter.loudnorm' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.format' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.frame' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.index' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.logging' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.opaque' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.packet' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.plane' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.rational' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.sidedata.encparams' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.sidedata.motionvectors' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.sidedata.sidedata' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.stream' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.subtitles.codeccontext' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.subtitles.stream' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.subtitles.subtitle' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.utils' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.video.codeccontext' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.video.format' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.video.frame' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.video.plane' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.video.reformatter' extension module by default, but source code is available and may work too.
+Nuitka-Inclusion: Should decide '--prefer-source-code' vs. '--no-prefer-source-code', using existing 'av.video.stream' extension module by default, but source code is available and may work too.
+Nuitka-Plugins:anti-bloat: Not including 'PIL.ImageQt' automatically in order to avoid bloat, but this may cause: PIL will not be able to create Qt image objects.
+Nuitka-Plugins:anti-bloat: Not including 'PIL.ImageTk' automatically in order to avoid bloat, but this may cause: PIL will not be able to create Tk image objects.
+Nuitka-Plugins:dll-files: Found 1 file DLLs from clr_loader.ffi installation.
+Nuitka-Plugins:dll-files: Found 1 file DLLs from cv2 installation.
+Nuitka-Plugins:dll-files: Found 4 files DLLs from webview installation.
+Nuitka: Downloading 'https://dependencywalker.com/depends22_x64.zip'.
+Nuitka: Extracting to 'E:\大学\巡天御风\C测\exam-system\client\.build-cache\nuitka\downloads\depends\x86_64\depends.exe'
+Nuitka: Completed Python level compilation and optimization.
+Nuitka: Generating source code for C backend compiler.
+Nuitka: Running data composer tool for optimal constant value handling.
+Nuitka: Running C compilation via Scons.
+Nuitka-Scons: Backend C compiler: cl (cl 14.5).
+Nuitka-Scons: Backend C linking with 853 files (no progress information available for this stage).
+Nuitka-Scons: Compiled 853 C files using clcache with 0 cache hits and 853 cache misses.
+Nuitka-Options: Included data file 'config.json' due to specified data file 'config.json=config.json' on command line.
+Nuitka-Options: Included data file 'static\index.html' due to specified data dir 'static' on command line.
+Nuitka-Options: Included data file 'static\logo.svg' due to specified data dir 'static' on command line.
+Nuitka-Options: Included data file 'static\logo_font.woff2' due to specified data dir 'static' on command line.
+Nuitka-Options: Included data file 'static\assets\index-CZmFh4uA.js' due to specified data dir 'static' on command line.
+Nuitka-Options: Included data file 'static\assets\index-P-Ux6mkb.css' due to specified data dir 'static' on command line.
+Nuitka-Options: Included data file 'keys\public.pem' due to specified data dir 'keys' on command line.
+Nuitka-Plugins:data-files: Included data file 'certifi\cacert.pem' due to package data for 'certifi'.
+Nuitka-Plugins:data-files: Included data file 'pythonnet\runtime\Python.Runtime.dll' due to package data for 'pythonnet'.
+Nuitka-Plugins:data-files: Included data file 'webview\js\api.js' due to package data directory 'js' for 'webview'.
+Nuitka-Plugins:data-files: Included data file 'webview\js\customize.js' due to package data directory 'js' for 'webview'.
+Nuitka-Plugins:data-files: Included data file 'webview\js\finish.js' due to package data directory 'js' for 'webview'.
+Nuitka-Plugins:data-files: Included data file 'webview\js\state.js' due to package data directory 'js' for 'webview'.
+Nuitka-Plugins:data-files: Included data file 'webview\js\lib\dom_json.js' due to package data directory 'js' for 'webview'.
+Nuitka-Plugins:data-files: Included data file 'webview\js\lib\polyfill.js' due to package data directory 'js' for 'webview'.
+Nuitka-Plugins:data-files: Included data file 'webview\lib\pywebview-android.jar' due to package data directory 'lib' for 'webview'.
+Nuitka: Keeping build directory 'dist\main.build'.
+Nuitka: Successfully created 'E:\大学\巡天御风\C测\exam-system\client\dist\main.dist\main.exe'.

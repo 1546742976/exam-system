@@ -1,0 +1,67 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "pyclbr",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\ast.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ast",
+      "reason": "import",
+      "source_ref_line": 44
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 45
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 46
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\util.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.util",
+      "reason": "import",
+      "source_ref_line": 46
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.03125,
+      null,
+      null,
+      7,
+      {
+        "1": 384,
+        "2": 183,
+        "3": 60,
+        "4": 23,
+        "5": 9,
+        "6": 29,
+        "7": 7,
+        "8": 14,
+        "9": 19,
+        "10": 8,
+        "11": 5,
+        "15": 1,
+        "23": 7
+      }
+    ]
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "multiprocessing.util",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "D:\\python\\Lib\\weakref.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "weakref",
+      "reason": "import",
+      "source_ref_line": 13
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "atexit",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "D:\\python\\Lib\\threading.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "threading",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "D:\\python\\Lib\\subprocess.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "subprocess",
+      "reason": "import",
+      "source_ref_line": 17
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\process.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.process",
+      "reason": "import fromlist",
+      "source_ref_line": 19
+    },
+    {
+      "filename": "D:\\python\\Lib\\logging",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "logging",
+      "reason": "import",
+      "source_ref_line": 65
+    },
+    {
+      "filename": "D:\\python\\Lib\\logging",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "logging",
+      "reason": "import",
+      "source_ref_line": 92
+    },
+    {
+      "filename": "D:\\python\\Lib\\shutil.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "shutil",
+      "reason": "import",
+      "source_ref_line": 148
+    },
+    {
+      "filename": "D:\\python\\Lib\\tempfile.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "tempfile",
+      "reason": "import",
+      "source_ref_line": 148
+    },
+    {
+      "filename": "D:\\python\\Lib\\traceback.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "traceback",
+      "reason": "import",
+      "source_ref_line": 305
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "_posixsubprocess",
+      "reason": "import",
+      "source_ref_line": 451
+    },
+    {
+      "filename": "D:\\python\\Lib\\subprocess.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "subprocess",
+      "reason": "import",
+      "source_ref_line": 452
+    },
+    {
+      "filename": "D:\\python\\Lib\\test",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "test",
+      "reason": "import",
+      "source_ref_line": 476
+    },
+    {
+      "filename": "D:\\python\\Lib\\test\\support",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "test.support",
+      "reason": "import fromlist",
+      "source_ref_line": 476
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import",
+      "source_ref_line": 482
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\forkserver.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.forkserver",
+      "reason": "import fromlist",
+      "source_ref_line": 482
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import",
+      "source_ref_line": 486
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\resource_tracker.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.resource_tracker",
+      "reason": "import fromlist",
+      "source_ref_line": 486
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0625,
+      null,
+      null,
+      5,
+      {
+        "1": 407,
+        "2": 261,
+        "3": 50,
+        "4": 37,
+        "5": 15,
+        "6": 9,
+        "7": 11,
+        "8": 23,
+        "9": 7,
+        "10": 11
+      }
+    ]
+  ]
+}

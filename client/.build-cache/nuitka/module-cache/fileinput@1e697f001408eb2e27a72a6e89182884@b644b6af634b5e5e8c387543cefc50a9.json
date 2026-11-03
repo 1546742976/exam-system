@@ -1,0 +1,113 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "fileinput",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 68
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 69
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 69
+    },
+    {
+      "filename": "D:\\python\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 70
+    },
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 215
+    },
+    {
+      "filename": "D:\\python\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 404
+    },
+    {
+      "filename": "D:\\python\\Lib\\gzip.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "gzip",
+      "reason": "import",
+      "source_ref_line": 406
+    },
+    {
+      "filename": "D:\\python\\Lib\\bz2.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "bz2",
+      "reason": "import",
+      "source_ref_line": 409
+    },
+    {
+      "filename": "D:\\python\\Lib\\getopt.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "getopt",
+      "reason": "import",
+      "source_ref_line": 427
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.046875,
+      null,
+      null,
+      4,
+      {
+        "1": 210,
+        "2": 170,
+        "3": 19,
+        "4": 7,
+        "5": 11,
+        "7": 8,
+        "8": 2,
+        "9": 5,
+        "11": 1,
+        "12": 2,
+        "13": 6,
+        "14": 2,
+        "15": 3,
+        "20": 1
+      }
+    ]
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "email.feedparser",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 24
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\errors.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "email.errors",
+      "reason": "import fromlist",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 27
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\_policybase.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email._policybase",
+      "reason": "import",
+      "source_ref_line": 27
+    },
+    {
+      "filename": "D:\\python\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import",
+      "source_ref_line": 28
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 1,
+      "module_kind": null,
+      "module_name": "collections.deque",
+      "reason": "import fromlist",
+      "source_ref_line": 28
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 29
+    },
+    {
+      "filename": "D:\\python\\Lib\\email",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email",
+      "reason": "import path parent",
+      "source_ref_line": 149
+    },
+    {
+      "filename": "D:\\python\\Lib\\email\\message.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "email.message",
+      "reason": "import",
+      "source_ref_line": 149
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0625,
+      null,
+      null,
+      6,
+      {
+        "1": 349,
+        "2": 243,
+        "3": 21,
+        "4": 59,
+        "5": 15,
+        "6": 10,
+        "7": 6,
+        "8": 1,
+        "9": 14,
+        "10": 3,
+        "12": 1,
+        "15": 6,
+        "22": 1,
+        "23": 4,
+        "26": 1,
+        "101": 4,
+        "105": 1,
+        "118": 1
+      }
+    ]
+  ]
+}

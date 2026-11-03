@@ -1,0 +1,38 @@
+{
+  "host": "0.0.0.0",
+  "port": 8888,
+  "upstream": "http://127.0.0.1:8889",
+  "db_path": "data/exam.db",
+  "contest_url": "/d/system/contest/",
+  "gate_enabled": true,
+  "gate_path_keywords": [
+    "/contest",
+    "/p/",
+    "/submit"
+  ],
+  "login_path": "/login",
+  "jwt_alg": "RS256",
+  "jwt_private_key_file": "keys/private.pem",
+  "jwt_public_key_file": "keys/public.pem",
+  "jwt_secret": "",
+  "jwt_audience": "ckyf-exam",
+  "teacher_token_ttl": 3600,
+  "sign_key": "",
+  "admin_password": "",
+  "session_secret": "",
+  "session_alg": "HS256",
+  "student_port": 34519,
+  "login_concurrency": 16,
+  "async_db": true,
+  "silence_seconds": 40,
+  "fingerprint_enforce": false,
+  "allowlist_path": "data/allowlist.json",
+  "upload_required": true,
+  "upload_max_mb": 8,
+  "force_client_ua": "exam-client/2.0",
+  "trust_proxy_headers": false,
+  "trusted_proxies": [
+    "127.0.0.1",
+    "::1"
+  ]
+}

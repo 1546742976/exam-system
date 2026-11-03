@@ -1,0 +1,73 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "importlib.resources._adapters",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\contextlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "contextlib",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 2
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.resources",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources\\abc.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.resources.abc",
+      "reason": "import fromlist",
+      "source_ref_line": 4
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.03125,
+      null,
+      null,
+      7,
+      {
+        "1": 438,
+        "2": 91,
+        "3": 8,
+        "4": 7,
+        "5": 20,
+        "6": 1,
+        "8": 13,
+        "9": 8,
+        "11": 1,
+        "12": 21
+      }
+    ]
+  ]
+}

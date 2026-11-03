@@ -1,0 +1,71 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "json.decoder",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "D:\\python\\Lib\\json",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "json",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "D:\\python\\Lib\\json\\scanner.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "json.scanner",
+      "reason": "import fromlist",
+      "source_ref_line": 5
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_json",
+      "reason": "import",
+      "source_ref_line": 7
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.046875,
+      null,
+      null,
+      5,
+      {
+        "1": 211,
+        "2": 198,
+        "3": 82,
+        "4": 23,
+        "5": 6,
+        "6": 3,
+        "7": 5,
+        "8": 5,
+        "9": 6,
+        "10": 4,
+        "19": 1,
+        "21": 4,
+        "26": 1,
+        "31": 3,
+        "32": 1,
+        "39": 1,
+        "43": 4
+      }
+    ]
+  ]
+}

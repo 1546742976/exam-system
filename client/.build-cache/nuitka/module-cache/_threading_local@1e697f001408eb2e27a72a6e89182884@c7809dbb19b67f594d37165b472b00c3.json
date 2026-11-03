@@ -1,0 +1,55 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "_threading_local",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\weakref.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "weakref",
+      "reason": "import",
+      "source_ref_line": 131
+    },
+    {
+      "filename": "D:\\python\\Lib\\contextlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "contextlib",
+      "reason": "import",
+      "source_ref_line": 132
+    },
+    {
+      "filename": "D:\\python\\Lib\\threading.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "threading",
+      "reason": "import",
+      "source_ref_line": 242
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      7,
+      {
+        "1": 278,
+        "2": 99,
+        "3": 34,
+        "4": 9,
+        "5": 16,
+        "6": 19,
+        "7": 2,
+        "8": 5,
+        "10": 1,
+        "11": 1
+      }
+    ]
+  ]
+}

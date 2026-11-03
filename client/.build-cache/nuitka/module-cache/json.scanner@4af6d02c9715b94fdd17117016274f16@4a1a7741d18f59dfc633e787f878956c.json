@@ -1,0 +1,44 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "json.scanner",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_json",
+      "reason": "import",
+      "source_ref_line": 5
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0,
+      null,
+      null,
+      3,
+      {
+        "1": 41,
+        "2": 15,
+        "3": 1,
+        "4": 3,
+        "8": 1,
+        "10": 3,
+        "12": 3,
+        "19": 2
+      }
+    ]
+  ]
+}

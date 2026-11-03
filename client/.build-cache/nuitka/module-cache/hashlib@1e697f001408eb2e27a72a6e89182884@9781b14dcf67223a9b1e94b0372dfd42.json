@@ -1,0 +1,140 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "hashlib",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_sha1",
+      "reason": "import",
+      "source_ref_line": 89
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_md5",
+      "reason": "import",
+      "source_ref_line": 92
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_sha256",
+      "reason": "import",
+      "source_ref_line": 95
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_sha512",
+      "reason": "import",
+      "source_ref_line": 99
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_blake2",
+      "reason": "import",
+      "source_ref_line": 103
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_sha3",
+      "reason": "import",
+      "source_ref_line": 107
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_sha3",
+      "reason": "import",
+      "source_ref_line": 113
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_hashlib.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_hashlib",
+      "reason": "import",
+      "source_ref_line": 170
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_hashlib.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_hashlib",
+      "reason": "import",
+      "source_ref_line": 182
+    },
+    {
+      "filename": "D:\\python\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 184
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_hashlib.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_hashlib",
+      "reason": "import",
+      "source_ref_line": 252
+    },
+    {
+      "filename": "D:\\python\\Lib\\logging",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "logging",
+      "reason": "import",
+      "source_ref_line": 309
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0625,
+      null,
+      null,
+      5,
+      {
+        "1": 145,
+        "2": 146,
+        "3": 30,
+        "4": 23,
+        "5": 7,
+        "6": 7,
+        "9": 1,
+        "10": 1,
+        "15": 1,
+        "16": 7,
+        "19": 1,
+        "25": 3,
+        "31": 1,
+        "35": 1
+      }
+    ]
+  ]
+}

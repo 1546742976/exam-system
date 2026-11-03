@@ -1,0 +1,145 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "multiprocessing.dummy",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\threading.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "threading",
+      "reason": "import",
+      "source_ref_line": 20
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 21
+    },
+    {
+      "filename": "D:\\python\\Lib\\weakref.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "weakref",
+      "reason": "import",
+      "source_ref_line": 22
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "array",
+      "reason": "import",
+      "source_ref_line": 23
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import path parent",
+      "source_ref_line": 25
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\dummy",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "multiprocessing.dummy",
+      "reason": "import path parent",
+      "source_ref_line": 25
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\dummy\\connection.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "multiprocessing.dummy.connection",
+      "reason": "import",
+      "source_ref_line": 25
+    },
+    {
+      "filename": "D:\\python\\Lib\\threading.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "threading",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\threading.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "threading",
+      "reason": "import",
+      "source_ref_line": 27
+    },
+    {
+      "filename": "D:\\python\\Lib\\queue.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "queue",
+      "reason": "import",
+      "source_ref_line": 28
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "multiprocessing",
+      "reason": "import path parent",
+      "source_ref_line": 123
+    },
+    {
+      "filename": "D:\\python\\Lib\\multiprocessing\\pool.py",
+      "finding": "relative",
+      "level": 2,
+      "module_kind": "py",
+      "module_name": "multiprocessing.pool",
+      "reason": "import",
+      "source_ref_line": 123
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.03125,
+      null,
+      null,
+      5,
+      {
+        "1": 146,
+        "2": 66,
+        "3": 10,
+        "4": 11,
+        "5": 10,
+        "6": 9,
+        "7": 5,
+        "8": 5,
+        "9": 11,
+        "10": 4
+      }
+    ]
+  ]
+}

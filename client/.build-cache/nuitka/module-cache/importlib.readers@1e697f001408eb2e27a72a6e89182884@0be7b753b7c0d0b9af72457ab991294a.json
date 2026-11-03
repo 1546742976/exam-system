@@ -1,0 +1,46 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "importlib.readers",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.resources",
+      "reason": "import path parent",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "D:\\python\\Lib\\importlib\\resources\\readers.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib.resources.readers",
+      "reason": "import",
+      "source_ref_line": 8
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      2,
+      {
+        "4": 2
+      }
+    ]
+  ]
+}

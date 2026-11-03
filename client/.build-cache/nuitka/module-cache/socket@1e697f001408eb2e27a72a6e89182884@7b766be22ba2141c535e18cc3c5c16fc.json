@@ -1,0 +1,125 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "socket",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\DLLs\\_socket.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_socket",
+      "reason": "import",
+      "source_ref_line": 51
+    },
+    {
+      "filename": "D:\\python\\DLLs\\_socket.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_socket",
+      "reason": "import",
+      "source_ref_line": 52
+    },
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 54
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 54
+    },
+    {
+      "filename": "D:\\python\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 54
+    },
+    {
+      "filename": "D:\\python\\Lib\\selectors.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "selectors",
+      "reason": "import",
+      "source_ref_line": 54
+    },
+    {
+      "filename": "D:\\python\\Lib\\enum.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "enum",
+      "reason": "import",
+      "source_ref_line": 55
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "errno",
+      "reason": "import",
+      "source_ref_line": 58
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "array",
+      "reason": "import",
+      "source_ref_line": 550
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "array",
+      "reason": "import",
+      "source_ref_line": 562
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.078125,
+      null,
+      null,
+      4,
+      {
+        "1": 447,
+        "2": 329,
+        "3": 87,
+        "4": 49,
+        "5": 29,
+        "6": 29,
+        "7": 12,
+        "8": 7,
+        "9": 3,
+        "10": 9,
+        "11": 4,
+        "12": 4,
+        "14": 1,
+        "15": 7,
+        "19": 1,
+        "21": 3,
+        "27": 4
+      }
+    ]
+  ]
+}

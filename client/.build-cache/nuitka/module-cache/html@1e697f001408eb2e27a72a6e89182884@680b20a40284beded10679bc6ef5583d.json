@@ -1,0 +1,62 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "html",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "D:\\python\\Lib\\html",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "html",
+      "reason": "import path parent",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "D:\\python\\Lib\\html\\entities.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "html.entities",
+      "reason": "import",
+      "source_ref_line": 6
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.015625,
+      null,
+      null,
+      4,
+      {
+        "1": 26,
+        "2": 14,
+        "3": 3,
+        "4": 1,
+        "6": 4,
+        "7": 4,
+        "9": 3,
+        "10": 1
+      }
+    ]
+  ]
+}

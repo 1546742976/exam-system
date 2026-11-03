@@ -1,0 +1,128 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "posixpath",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 25
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "D:\\python\\Lib\\stat.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "stat",
+      "reason": "import",
+      "source_ref_line": 27
+    },
+    {
+      "filename": "D:\\python\\Lib\\genericpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "genericpath",
+      "reason": "import",
+      "source_ref_line": 28
+    },
+    {
+      "filename": "D:\\python\\Lib\\genericpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "genericpath",
+      "reason": "import",
+      "source_ref_line": 29
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "pwd",
+      "reason": "import",
+      "source_ref_line": 246
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "pwd",
+      "reason": "import",
+      "source_ref_line": 260
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 302
+    },
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 312
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "posix",
+      "reason": "import",
+      "source_ref_line": 347
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0625,
+      null,
+      null,
+      6,
+      {
+        "1": 503,
+        "2": 393,
+        "3": 100,
+        "4": 53,
+        "5": 23,
+        "6": 29,
+        "7": 17,
+        "8": 11,
+        "9": 1,
+        "10": 1,
+        "11": 5,
+        "12": 10,
+        "13": 2,
+        "14": 5,
+        "15": 6,
+        "23": 5,
+        "25": 2,
+        "27": 5,
+        "29": 5,
+        "30": 1
+      }
+    ]
+  ]
+}

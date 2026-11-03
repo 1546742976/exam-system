@@ -1,0 +1,43 @@
+{
+  "distribution_names": {},
+  "file_format_version": 8,
+  "module_name": "textwrap",
+  "modules_used": [
+    {
+      "filename": "D:\\python\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 8
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.265625,
+      null,
+      null,
+      5,
+      {
+        "1": 201,
+        "2": 178,
+        "3": 31,
+        "4": 34,
+        "5": 9,
+        "6": 4,
+        "7": 4,
+        "8": 6,
+        "9": 4,
+        "11": 1,
+        "12": 1,
+        "13": 4,
+        "22": 1,
+        "33": 3,
+        "36": 1,
+        "39": 1
+      }
+    ]
+  ]
+}
