@@ -319,6 +319,8 @@ def verify_rs256(token: str, public_key_pem: str, audience: str = "") -> dict:
 
 def _check_claims(payload: dict, audience: str = "", already_exp: bool = False) -> None:
     now = int(time.time())
+    if "exp" not in payload or payload.get("sub") != "teacher":
+        raise ValueError("必须为有期限的教师令牌")
     if not already_exp:
         exp = payload.get("exp")
         if exp is not None and int(exp) < now:
@@ -326,7 +328,7 @@ def _check_claims(payload: dict, audience: str = "", already_exp: bool = False) 
         nbf = payload.get("nbf")
         if nbf is not None and int(nbf) > now + 60:
             raise ValueError("token 尚未生效")
-    if audience and payload.get("aud") not in (None, audience):
+    if audience and payload.get("aud") != audience:
         raise ValueError("aud 不匹配")
 
 

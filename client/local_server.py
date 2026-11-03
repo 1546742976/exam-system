@@ -284,10 +284,18 @@ def _range_response(path: Path, request, log):
         return FileResponse(str(path), media_type=ctype,
                             headers={"Accept-Ranges": "bytes"})
     try:
-        spec = range_header.replace("bytes=", "").split(",")[0]
+        if not range_header.startswith("bytes=") or "," in range_header:
+            raise ValueError("unsupported range")
+        spec = range_header[6:]
         start_s, _, end_s = spec.partition("-")
-        start = int(start_s) if start_s else 0
-        end = int(end_s) if end_s else size - 1
+        if not start_s:
+            suffix = int(end_s)
+            if suffix <= 0:
+                raise ValueError("invalid suffix")
+            start, end = max(0, size - suffix), size - 1
+        else:
+            start = int(start_s)
+            end = int(end_s) if end_s else size - 1
     except Exception:
         log.warning("Range 头无法解析: %s", range_header)
         return Response(status_code=416)

@@ -45,6 +45,7 @@ class Reporter:
             raise LoginError("接口地址为空")
         url = "http://%s/login" % endpoint
         session = requests.Session()
+        session.trust_env = False
         try:
             resp = session.post(
                 url,

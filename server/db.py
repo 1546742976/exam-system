@@ -166,6 +166,9 @@ class Store:
     # -- 上传 -------------------------------------------------------
     def record_upload(self, uname, seq, kind, name, size, sha256, storage) -> None:
         with self._lock, self._conn() as con:
+            if con.execute("SELECT 1 FROM upload WHERE uname=? AND seq=? AND sha256=? AND storage=?",
+                           (uname, seq, sha256, storage)).fetchone():
+                return
             con.execute("INSERT INTO upload(uname, seq, kind, name, size, sha256, ts, storage)"
                         " VALUES(?,?,?,?,?,?,?,?)",
                         (uname, seq, kind, name, size, sha256, int(time.time()), storage))

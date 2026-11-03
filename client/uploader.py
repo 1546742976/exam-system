@@ -3,13 +3,14 @@
 意义（防逆向的关键）：
   * 证据在服务器，密钥在服务器 —— 学生删掉本地录像也没用；
   * 序号连续，缺一片服务端就知道；
-  * 签名用「登录时下发的会话密钥」，不在 config.json 里，改客户端也签不出合法包。
+  * 签名使用会话密钥，可检测传输篡改；客户端持有密钥，不能据此证明录像真实。
 """
 from __future__ import annotations
 
 import hashlib
 import hmac
 import threading
+import time
 from concurrent.futures import ThreadPoolExecutor
 
 from common import Config, get_logger
@@ -36,6 +37,8 @@ class Uploader:
         self.failed = 0
         self._seq = 0
         self._lock = threading.Lock()
+        self._slots = threading.BoundedSemaphore(8)
+        self._generation = 0
         self._pool = ThreadPoolExecutor(max_workers=2, thread_name_prefix="upload")
 
     # -- 绑定会话 ---------------------------------------------------
@@ -44,7 +47,8 @@ class Uploader:
         """绑定上传通道：优先用登录响应头下发的密钥（省一次往返），否则回退请求 /exam/session。"""
         if requests is None or session is None or not endpoint:
             return False
-        if preset_key:
+        self.unbind()
+        if preset_key and not fp:
             self.key = preset_key
             self.uname = uname
             self.endpoint = endpoint
@@ -73,9 +77,29 @@ class Uploader:
         return self.enabled
 
     def unbind(self) -> None:
+        self._generation += 1
         self.enabled = False
         self.key = ""
         self.endpoint = ""
+
+    def close(self):
+        self.unbind()
+        self._pool.shutdown(wait=True, cancel_futures=True)
+
+    def _submit(self, fn, *args):
+        if not self._slots.acquire(blocking=False):
+            self.failed += 1
+            self.log.warning("上传队列已满，跳过本次上传；本地录像保留")
+            return
+        generation = self._generation
+        def run():
+            if generation == self._generation and self.enabled:
+                fn(*args)
+        try:
+            future = self._pool.submit(run)
+            future.add_done_callback(lambda _: self._slots.release())
+        except RuntimeError:
+            self._slots.release()
 
     def stats(self) -> dict:
         return {"enabled": self.enabled, "segments": self.uploaded,
@@ -92,13 +116,25 @@ class Uploader:
                 return
         except Exception:
             return
-        self._pool.submit(self._do_upload, session, rec_key, path, num)
+        self._submit(self._do_upload, session, rec_key, path, num)
 
     def submit_frame(self, session, rec_key: str, jpeg: bytes, ts: int) -> None:
         """上传一张关键帧（JPEG）。"""
         if not self.enabled:
             return
-        self._pool.submit(self._do_frame, session, rec_key, jpeg, ts)
+        self._submit(self._do_frame, session, rec_key, jpeg, ts)
+
+    def _post(self, session, url, **kwargs):
+        # Retry transient failures once with the same sequence/body/signature.
+        for attempt in range(2):
+            try:
+                response = session.post(url, **kwargs)
+                if response.status_code not in (502, 503, 504) or attempt:
+                    return response
+            except requests.RequestException:
+                if attempt:
+                    raise
+            time.sleep(0.5)
 
     def _do_frame(self, session, rec_key: str, jpeg: bytes, ts: int) -> None:
         seq = self._next_seq()
@@ -108,7 +144,7 @@ class Uploader:
         name = "%s_%d.jpg" % (rec_key, ts)
         url = "http://%s/exam/upload?seq=%d&kind=frame&name=%s" % (self.endpoint, seq, name)
         try:
-            resp = session.post(url, data=jpeg, timeout=10, headers={
+            resp = self._post(session, url, data=jpeg, timeout=10, headers={
                 "Content-Type": "application/octet-stream",
                 "User-Agent": UA,
                 "X-Exam-Sig": mac.hexdigest(),
@@ -139,7 +175,7 @@ class Uploader:
         name = "%s_%d.ts" % (rec_key, num)
         url = "http://%s/exam/upload?seq=%d&kind=ts&name=%s" % (self.endpoint, seq, name)
         try:
-            resp = session.post(url, data=body, timeout=15, headers={
+            resp = self._post(session, url, data=body, timeout=15, headers={
                 "Content-Type": "application/octet-stream",
                 "User-Agent": UA,
                 "X-Exam-Sig": mac.hexdigest(),

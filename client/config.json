@@ -42,7 +42,7 @@
   "lan_scan_concurrency": 64,
   "jwt_alg": "RS256",
   "jwt_public_key_file": "keys/public.pem",
-  "jwt_audience": "",
+  "jwt_audience": "ckyf-exam",
   "sign_key": "LN4jzHfR47-uuIT21Lm3t-dLgVrTqXhWDW7thzeWMxM",
   "inject_url_redirect": true,
   "exam_path": "/exam/",

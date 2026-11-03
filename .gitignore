@@ -8,3 +8,9 @@ media/
 server/data/
 server/keys/private.pem
 server/.env
+
+client/.venv-build/
+client/.build-cache/
+client/dist/
+client/build/
+client/build-*.log

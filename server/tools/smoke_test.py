@@ -93,6 +93,7 @@ def main() -> int:
             (work / name).unlink()
         except FileNotFoundError:
             pass
+    gateway.UPLOAD_DIR = work / "uploads"
     cfg = gateway.ServerConfig()
     cfg.host, cfg.port = "127.0.0.1", gw
     cfg.upstream = "http://127.0.0.1:%d" % oj
@@ -108,7 +109,7 @@ def main() -> int:
     print("=" * 62)
     print("服务端冒烟测试  http://127.0.0.1:%d" % gw)
     print("=" * 62)
-    c = httpx.Client(base_url="http://127.0.0.1:%d" % gw, timeout=15, follow_redirects=False)
+    c = httpx.Client(base_url="http://127.0.0.1:%d" % gw, timeout=15, follow_redirects=False, trust_env=False)
 
     r = c.get("/exam/admin")
     check("控制台页面可访问", r.status_code == 200 and "监考控制台" in r.text, r.status_code)
@@ -155,7 +156,7 @@ def main() -> int:
             [{"id": "ai-port-11434", "text": "本机 11434 有 AI 服务"}]), "hb_seq": hb})
     check("告警上报(双重编码兼容)", r.status_code == 200, r.status_code)
 
-    a = httpx.Client(base_url="http://127.0.0.1:%d" % gw, timeout=15, follow_redirects=False)
+    a = httpx.Client(base_url="http://127.0.0.1:%d" % gw, timeout=15, follow_redirects=False, trust_env=False)
     r = a.post("/exam/admin/login", data={"password": "smoke-pass"})
     check("控制台登录", r.status_code == 200, r.status_code)
     r = a.get("/d/system/contest/1")

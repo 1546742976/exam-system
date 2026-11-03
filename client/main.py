@@ -78,6 +78,9 @@ class JsApi:
                                    uname, self._fingerprint,
                                    preset_key=getattr(self._reporter, "upload_key", "")):
                 self._capture.uploader_session = self._reporter.session
+            else:
+                self._logged_in = False
+                return {"error": "上传会话或设备指纹校验失败，请联系监考老师"}
         self._monitors.start()
         return {"success": True}
 
@@ -134,6 +137,7 @@ class JsApi:
 
     def logout(self):
         self._monitors.stop()
+        self._capture.stop_all()
         self._uploader.unbind()
         self._capture.uploader_session = None
         self._reporter.logout()
@@ -289,7 +293,8 @@ def main() -> int:
                 if not api._logged_in:
                     continue
                 url = (window.get_current_url() or "")
-                host_ok = ("localhost:%s" % cfg.port) in url or api._reporter.endpoint in url
+                from urllib.parse import urlsplit
+                host_ok = urlsplit(url).netloc in {"localhost:%s" % cfg.port, "127.0.0.1:%s" % cfg.port, api._reporter.endpoint}
                 if url and not host_ok:
                     log.warning("检测到窗口跳转: %s，强制拉回考试页", url)
                     api.gotoExam()
@@ -302,6 +307,9 @@ def main() -> int:
     finally:
         api._monitors.stop()
         api._capture.stop_all()
+        api._uploader.close()
+        api._reporter.logout()
+        server.should_exit = True
         shots.stop()
         log.info("客户端退出")
     return 0

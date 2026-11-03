@@ -169,17 +169,10 @@ def read_session(cfg: ServerConfig, token: str) -> dict:
     secret = cfg.session_secret or cfg.jwt_secret or "ckyf-session-fallback"
     try:
         return pyjwt.decode(token, secret, algorithms=["HS256"],
-                            options={"verify_aud": False})
+                            options={"verify_aud": False, "require": ["exp", "sub", "role"]})
     except Exception:
         pass
-    try:
-        if cfg.jwt_alg.upper() == "HS256":
-            return pyjwt.decode(token, cfg.jwt_secret, algorithms=["HS256"],
-                                options={"verify_aud": False})
-        return pyjwt.decode(token, _load_public_key(cfg), algorithms=["RS256"],
-                            options={"verify_aud": False})
-    except Exception:
-        return {}
+    return {}
 
 
 def _normalize_ip(value: str) -> str:
@@ -212,30 +205,10 @@ def build_app(cfg: ServerConfig, store: Store) -> FastAPI:
     upstream_client = httpx.AsyncClient(
         timeout=httpx.Timeout(60.0, connect=10.0),
         limits=httpx.Limits(max_connections=300, max_keepalive_connections=150),
-        follow_redirects=False)
+        follow_redirects=False, trust_env=False)
     login_sem = asyncio.Semaphore(max(1, int(cfg.login_concurrency)))
-    db_queue = asyncio.Queue(maxsize=10000)
-
-    async def _db_writer():
-        pending = []
-        while True:
-            try:
-                item = await asyncio.wait_for(db_queue.get(), timeout=0.2)
-                pending.append(item)
-            except asyncio.TimeoutError:
-                pass
-            if not pending:
-                continue
-            batch, pending = pending, []
-            try:
-                await asyncio.to_thread(_flush_db_batch, store, batch)
-            except Exception:
-                pass
-
     @app.on_event("startup")
     async def _warmup():
-        if cfg.async_db:
-            asyncio.create_task(_db_writer())
         try:
             await upstream_client.get(cfg.upstream + "/", timeout=5)
         except Exception:
@@ -243,6 +216,10 @@ def build_app(cfg: ServerConfig, store: Store) -> FastAPI:
 
     @app.on_event("shutdown")
     async def _close_client():
+        task = getattr(app.state, "watchdog", None)
+        if task:
+            task.cancel()
+            await asyncio.gather(task, return_exceptions=True)
         await upstream_client.aclose()
 
     # -------------------------------------------------- 登录（转发给 OJ）
@@ -274,10 +251,10 @@ def build_app(cfg: ServerConfig, store: Store) -> FastAPI:
             SESSIONS[uname] = {"key": key, "issued": int(time.time()), "ip": ip}
             out.headers["X-Exam-Upload-Key"] = key
             out.headers["X-Exam-Upload-Url"] = "/exam/upload"
-            _enqueue_db(db_queue, ("login_ok", uname, ip, "UA=" + ua))
+            store.touch_student(uname, ip, "")
+            store.log_event("login_ok", uname, ip, "UA=" + ua)
         else:
-            _enqueue_db(db_queue, ("login_fail", uname, ip,
-                                   "status=%d" % resp.status_code))
+            store.log_event("login_fail", uname, ip, "status=%d" % resp.status_code)
         return out
 
     # -------------------------------------------------- 考试入口
@@ -285,12 +262,14 @@ def build_app(cfg: ServerConfig, store: Store) -> FastAPI:
     @app.get("/exam")
     async def exam_entry(request: Request):
         sess = read_session(cfg, request.cookies.get(cfg.cookie_name, ""))
-        if not sess.get("sub"):
+        if not sess.get("sub") or sess.get("role") != "student":
             return HTMLResponse(_page(
                 "请通过监考客户端进入",
                 "未检测到有效登录状态。请启动监考客户端，在客户端里登录后会自动跳转到这里。"),
                 status_code=401)
         uname = sess["sub"]
+        if cfg.fingerprint_enforce and not SESSIONS.get(uname, {}).get("fp_ok"):
+            return JSONResponse({"detail": "fingerprint required"}, status_code=403)
         contest = _contest_id(request)
         token = make_session(cfg, {"sub": uname, "role": "exam", "contest": contest})
         target = cfg.contest_url.rstrip("/") + "/" + (contest or "")
@@ -305,11 +284,20 @@ def build_app(cfg: ServerConfig, store: Store) -> FastAPI:
     async def exam_alert(request: Request):
         sess = read_session(cfg, request.cookies.get(cfg.cookie_name, ""))
         ip = client_ip(request, cfg)
+        if not sess.get("sub") or sess.get("role") != "student":
+            return JSONResponse({"detail": "unauthorized"}, status_code=401)
         raw = await request.body()
         try:
             payload = json.loads(raw.decode("utf-8"))
         except Exception:
             return JSONResponse({"ok": False, "detail": "invalid json"}, status_code=400)
+        if not isinstance(payload, dict):
+            return JSONResponse({"detail": "object required"}, status_code=400)
+        try:
+            int(payload.get("hb_seq") or 0)
+            int(payload.get("client_time") or 0)
+        except (ValueError, TypeError):
+            return JSONResponse({"detail": "invalid sequence/time"}, status_code=400)
         alerts = payload.get("alerts")
         if isinstance(alerts, str):
             try:
@@ -320,8 +308,10 @@ def build_app(cfg: ServerConfig, store: Store) -> FastAPI:
             alerts = payload.get("alerts_list") or []
         if not isinstance(alerts, list):
             alerts = []
-        uname = sess.get("sub") or payload.get("uname") or "unknown"
-        if not sess.get("sub"):
+        if len(alerts) > 100 or any(not isinstance(x, dict) for x in alerts):
+            return JSONResponse({"detail": "invalid alerts"}, status_code=400)
+        uname = sess["sub"]
+        if not sess.get("sub") or sess.get("role") != "student":
             store.log_event("alert_no_session", uname, ip,
                             raw[:200].decode("utf-8", "ignore"))
         store.touch_student(uname, ip, payload.get("endpoint", ""))
@@ -339,13 +329,17 @@ def build_app(cfg: ServerConfig, store: Store) -> FastAPI:
     @app.get("/exam/session")
     async def exam_session(request: Request, fp: str = ""):
         sess = read_session(cfg, request.cookies.get(cfg.cookie_name, ""))
-        if not sess.get("sub"):
+        if not sess.get("sub") or sess.get("role") != "student":
             return JSONResponse({"detail": "unauthorized"}, status_code=401)
         uname = sess["sub"]
         key = secrets.token_urlsafe(32)
         SESSIONS[uname] = {"key": key, "issued": int(time.time()),
                            "ip": client_ip(request, cfg)}
         fp_ok = _check_fingerprint(cfg, store, uname, fp, client_ip(request, cfg))
+        if cfg.fingerprint_enforce and not fp_ok:
+            SESSIONS.pop(uname, None)
+            return JSONResponse({"detail": "fingerprint rejected"}, status_code=403)
+        SESSIONS[uname]["fp_ok"] = fp_ok
         store.log_event("session_issued", uname, client_ip(request, cfg),
                         "fp=%s ok=%s" % (fp[:12], fp_ok))
         return JSONResponse({"uname": uname, "upload_key": key,
@@ -361,15 +355,23 @@ def build_app(cfg: ServerConfig, store: Store) -> FastAPI:
         sess = read_session(cfg, request.cookies.get(cfg.cookie_name, ""))
         uname = sess.get("sub", "")
         ip = client_ip(request, cfg)
-        if not uname:
+        if not uname or sess.get("role") != "student":
             store.log_event("upload_no_session", "", ip, name)
             return JSONResponse({"detail": "unauthorized"}, status_code=401)
         info = SESSIONS.get(uname)
         signature = request.headers.get("x-exam-sig", "")
-        key = info["key"] if info else cfg.sign_key
-        body = await request.body()
-        if len(body) > cfg.upload_max_mb * 1024 * 1024:
-            return JSONResponse({"detail": "payload too large"}, status_code=413)
+        if not info:
+            return JSONResponse({"detail": "session expired; login again"}, status_code=401)
+        if cfg.fingerprint_enforce and not info.get("fp_ok"):
+            return JSONResponse({"detail": "fingerprint required"}, status_code=403)
+        if seq < 1 or kind not in ("ts", "frame"):
+            return JSONResponse({"detail": "invalid upload metadata"}, status_code=400)
+        key = info["key"]
+        body = bytearray()
+        async for chunk in request.stream():
+            body.extend(chunk)
+            if len(body) > cfg.upload_max_mb * 1024 * 1024:
+                return JSONResponse({"detail": "payload too large"}, status_code=413)
         expect = hmac.new(key.encode("utf-8"), digestmod=hashlib.sha256)
         expect.update(("%s|%d|" % (uname, seq)).encode("utf-8"))
         expect.update(body)
@@ -379,10 +381,10 @@ def build_app(cfg: ServerConfig, store: Store) -> FastAPI:
         digest = hashlib.sha256(body).hexdigest()
         safe_name = "".join(c for c in (name or "seg") if c.isalnum() or c in "-_.")[:80]
         day = time.strftime("%Y%m%d")
-        folder = UPLOAD_DIR / day / uname
+        folder = UPLOAD_DIR / day / hashlib.sha256(uname.encode("utf-8")).hexdigest()
         folder.mkdir(parents=True, exist_ok=True)
-        target = folder / ("%06d_%s" % (seq, safe_name))
-        target.write_bytes(body)
+        target = folder / ("%06d_%s_%s" % (seq, digest[:16], safe_name))
+        await asyncio.to_thread(target.write_bytes, body)
         store.record_upload(uname, seq, kind, safe_name, len(body), digest, str(target))
         return JSONResponse({"ok": True, "seq": seq, "sha256": digest})
 
@@ -428,7 +430,7 @@ def build_app(cfg: ServerConfig, store: Store) -> FastAPI:
     async def admin_token(request: Request, ip: str = "", ttl: int = 0):
         if not _require_admin(request):
             return JSONResponse({"detail": "unauthorized"}, status_code=401)
-        ttl = ttl or cfg.teacher_token_ttl
+        ttl = max(1, min(ttl or cfg.teacher_token_ttl, cfg.teacher_token_ttl))
         target_ip = _normalize_ip(ip)
         if ip and not target_ip:
             return JSONResponse({"detail": "非法 IP"}, status_code=400)
@@ -532,7 +534,7 @@ def build_app(cfg: ServerConfig, store: Store) -> FastAPI:
 
     @app.on_event("startup")
     async def _start_watchdog():
-        asyncio.create_task(_silence_watchdog())
+        app.state.watchdog = asyncio.create_task(_silence_watchdog())
 
     async def _silence_watchdog():
         while True:
@@ -554,28 +556,6 @@ def build_app(cfg: ServerConfig, store: Store) -> FastAPI:
 
 # ---------------------------------------------------------------- 辅助函数
 
-def _enqueue_db(queue, item) -> None:
-    try:
-        queue.put_nowait(item)
-    except Exception:
-        pass
-
-
-def _flush_db_batch(store, batch) -> None:
-    for item in batch:
-        try:
-            kind = item[0]
-            if kind == "login_ok":
-                _, uname, ip, detail = item
-                store.touch_student(uname, ip, "")
-                store.log_event("login_ok", uname, ip, detail)
-            elif kind == "login_fail":
-                _, uname, ip, detail = item
-                store.log_event("login_fail", uname, ip, detail)
-        except Exception:
-            continue
-
-
 def _parse_form(raw: bytes) -> dict:
     """解析 urlencoded（不依赖 python-multipart）。"""
     from urllib.parse import parse_qs
@@ -596,7 +576,7 @@ def _check_fingerprint(cfg: ServerConfig, store: Store, uname: str, fp: str, ip:
             allow = []
     if not allow:
         store.set_fingerprint(uname, fp, True)
-        return True
+        return not cfg.fingerprint_enforce
     ok = fp in allow
     store.set_fingerprint(uname, fp, ok)
     if not ok:
@@ -650,7 +630,7 @@ async def _forward(cfg: ServerConfig, request: Request, path: str, client):
     try:
         resp = await client.request(request.method, url, headers=headers,
                                     content=body,
-                                    params=dict(request.query_params))
+                                    params=request.query_params.multi_items())
     except Exception as exc:
         return HTMLResponse(_page("无法连接 OJ",
                                   "后端服务不可达：%s: %s" % (type(exc).__name__, exc)),

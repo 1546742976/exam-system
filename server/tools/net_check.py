@@ -1,6 +1,6 @@
 """考场局域网体检（NUC 上跑）。
 
-用法：python net_check.py --expect 10.20.0.0/24 --gw 10.20.0.1 --peers 10.20.0.101
+用法：python net_check.py --expect <实际热点网段/前缀> --gw 10.42.0.1 --peers <学生IP>
 """
 import argparse
 import ipaddress
@@ -64,12 +64,13 @@ def http_get(url, timeout=1.5):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--expect", default="10.20.0.0/24")
-    ap.add_argument("--gw", default="10.20.0.1")
+    ap.add_argument("--expect", required=True, help="NUC 实际热点网段（含前缀长度）")
+    ap.add_argument("--gw", default="10.42.0.1")
     ap.add_argument("--peers", default="")
     ap.add_argument("--gateway-port", type=int, default=8888)
     args = ap.parse_args()
 
+    R.clear()
     print("=" * 68)
     print("考场局域网体检")
     print("=" * 68)
@@ -77,7 +78,9 @@ def main():
     ip, mask = my_ip(net)
     print("\n[1] 本机：%s / %s" % (ip or "-", mask or "-"))
     check("在预期网段 %s" % args.expect, bool(ip) and ipaddress.ip_address(ip) in net, ip)
-    check("默认网关 %s 可达" % args.gw, tcp(args.gw, 80, 0.6) or tcp(args.gw, 443, 0.6))
+    check("NUC 热点地址", ip == args.gw, "%s / %s" % (ip, mask))
+    check("热点考试端口可达", tcp(args.gw, args.gateway_port, 1.0))
+    check("热点不暴露 HydroOJ", not tcp(args.gw, 8889, 1.0))
 
     print("\n[2] 考试网关服务")
     status, body = http_get("http://127.0.0.1:%d/exam/admin" % args.gateway_port)
@@ -88,15 +91,15 @@ def main():
 
     print("\n[3] 外网（断网考场应不通）")
     if tcp("223.5.5.5", 443, 1.2):
-        print("  [WARN] NUC 本机能上外网（教师管理网可保留）")
+        check("NUC 完全离线（IPv4 探针）", False)
         print("         学生机是否断网必须在学生机上调 net_check / curl 实测。")
     else:
-        print("  [ OK ] NUC 本机外网不通")
+        check("NUC 完全离线（IPv4 探针）", True)
 
     print("\n[4] 学生机 34519（教师抓图依赖）")
     peers = [p.strip() for p in args.peers.split(",") if p.strip()]
     if not peers:
-        print("     （用 --peers 10.20.0.101,10.20.0.102 指定）")
+        print("     （用 --peers <学生IP>,10.42.0.102 指定）")
     for p in peers:
         check("可访问 %s:34519" % p, tcp(p, 34519, 0.8))
 
