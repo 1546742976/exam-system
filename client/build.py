@@ -17,8 +17,12 @@ def main():
             break
     else:
         raise SystemExit('No usable Python; create .venv-build using Python 3.11 x64')
-    if mode == 'nuitka':
-        args = ['-m', 'nuitka', '--standalone', '--assume-yes-for-downloads', '--windows-console-mode=disable', '--include-data-dir=static=static', '--include-data-dir=keys=keys', '--include-data-file=config.json=config.json', '--include-package=av', '--include-package=cv2', '--include-package=mss', '--nofollow-import-to=tkinter', '--nofollow-import-to=unittest', '--output-dir=dist', '--company-name=Exam', '--product-name=ckyf_exam', '--file-version=3.0.1.0', 'main.py']
+    if mode in ('nuitka', 'onefile'):
+        args = ['-m', 'nuitka', '--standalone', '--assume-yes-for-downloads', '--windows-console-mode=disable', '--include-data-dir=static=static', '--include-data-dir=keys=keys', '--include-data-file=config.json=config.json', '--include-package=av', '--include-package=cv2', '--include-package=mss', '--nofollow-import-to=tkinter', '--nofollow-import-to=unittest', '--output-dir=dist', '--company-name=Exam', '--product-name=ckyf_exam', '--file-version=3.1.0.0', 'main.py']
+        if mode == 'onefile':
+            args[args.index('--standalone')] = '--onefile'
+            args.insert(-1, '--output-filename=CKYF-Exam-3.1.0-x64.exe')
+            args.insert(-1, '--onefile-tempdir-spec={CACHE_DIR}/CKYF/Exam/3.1.0')
     elif mode == 'pyinstaller':
         args = ['-m', 'PyInstaller', '--noconfirm', '--clean', '--name', 'ckyf_exam', '--onedir', '--windowed', '--add-data', 'static;static', '--add-data', 'keys;keys', '--add-data', 'config.json;.', '--collect-submodules', 'av', '--collect-submodules', 'cv2', 'main.py']
     else:

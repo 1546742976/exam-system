@@ -252,6 +252,9 @@ def main() -> int:
 
     code = _preflight(log)
     if code:
+        if os.name == "nt":
+            import ctypes
+            ctypes.windll.user32.MessageBoxW(None, "运行环境检查失败。请确认已安装 Microsoft Edge WebView2 Runtime。日志位于 %LOCALAPPDATA%\\CKYF\\Exam\\logs。", "考试客户端启动失败", 0x10)
         return code
 
     auth = TeacherAuth(cfg)
@@ -316,4 +319,12 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    if len(sys.argv) == 3 and sys.argv[1] == "--self-check":
+        from common import BASE_DIR, DATA_DIR
+        import av, cv2, mss, webview, jwt
+        cfg = load_config()
+        auth = TeacherAuth(cfg)
+        result = {"version": "3.1.0", "resources_ok": all((BASE_DIR / name).is_file() for name in ("config.json", "keys/public.pem", "static/index.html")), "public_key_loaded": bool(auth.public_key), "data_dir": str(DATA_DIR), "host_requirements": check_host_requirements()}
+        Path(sys.argv[2]).write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+        sys.exit(0 if result["resources_ok"] and result["public_key_loaded"] else 1)
     sys.exit(main())

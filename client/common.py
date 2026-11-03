@@ -16,6 +16,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 CONFIG_PATH = BASE_DIR / "config.json"
+DATA_DIR = Path(os.environ.get("LOCALAPPDATA", str(Path.home()))) / "CKYF" / "Exam"
 
 DEFAULT_SENSITIVE = [
     # 远程控制 / 屏幕共享
@@ -126,7 +127,7 @@ def load_config() -> Config:
 def media_root(cfg: Config) -> Path:
     p = Path(cfg.media_dir)
     if not p.is_absolute():
-        p = Path.cwd() / p
+        p = DATA_DIR / p
     p.mkdir(parents=True, exist_ok=True)
     return p
 
@@ -134,7 +135,7 @@ def media_root(cfg: Config) -> Path:
 def log_dir(cfg: Config) -> Path:
     p = Path(cfg.log_dir)
     if not p.is_absolute():
-        p = Path.cwd() / p
+        p = DATA_DIR / p
     p.mkdir(parents=True, exist_ok=True)
     return p
 
