@@ -1,0 +1,18 @@
+import { readFileSync, writeFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { createRequire } from 'node:module';
+import path from 'node:path';
+const require = createRequire(path.resolve(process.argv[2] ?? 'package.json'));
+const filename = require.resolve('superagent-proxy');
+const pkg = JSON.parse(readFileSync(path.join(path.dirname(filename), 'package.json')));
+if (pkg.version !== '3.0.0') throw Error('Unexpected superagent-proxy version');
+const hash = s => createHash('sha256').update(s).digest('hex');
+const beforeHash = '2cb1d1cdfb2e90426061009486316fd297a7de78b712ec6780b3cc0f69fe542c';
+const content = readFileSync(filename, 'utf8');
+const old = 'var agent = proxyAgent(uri);';
+const replacement = 'var agent = new proxyAgent.ProxyAgent({ getProxyForUrl: function () { return uri; } });';
+const original = content.replace(replacement, old);
+if (hash(original) !== beforeHash) throw Error('Source checksum mismatch; refusing patch');
+const patched = original.replace(old, replacement);
+if (content !== patched) writeFileSync(filename, patched);
+console.log(JSON.stringify({package:'superagent-proxy',version:pkg.version,before:beforeHash,after:hash(patched),status:content===patched?'already patched':'patched'}));

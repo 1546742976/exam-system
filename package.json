@@ -9,7 +9,8 @@
     "simulate": "tsx tools/simulate.ts",
     "build:frontend": "esbuild addon/frontend/monitor.ts --bundle --outfile=addon/public/exam-monitor.js",
     "test:hydro": "node tools/hydro-integration.cjs",
-    "smoke:hydro": "node tools/hydro-smoke.cjs"
+    "smoke:hydro": "node tools/hydro-smoke.cjs",
+    "patch:dependencies": "node tools/patch-dependencies.mjs"
   },
   "dependencies": {
     "hydrooj": "5.1.0"
@@ -21,6 +22,18 @@
     "selfsigned": "2.4.1",
     "tsx": "4.20.6",
     "typescript": "5.9.3",
-    "vitest": "4.1.11"
+    "vitest": "4.1.12"
+  },
+  "overrides": {
+    "tar": "7.5.21",
+    "adm-zip": "0.6.1",
+    "@simplewebauthn/server": "13.3.2",
+    "koa-proxies": {
+      "uuid": "11.1.1"
+    },
+    "superagent-proxy": {
+      "proxy-agent": "6.5.0"
+    },
+    "basic-ftp": "6.2.1"
   }
 }

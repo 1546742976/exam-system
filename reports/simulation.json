@@ -12,9 +12,9 @@
   "delayP95Ms": 61989,
   "delayMaxMs": 84850,
   "simulationProcessMemory": {
-    "rss": 144965632,
-    "heapTotal": 50536448,
-    "heapUsed": 22622664,
+    "rss": 143441920,
+    "heapTotal": 50012160,
+    "heapUsed": 28700024,
     "external": 2506911,
     "arrayBuffers": 46973
   }
