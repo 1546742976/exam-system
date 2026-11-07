@@ -1,1 +1,0 @@
-module.numpy.lib._index_tricks_impl.c

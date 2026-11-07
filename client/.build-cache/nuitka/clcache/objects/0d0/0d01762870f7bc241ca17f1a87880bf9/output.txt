@@ -1,1 +1,0 @@
-module.numpy._typing._nbit_base.c

@@ -1,1 +1,0 @@
-module.pydantic._internal._namespace_utils.c

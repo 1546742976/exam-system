@@ -1,1 +1,0 @@
-module.PIL.GimpPaletteFile.c

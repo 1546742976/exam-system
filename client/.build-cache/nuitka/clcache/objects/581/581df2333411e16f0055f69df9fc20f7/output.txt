@@ -1,1 +1,0 @@
-module.numpy.polynomial.hermite.c

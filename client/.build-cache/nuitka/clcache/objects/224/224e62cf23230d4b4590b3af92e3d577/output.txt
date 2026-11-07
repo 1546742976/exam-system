@@ -1,1 +1,0 @@
-module.idna.uts46data.c

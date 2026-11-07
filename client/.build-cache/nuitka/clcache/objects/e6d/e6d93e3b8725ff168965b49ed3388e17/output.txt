@@ -1,1 +1,0 @@
-module.numpy._typing._array_like.c

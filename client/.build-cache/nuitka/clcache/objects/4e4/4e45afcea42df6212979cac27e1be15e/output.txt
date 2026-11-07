@@ -1,1 +1,0 @@
-module.numpy.lib._type_check_impl.c

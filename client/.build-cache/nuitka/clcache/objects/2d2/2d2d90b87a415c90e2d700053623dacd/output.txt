@@ -1,1 +1,0 @@
-module.numpy.lib._stride_tricks_impl.c

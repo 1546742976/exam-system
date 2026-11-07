@@ -1,1 +1,0 @@
-module.comtypes.automation.c

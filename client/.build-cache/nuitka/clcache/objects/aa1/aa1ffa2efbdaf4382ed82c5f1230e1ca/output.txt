@@ -1,1 +1,0 @@
-module.numpy.__config__.c

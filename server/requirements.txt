@@ -1,7 +1,0 @@
-# 考试网关及校验脚本依赖（Python 3.10+）
-fastapi>=0.110
-uvicorn>=0.27
-httpx>=0.27
-PyJWT>=2.8
-cryptography>=42.0
-psutil>=5.9

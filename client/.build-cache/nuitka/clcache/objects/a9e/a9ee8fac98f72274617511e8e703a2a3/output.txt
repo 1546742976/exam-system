@@ -1,1 +1,0 @@
-module.pydantic._internal._mock_val_ser.c
