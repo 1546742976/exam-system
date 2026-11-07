@@ -1,0 +1,731 @@
+/*
+ * LinuxCoreFunctions.cpp - implementation of LinuxCoreFunctions class
+ *
+ * Copyright (c) 2017-2026 Tobias Junghans <tobydox@veyon.io>
+ *
+ * This file is part of Veyon - https://veyon.io
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public
+ * License as published by the Free Software Foundation; either
+ * version 2 of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public
+ * License along with this program (see COPYING); if not, write to the
+ * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ * Boston, MA 02111-1307, USA.
+ *
+ */
+
+#include <QCoreApplication>
+#include <QElapsedTimer>
+#include <QFileInfo>
+#include <QDBusConnection>
+#include <QDBusMessage>
+#include <QDBusObjectPath>
+#include <QDBusPendingCall>
+#include <QProcess>
+#include <QProcessEnvironment>
+#include <QScreen>
+#include <QSocketNotifier>
+#include <QStandardPaths>
+#include <QWidget>
+
+#include <unistd.h>
+#include <grp.h>
+#ifdef HAVE_LIBPROCPS
+#include <proc/readproc.h>
+#endif
+
+#include "LinuxCoreFunctions.h"
+#include "LinuxDesktopIntegration.h"
+#include "LinuxUserFunctions.h"
+#include "PlatformUserFunctions.h"
+#include "ProcessHelper.h"
+#include "StandardInputReader.h"
+
+#include <X11/XKBlib.h>
+#include <X11/extensions/dpms.h>
+
+
+static QString systemctlPath()
+{
+	static const auto DefaultSystemctlPath = QStringLiteral("/usr/bin/systemctl");
+	static const auto LegacySystemctlPath = QStringLiteral("/bin/systemctl");
+
+	if (QFile::exists(DefaultSystemctlPath))
+	{
+		return DefaultSystemctlPath;
+	}
+
+	if (QFile::exists(LegacySystemctlPath))
+	{
+		return LegacySystemctlPath;
+	}
+
+	return {};
+}
+
+
+LinuxCoreFunctions::LinuxCoreFunctions() :
+	m_isWaylandSession(qEnvironmentVariableIsSet("WAYLAND_DISPLAY"))
+{
+}
+
+
+
+bool LinuxCoreFunctions::prepareSessionBusAccess()
+{
+	const auto currentUser = VeyonCore::platform().userFunctions().queryCurrentUserProperty(PlatformUserFunctions::UserProperty::LoginName);
+	const auto uid = LinuxUserFunctions::userIdFromName(currentUser);
+	if (uid > 0)
+	{
+		if (seteuid(uid) == 0)
+		{
+			return true;
+		}
+
+		vWarning() << "could not set effective UID - DBus calls on the session bus likely will fail";
+	}
+	else
+	{
+		vWarning() << "could not determine UID of current user - DBus calls on the session bus likely will fail";
+	}
+
+	return false;
+}
+
+
+
+bool LinuxCoreFunctions::applyConfiguration()
+{
+	return true;
+}
+
+
+
+void LinuxCoreFunctions::initNativeLoggingSystem( const QString& appName )
+{
+	Q_UNUSED(appName)
+}
+
+
+
+void LinuxCoreFunctions::writeToNativeLoggingSystem( const QString& message, Logger::LogLevel loglevel )
+{
+	Q_UNUSED(message)
+	Q_UNUSED(loglevel)
+}
+
+
+
+StandardInputReader* LinuxCoreFunctions::createStandardInputReader(QObject* parent)
+{
+	auto reader = new StandardInputReader(parent);
+
+	auto notifier = new QSocketNotifier(STDIN_FILENO, QSocketNotifier::Read, reader);
+	QObject::connect(notifier, &QSocketNotifier::activated,
+					 reader, [reader]() {
+		reader->lineRead(QTextStream(stdin).readLine());
+	});
+
+	return reader;
+}
+
+
+
+void LinuxCoreFunctions::reboot()
+{
+	if( systemdLoginManager()->call( QStringLiteral("Reboot"), false ).type() != QDBusMessage::ReplyMessage &&
+		consoleKitManager()->call( QStringLiteral("Restart") ).type() != QDBusMessage::ReplyMessage )
+	{
+		prepareSessionBusAccess();
+
+		kdeSessionManager()->asyncCall( QStringLiteral("logout"),
+										LinuxDesktopIntegration::KDE::ShutdownConfirmNo,
+										LinuxDesktopIntegration::KDE::ShutdownTypeReboot,
+										LinuxDesktopIntegration::KDE::ShutdownModeForceNow );
+		gnomeSessionManager()->asyncCall( QStringLiteral("RequestReboot") );
+		mateSessionManager()->asyncCall( QStringLiteral("RequestReboot") );
+		xfcePowerManager()->asyncCall( QStringLiteral("Reboot") );
+	}
+}
+
+
+
+void LinuxCoreFunctions::powerDown( bool installUpdates )
+{
+	Q_UNUSED(installUpdates)
+
+	if( systemdLoginManager()->call( QStringLiteral("PowerOff"), false ).type() != QDBusMessage::ReplyMessage &&
+		consoleKitManager()->call( QStringLiteral("Stop") ).type() != QDBusMessage::ReplyMessage )
+	{
+		prepareSessionBusAccess();
+
+		kdeSessionManager()->asyncCall( QStringLiteral("logout"),
+										LinuxDesktopIntegration::KDE::ShutdownConfirmNo,
+										LinuxDesktopIntegration::KDE::ShutdownTypeHalt,
+										LinuxDesktopIntegration::KDE::ShutdownModeForceNow );
+		gnomeSessionManager()->asyncCall( QStringLiteral("RequestShutdown") );
+		mateSessionManager()->asyncCall( QStringLiteral("RequestShutdown") );
+		xfcePowerManager()->asyncCall( QStringLiteral("Shutdown") );
+	}
+}
+
+
+
+void LinuxCoreFunctions::raiseWindow( QWidget* widget, bool stayOnTop )
+{
+	widget->activateWindow();
+	widget->raise();
+
+	if (stayOnTop)
+	{
+		const auto isVisible = widget->isVisible();
+		const auto isFullscreen = widget->isFullScreen();
+
+		widget->setWindowFlag(Qt::WindowStaysOnTopHint, true);
+
+		if (isFullscreen)
+		{
+			widget->showFullScreen();
+		}
+		else if (isVisible)
+		{
+			widget->show();
+		}
+	}
+}
+
+
+void LinuxCoreFunctions::disableScreenSaver()
+{
+	// On Wayland use DBus-based inhibition
+	if (m_isWaylandSession)
+	{
+		disableScreenSaverWayland();
+		return;
+	}
+
+	auto display = XOpenDisplay( nullptr );
+
+	// query and disable screen saver
+	int interval;
+	int allowExposures;
+	XGetScreenSaver( display, &m_screenSaverTimeout, &interval, &m_screenSaverPreferBlanking, &allowExposures );
+	XSetScreenSaver( display, 0, interval, 0, allowExposures );
+
+	// query and disable DPMS
+	int dummy;
+	if( DPMSQueryExtension( display, &dummy, &dummy ) )
+	{
+		CARD16 powerLevel;
+		BOOL state;
+		if( DPMSInfo( display, &powerLevel, &state ) && state )
+		{
+			m_dpmsEnabled = true;
+			DPMSDisable( display );
+		}
+		else
+		{
+			m_dpmsEnabled = false;
+		}
+
+		DPMSGetTimeouts( display, &m_dpmsStandbyTimeout, &m_dpmsSuspendTimeout, &m_dpmsOffTimeout );
+		DPMSSetTimeouts( display, 0, 0, 0 );
+	}
+	else if( qEnvironmentVariableIsSet("XRDP_SESSION") == false )
+	{
+		vWarning() << "DPMS extension not supported!";
+	}
+
+	XFlush( display );
+	XCloseDisplay( display );
+}
+
+
+
+void LinuxCoreFunctions::restoreScreenSaverSettings()
+{
+	// On Wayland use DBus-based restoration
+	if (m_isWaylandSession)
+	{
+		restoreScreenSaverSettingsWayland();
+		return;
+	}
+
+	auto display = XOpenDisplay( nullptr );
+
+	// restore screensaver settings
+	int timeout;
+	int interval;
+	int preferBlanking;
+	int allowExposures;
+	XGetScreenSaver( display, &timeout, &interval, &preferBlanking, &allowExposures );
+	XSetScreenSaver( display, m_screenSaverTimeout, interval, m_screenSaverPreferBlanking, allowExposures );
+
+	// restore DPMS settings
+	int dummy;
+	if( DPMSQueryExtension( display, &dummy, &dummy ) )
+	{
+		if( m_dpmsEnabled )
+		{
+			DPMSEnable( display );
+		}
+
+		DPMSSetTimeouts( display, m_dpmsStandbyTimeout, m_dpmsSuspendTimeout, m_dpmsOffTimeout );
+	}
+
+	XFlush( display );
+	XCloseDisplay( display );
+}
+
+
+
+void LinuxCoreFunctions::disableScreenSaverWayland()
+{
+	// Try org.freedesktop.portal.Inhibit first (xdg-desktop-portal, works on all DEs)
+	const auto appName = QCoreApplication::applicationName();
+
+	QDBusMessage inhibitPortal = QDBusMessage::createMethodCall(
+		QStringLiteral("org.freedesktop.portal.Desktop"),
+		QStringLiteral("/org/freedesktop/portal/desktop"),
+		QStringLiteral("org.freedesktop.portal.Inhibit"),
+		QStringLiteral("Inhibit"));
+	inhibitPortal.setArguments({
+		QVariant::fromValue(QDBusObjectPath(QStringLiteral("/"))),
+		QVariant::fromValue(appName),
+		QVariant::fromValue(QStringLiteral("remote-desktop")),
+		QVariant::fromValue(QVariantMap{})
+	});
+	QDBusMessage reply = QDBusConnection::sessionBus().call(inhibitPortal, QDBus::BlockWithGui, 2000);
+
+	if (reply.type() == QDBusMessage::ReplyMessage)
+	{
+		m_waylandInhibitCookie = reply.arguments().value(0).toUInt();
+		vDebug() << "Screen saver inhibited via portal, cookie:" << m_waylandInhibitCookie;
+		return;
+	}
+
+	vDebug() << "Portal Inhibit not available, trying org.freedesktop.ScreenSaver";
+
+	// Fallback: org.freedesktop.ScreenSaver (older DEs)
+	QDBusMessage inhibitFreeDesktop = QDBusMessage::createMethodCall(
+		QStringLiteral("org.freedesktop.ScreenSaver"),
+		QStringLiteral("/ScreenSaver"),
+		QStringLiteral("org.freedesktop.ScreenSaver"),
+		QStringLiteral("Inhibit"));
+	inhibitFreeDesktop.setArguments({
+		QVariant::fromValue(appName),
+		QVariant::fromValue(QStringLiteral("Veyon remote desktop session"))
+	});
+	QDBusMessage reply2 = QDBusConnection::sessionBus().call(inhibitFreeDesktop, QDBus::BlockWithGui, 2000);
+
+	if (reply2.type() == QDBusMessage::ReplyMessage)
+	{
+		m_waylandInhibitCookie = reply2.arguments().value(0).toUInt();
+		vDebug() << "Screen saver inhibited via org.freedesktop.ScreenSaver, cookie:" << m_waylandInhibitCookie;
+		return;
+	}
+
+	vWarning() << "Could not inhibit screen saver on Wayland - no portal or DBus interface available";
+}
+
+
+
+void LinuxCoreFunctions::restoreScreenSaverSettingsWayland()
+{
+	if (m_waylandInhibitCookie == 0)
+	{
+		return;
+	}
+
+	// Try portal UnInhibit first
+	QDBusMessage unInhibitPortal = QDBusMessage::createMethodCall(
+		QStringLiteral("org.freedesktop.portal.Desktop"),
+		QStringLiteral("/org/freedesktop/portal/desktop"),
+		QStringLiteral("org.freedesktop.portal.Inhibit"),
+		QStringLiteral("UnInhibit"));
+	unInhibitPortal.setArguments({
+		QVariant::fromValue(m_waylandInhibitCookie)
+	});
+	QDBusMessage reply = QDBusConnection::sessionBus().call(unInhibitPortal, QDBus::BlockWithGui, 2000);
+
+	if (reply.type() == QDBusMessage::ReplyMessage || reply.type() == QDBusMessage::ErrorMessage)
+	{
+		vDebug() << "Screen saver restored via portal";
+		m_waylandInhibitCookie = 0;
+		return;
+	}
+
+	// Fallback: org.freedesktop.ScreenSaver UnInhibit
+	QDBusMessage unInhibitFreeDesktop = QDBusMessage::createMethodCall(
+		QStringLiteral("org.freedesktop.ScreenSaver"),
+		QStringLiteral("/ScreenSaver"),
+		QStringLiteral("org.freedesktop.ScreenSaver"),
+		QStringLiteral("UnInhibit"));
+	unInhibitFreeDesktop.setArguments({
+		QVariant::fromValue(m_waylandInhibitCookie)
+	});
+	QDBusConnection::sessionBus().call(unInhibitFreeDesktop, QDBus::BlockWithGui, 2000);
+
+	m_waylandInhibitCookie = 0;
+	vDebug() << "Screen saver restored via org.freedesktop.ScreenSaver";
+}
+
+
+
+void LinuxCoreFunctions::setSystemUiState( bool enabled )
+{
+	Q_UNUSED(enabled)
+}
+
+
+
+QString LinuxCoreFunctions::activeDesktopName()
+{
+	return QString();
+}
+
+
+
+bool LinuxCoreFunctions::isRunningAsAdmin() const
+{
+	return getuid() == 0 || geteuid() == 0;
+}
+
+
+
+bool LinuxCoreFunctions::runProgramAsAdmin( const QString& program, const QStringList& parameters )
+{
+	const auto commandLine = QStringList( program ) + parameters;
+
+	return QProcess::execute( QStringLiteral("pkexec"), commandLine ) == 0;
+}
+
+
+
+bool LinuxCoreFunctions::runProgramAsUser(const QString& program, const QStringList& parameters,
+										  const QString& username, const QString& desktop,
+										  const QByteArray& stdInData)
+{
+	Q_UNUSED(desktop);
+
+	const auto uid = LinuxUserFunctions::userIdFromName( username );
+	if (uid == LinuxUserFunctions::InvalidUserId)
+	{
+		vCritical() << "failed to resolve uid from username" << username;
+		return false;
+	}
+
+	const auto gid = LinuxUserFunctions::userGroupIdFromName( username );
+	if (gid == LinuxUserFunctions::InvalidGroupId)
+	{
+		vCritical() << "failed to resolve gid from username" << username;
+		return false;
+	}
+
+	const auto adjustChildProcessPrivileges = [uid, gid]()
+	{
+		const auto isRoot = getuid() == 0 || geteuid() == 0;
+		if (setgroups(0, nullptr) != 0 && isRoot)
+		{
+			qFatal( "Could not drop all supplementary groups for child process!" );
+		}
+		if (setgid(gid) != 0 && isRoot)
+		{
+			qFatal( "Could not set GID for child process!" );
+		}
+		if (setuid(uid) != 0 && isRoot)
+		{
+			qFatal( "Could not set UID for child process!" );
+		}
+	};
+
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+	auto process = new QProcess;
+	process->setChildProcessModifier(adjustChildProcessPrivileges);
+#else
+	class UserProcess : public QProcess // clazy:exclude=missing-qobject-macro
+	{
+	public:
+		explicit UserProcess(const std::function<void()>& modifier, QObject* parent = nullptr) :
+			QProcess( parent ),
+			m_modifier(modifier)
+		{
+		}
+
+		void setupChildProcess() override
+		{
+			m_modifier();
+		}
+
+	private:
+		const std::function<void ()>& m_modifier;
+	};
+
+	auto process = new UserProcess(adjustChildProcessPrivileges);
+#endif
+
+	if (stdInData.isEmpty() == false)
+	{
+		QObject::connect(process, &QProcess::started, [=]() {
+			process->write(stdInData);
+			process->closeWriteChannel();
+		});
+	}
+
+	QObject::connect( process, QOverload<int, QProcess::ExitStatus>::of( &QProcess::finished ), &QProcess::deleteLater );
+	process->start( program, parameters );
+
+	return true;
+}
+
+
+
+QString LinuxCoreFunctions::genericUrlHandler() const
+{
+	return QStringLiteral( "xdg-open" );
+}
+
+
+
+QString LinuxCoreFunctions::queryDisplayDeviceName(const QScreen& screen) const
+{
+	QStringList nameParts;
+	nameParts.append(screen.manufacturer());
+	nameParts.append(screen.model());
+	nameParts.removeAll({});
+	if(nameParts.isEmpty())
+	{
+		return screen.name();
+	}
+
+	return QStringLiteral("%1 [%2]").arg(nameParts.join(QLatin1Char(' ')), screen.name());
+}
+
+
+
+QString LinuxCoreFunctions::getApplicationName(ProcessId processId) const
+{
+	QFile file(QStringLiteral("/proc/%1/comm").arg(processId));
+	if (file.open(QFile::ReadOnly))
+	{
+		return QString::fromUtf8(file.readAll().trimmed());
+	}
+
+	return {};
+}
+
+
+
+/*! Returns DBus interface for session manager of KDE desktop */
+LinuxCoreFunctions::DBusInterfacePointer LinuxCoreFunctions::kdeSessionManager()
+{
+	return DBusInterfacePointer::create( QStringLiteral("org.kde.ksmserver"),
+										 QStringLiteral("/KSMServer"),
+										 QStringLiteral("org.kde.KSMServerInterface"),
+										 QDBusConnection::sessionBus() );
+}
+
+
+
+/*! Returns DBus interface for session manager of Gnome desktop */
+LinuxCoreFunctions::DBusInterfacePointer LinuxCoreFunctions::gnomeSessionManager()
+{
+	return DBusInterfacePointer::create( QStringLiteral("org.gnome.SessionManager"),
+										 QStringLiteral("/org/gnome/SessionManager"),
+										 QStringLiteral("org.gnome.SessionManager"),
+										 QDBusConnection::sessionBus() );
+}
+
+
+
+/*! Returns DBus interface for session manager of Mate desktop */
+LinuxCoreFunctions::DBusInterfacePointer LinuxCoreFunctions::mateSessionManager()
+{
+	return DBusInterfacePointer::create( QStringLiteral("org.mate.SessionManager"),
+										 QStringLiteral("/org/mate/SessionManager"),
+										 QStringLiteral("org.mate.SessionManager"),
+										 QDBusConnection::sessionBus() );
+}
+
+
+
+/*! Returns DBus interface for Xfce/LXDE power manager */
+LinuxCoreFunctions::DBusInterfacePointer LinuxCoreFunctions::xfcePowerManager()
+{
+	return DBusInterfacePointer::create( QStringLiteral("org.freedesktop.PowerManagement"),
+										 QStringLiteral("/org/freedesktop/PowerManagement"),
+										 QStringLiteral("org.freedesktop.PowerManagement"),
+										 QDBusConnection::sessionBus() );
+}
+
+
+
+/*! Returns DBus interface for systemd login manager */
+LinuxCoreFunctions::DBusInterfacePointer LinuxCoreFunctions::systemdLoginManager()
+{
+	return DBusInterfacePointer::create( QStringLiteral("org.freedesktop.login1"),
+										 QStringLiteral("/org/freedesktop/login1"),
+										 QStringLiteral("org.freedesktop.login1.Manager"),
+										 QDBusConnection::systemBus() );
+}
+
+
+
+/*! Returns DBus interface for ConsoleKit manager */
+LinuxCoreFunctions::DBusInterfacePointer LinuxCoreFunctions::consoleKitManager()
+{
+	return DBusInterfacePointer::create( QStringLiteral("org.freedesktop.ConsoleKit"),
+										 QStringLiteral("/org/freedesktop/ConsoleKit/Manager"),
+										 QStringLiteral("org.freedesktop.ConsoleKit.Manager"),
+										 QDBusConnection::systemBus() );
+}
+
+
+
+bool LinuxCoreFunctions::isSystemdManaged()
+{
+	if (QFile::exists(QStringLiteral("/sbin/systemd")) == false &&
+		QFile::exists(QStringLiteral("/usr/sbin/systemd")) == false &&
+		QFile::exists(QStringLiteral("/lib/systemd/systemd")) == false)
+	{
+		return false;
+	}
+
+	const auto status = ProcessHelper(::systemctlPath(), {QStringLiteral("is-system-running")}).runAndReadAll().trimmed();
+	return status.isEmpty() == false && status != "offline";
+}
+
+
+
+int LinuxCoreFunctions::systemctl( const QStringList& arguments )
+{
+	QProcess process;
+	process.start(::systemctlPath(),
+				  QStringList({QStringLiteral("--no-pager"), QStringLiteral("-q")}) + arguments);
+
+	if( process.waitForFinished() && process.exitStatus() == QProcess::NormalExit )
+	{
+		return process.exitCode();
+	}
+
+	return -1;
+}
+
+
+
+void LinuxCoreFunctions::restartDisplayManagers()
+{
+	for( const auto& displayManager : {
+		 QStringLiteral("gdm"),
+		 QStringLiteral("lightdm"),
+		 QStringLiteral("lxdm"),
+		 QStringLiteral("nodm"),
+		 QStringLiteral("sddm"),
+		 QStringLiteral("wdm"),
+		 QStringLiteral("xdm") } )
+	{
+		systemctl( { QStringLiteral("restart"), displayManager } );
+	}
+}
+
+
+
+#ifdef HAVE_LIBPROCPS
+void LinuxCoreFunctions::forEachChildProcess( const std::function<bool(proc_t*)>& visitor,
+											 int parentPid, int flags, bool visitParent )
+{
+	QProcessEnvironment sessionEnv;
+
+	const auto proc = openproc( flags | PROC_FILLSTAT /* required for proc_t::ppid */ );
+	proc_t* procInfo = nullptr;
+
+	QList<int> ppids;
+
+	while( ( procInfo = readproc( proc, nullptr ) ) )
+	{
+		if (procInfo->tgid == parentPid)
+		{
+			if (visitParent == false || visitor(procInfo))
+			{
+				ppids.append(procInfo->tgid);
+			}
+		}
+		else if( ppids.contains( procInfo->ppid ) && visitor( procInfo ) )
+		{
+			ppids.append(procInfo->tgid);
+		}
+
+		freeproc( procInfo );
+	}
+
+	closeproc( proc );
+}
+#elif defined(HAVE_LIBPROC2)
+void LinuxCoreFunctions::forEachChildProcess(const std::function<bool(const pids_stack*)>& visitor,
+											 int parentPid, const std::vector<pids_item>& items, bool visitParent)
+{
+	QProcessEnvironment sessionEnv;
+
+	pids_info* info = nullptr;
+	pids_stack* stack;
+	QList<int> ppids;
+
+	std::vector<pids_item> allItems{PIDS_ID_PID, PIDS_ID_PPID};
+	static constexpr auto PidItemIndex = 0;
+	static constexpr auto PPidItemIndex = 1;
+
+	allItems.insert(allItems.end(), items.cbegin(), items.cend());
+
+	if (procps_pids_new(&info, allItems.data(), allItems.size()) < 0)
+	{
+		return;
+	}
+
+	while ((stack = procps_pids_get(info, PIDS_FETCH_TASKS_ONLY)))
+	{
+		const auto currentPid = PIDS_VAL(PidItemIndex, s_int, stack);
+		const auto currentPPid = PIDS_VAL(PPidItemIndex, s_int, stack);
+
+		if (currentPid == parentPid)
+		{
+			if (visitParent == false || visitor(stack))
+			{
+				ppids.append(currentPid);
+			}
+		}
+		else if (ppids.contains(currentPPid) && visitor(stack))
+		{
+			ppids.append(currentPid);
+		}
+	}
+
+	procps_pids_unref(&info);
+}
+#endif
+
+
+bool LinuxCoreFunctions::waitForProcess( qint64 pid, int timeout, int sleepInterval )
+{
+	QElapsedTimer timeoutTimer;
+	timeoutTimer.start();
+
+	while( QFileInfo::exists( QStringLiteral("/proc/%1").arg( pid ) ) )
+	{
+		if( timeoutTimer.elapsed() >= timeout )
+		{
+			return false;
+		}
+
+		QThread::msleep( static_cast<uint64_t>( sleepInterval ) );
+	}
+
+	return true;
+}

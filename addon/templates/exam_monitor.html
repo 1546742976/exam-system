@@ -1,0 +1,10 @@
+{% extends "layout/basic.html" %}
+{% block content %}
+<section class="section"><div class="section__body">
+<h1>考试监考</h1><p>随机计划间隔 30～90 秒；限流时可能延迟。图片仅在展开时读取。</p>
+<textarea id="mapping" placeholder='[{"studentId":2,"deviceId":"seat01"}]'></textarea>
+<button data-action="import">导入映射</button><button data-action="start">开始监考</button><button data-action="stop">停止监考</button>
+<p id="message" role="status"></p><div id="monitor-list"></div><div id="monitor-history"></div>
+<script src="/exam-monitor.js" defer></script>
+</div></section>
+{% endblock %}

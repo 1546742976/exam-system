@@ -1,0 +1,65 @@
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	 xmlns="http://usefulinc.com/ns/doap#">
+
+	 <name>LibFakeKey</name>
+	 <shortname>libfakekey</shortname>
+	 <created>2007-01-02</created>
+
+	 <shortdesc xml:lang="en">LibFakeKey is a library for simulating key press events under X11.</shortdesc>
+
+	 <description xml:lang="en"> 
+
+         LibFakeKey is a library for simulating key press events under X11.
+
+	 It is used by matchbox-keyboard and matchbox-stroke.
+
+	</description>
+
+	<homepage rdf:resource="http://matchbox-project.org/" />
+        <download-page rdf:resource="http://matchbox-project.org/sources/" />
+	<license rdf:resource="http://usefulinc.com/doap/licenses/lgpl" />
+
+        <bug-database rdf:resource="http://bugzilla.o-hand.com/enter_bug.cgi?product=matchbox-keyboard"/>
+
+        <os>linux</os>
+        <programming-language>C</programming-language>
+        <mailing-list rdf:resource="mailto:matchbox+subscribe@o-hand.com" />
+
+        <category rdf:resource="http://labs.o-hand.com/doap/category/embedded"/>
+        <category rdf:resource="http://labs.o-hand.com/doap/category/x11"/>
+        <category rdf:resource="http://labs.o-hand.com/doap/category/matchbox"/>
+        <category rdf:resource="http://labs.o-hand.com/doap/category/library"/>
+
+	<maintainer>
+		<foaf:Person>
+			<foaf:name>Matthew Allum</foaf:name>
+			<foaf:mbox rdf:resource="mailto:mallum@o-hand.com"/>
+		</foaf:Person>
+	</maintainer>
+
+	<author>
+		<foaf:Person>
+			<foaf:name>Matthew Allum</foaf:name>
+                        <foaf:mbox rdf:resource="mailto:mallum@o-hand.com"/>
+		</foaf:Person>
+	</author>
+
+        <repository>
+		<SVNRepository>
+			<browse rdf:resource="http://svn.o-hand.com/view/matchbox/trunk/libfakekey"/>
+			<location rdf:resource="http://svn.o-hand.com/repos/matchbox/trunk/libfakekey"/>
+		</SVNRepository>
+        </repository>
+
+	<release>
+		<Version>
+			<name>libfakekey-0.1</name>
+			<created>2006-08-04</created>
+			<revision>0.1</revision>
+			<file-release rdf:resource="http://projects.o-hand.com/matchbox/sources/libfakekey/0.1/libfakekey-0.1.tar.gz" />
+		</Version>
+	</release>
+
+
+</Project>

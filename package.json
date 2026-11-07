@@ -1,0 +1,26 @@
+{
+  "name": "hydro-veyon-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "node tools/typecheck.mjs",
+    "probe": "tsx tools/probe.ts",
+    "simulate": "tsx tools/simulate.ts",
+    "build:frontend": "esbuild addon/frontend/monitor.ts --bundle --outfile=addon/public/exam-monitor.js",
+    "test:hydro": "node tools/hydro-integration.cjs",
+    "smoke:hydro": "node tools/hydro-smoke.cjs"
+  },
+  "dependencies": {
+    "hydrooj": "5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "esbuild": "0.25.12",
+    "mongodb-memory-server": "10.3.0",
+    "selfsigned": "2.4.1",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vitest": "4.1.11"
+  }
+}

@@ -1,0 +1,35 @@
+include(BuildVeyonPlugin)
+
+build_veyon_plugin(filetransfer
+	NAME FileTransfer
+	SOURCES
+	FileTransferPlugin.cpp
+	FileTransferPlugin.h
+	FileCollection.h
+	FileCollectController.h
+	FileCollectController.cpp
+	FileCollectDialog.ui
+	FileCollectDialog.h
+	FileCollectDialog.cpp
+	FileCollectTreeModel.h
+	FileCollectTreeModel.cpp
+	FileCollectWorker.h
+	FileCollectWorker.cpp
+	FileTransferConfiguration.h
+	FileTransferConfigurationPage.cpp
+	FileTransferConfigurationPage.h
+	FileTransferConfigurationPage.ui
+	FileTransferController.cpp
+	FileTransferController.h
+	FileTransferListModel.cpp
+	FileTransferListModel.h
+	FileTransferDialog.cpp
+	FileTransferDialog.h
+	FileTransferDialog.ui
+	FileTransferUserConfiguration.h
+	FileReadThread.cpp
+	FileReadThread.h
+	ProgressItemDelegate.cpp
+	ProgressItemDelegate.h
+	filetransfer.qrc
+	)

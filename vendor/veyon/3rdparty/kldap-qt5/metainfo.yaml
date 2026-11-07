@@ -1,0 +1,19 @@
+maintainer: mlaurent
+description: LDAP support library
+tier: 3
+type: functional
+platforms:
+    - name: Linux
+    - name: FreeBSD
+    - name: Windows
+    - name: macOS
+portingAid: false
+deprecated: false
+release: false
+libraries:
+ - cmake: "KPim6::LdapCore"
+ - cmake: "KPim6::LdapWidgets"
+cmakename: KPim6LdapCore
+
+public_lib: true
+group: kdepim

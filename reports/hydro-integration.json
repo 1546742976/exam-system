@@ -1,0 +1,21 @@
+{
+  "hydroVersion": "5.1.0",
+  "mongoVersion": "7.0.14",
+  "passed": [
+    "module load",
+    "route registration",
+    "mapping import",
+    "start",
+    "manual request",
+    "device uniqueness across active exams",
+    "cross-domain denial",
+    "permission denial",
+    "cross-exam image denial",
+    "own image history",
+    "own image stream",
+    "status",
+    "stop",
+    "expired file and index cleanup"
+  ],
+  "boundary": "real HydroOJ handler methods and real MongoDB; no full HTTP server, browser rendering, or real Veyon"
+}

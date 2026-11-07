@@ -1,0 +1,64 @@
+/*
+ * LinuxKeyboardInput.h - declaration of LinuxKeyboardInput class
+ *
+ * Copyright (c) 2019-2026 Tobias Junghans <tobydox@veyon.io>
+ *
+ * This file is part of Veyon - https://veyon.io
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public
+ * License as published by the Free Software Foundation; either
+ * version 2 of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public
+ * License along with this program (see COPYING); if not, write to the
+ * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ * Boston, MA 02111-1307, USA.
+ *
+ */
+
+#pragma once
+
+#include <QString>
+
+// clazy:excludeall=copyable-polymorphic
+
+class LinuxKeyboardInput
+{
+public:
+	using FakeKey = struct FakeKey;
+	using Display = struct _XDisplay;
+
+	LinuxKeyboardInput();
+	~LinuxKeyboardInput();
+
+	void pressAndReleaseKey( uint32_t keysym );
+
+	void pressAndReleaseKey( const QByteArray& utf8Data );
+
+	void sendString(const QString& string, int keyPressInterval);
+
+private:
+	// X11/libfakekey path
+	Display* m_display{nullptr};
+	FakeKey* m_fakeKeyHandle{nullptr};
+
+	// Wayland/uinput path
+	int m_uinputFd{-1};
+	bool m_uinputAvailable{false};
+	const bool m_isWaylandSession;
+
+	void initUinput();
+	void cleanupUinput();
+	void pressAndReleaseKeyUinput(uint32_t linuxKeycode);
+	void pressAndReleaseKeyUinputUtf8(const QByteArray& utf8Data);
+
+	static int keysymToLinuxKeycode(uint32_t keysym);
+	static int utf8ToLinuxKeycode(const QByteArray& utf8Data);
+
+};

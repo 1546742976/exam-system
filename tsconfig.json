@@ -1,0 +1,1 @@
+{"compilerOptions":{"target":"ES2022","module":"CommonJS","moduleResolution":"Node","strict":true,"esModuleInterop":true,"skipLibCheck":true,"experimentalDecorators":true,"types":["node"]},"include":["addon/**/*.ts","tools/**/*.ts","tests/**/*.ts"],"exclude":["vendor","node_modules"]}

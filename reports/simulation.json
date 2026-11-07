@@ -1,0 +1,21 @@
+{
+  "kind": "deterministic scheduler and bandwidth model, not real Veyon or wireless benchmark",
+  "devices": 100,
+  "durationHours": 3,
+  "completed": 11259,
+  "failed": 1254,
+  "bytes": 1405341696,
+  "averageMbit": 1.0409938488888888,
+  "peakConcurrency": 4,
+  "maxPending": 100,
+  "merged": 5365,
+  "delayP95Ms": 61989,
+  "delayMaxMs": 84850,
+  "simulationProcessMemory": {
+    "rss": 144965632,
+    "heapTotal": 50536448,
+    "heapUsed": 22622664,
+    "external": 2506911,
+    "arrayBuffers": 46973
+  }
+}

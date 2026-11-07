@@ -1,0 +1,113 @@
+/*
+ * FileTransferConfigurationPage.cpp - implementation of FileTransferConfigurationPage
+ *
+ * Copyright (c) 2017-2026 Tobias Junghans <tobydox@veyon.io>
+ *
+ * This file is part of Veyon - https://veyon.io
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public
+ * License as published by the Free Software Foundation; either
+ * version 2 of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public
+ * License along with this program (see COPYING); if not, write to the
+ * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ * Boston, MA 02111-1307, USA.
+ *
+ */
+
+#include "FileSystemBrowser.h"
+#include "FileTransferConfiguration.h"
+#include "FileTransferConfigurationPage.h"
+#include "Configuration/UiMapping.h"
+
+#include "ui_FileTransferConfigurationPage.h"
+
+FileTransferConfigurationPage::FileTransferConfigurationPage( FileTransferConfiguration& configuration, QWidget* parent ) :
+	ConfigurationPage( parent ),
+	ui( new Ui::FileTransferConfigurationPage ),
+	m_configuration( configuration )
+{
+	ui->setupUi(this);
+
+	connect(ui->browseDefaultSourceDirectory, &QAbstractButton::clicked,
+			this, &FileTransferConfigurationPage::browseDefaultSourceDirectory);
+
+	connect(ui->browseDestinationDirectory, &QAbstractButton::clicked,
+			this, &FileTransferConfigurationPage::browseDestinationDirectory);
+
+	connect(ui->browseFilesToCollectSourceDirectory, &QAbstractButton::clicked,
+			this, &FileTransferConfigurationPage::browseFilesToCollectSourceDirectory);
+
+	connect(ui->browseCollectedFilesDestinationDirectory, &QAbstractButton::clicked,
+			this, &FileTransferConfigurationPage::browseCollectedFilesDestinationDirectory);
+
+	connect(ui->collectedFilesGroupingMode, QOverload<int>::of(&QComboBox::currentIndexChanged), this, [this]() {
+		const auto groupingAttributesRequired = ui->collectedFilesGroupingMode->currentIndex() > 0;
+		ui->collectedFilesGroupingAttribute1->setEnabled(groupingAttributesRequired);
+		ui->collectedFilesGroupingAttribute2->setEnabled(groupingAttributesRequired);
+	});
+
+	ui->collectingMode->hide();
+	ui->collectingModeLabel->hide();
+}
+
+
+
+FileTransferConfigurationPage::~FileTransferConfigurationPage()
+{
+	delete ui;
+}
+
+
+
+void FileTransferConfigurationPage::resetWidgets()
+{
+	FOREACH_FILE_TRANSFER_CONFIG_PROPERTY(INIT_WIDGET_FROM_PROPERTY);
+}
+
+
+
+void FileTransferConfigurationPage::connectWidgetsToProperties()
+{
+	FOREACH_FILE_TRANSFER_CONFIG_PROPERTY(CONNECT_WIDGET_TO_PROPERTY)
+}
+
+
+
+void FileTransferConfigurationPage::applyConfiguration()
+{
+}
+
+
+void FileTransferConfigurationPage::browseDefaultSourceDirectory()
+{
+	FileSystemBrowser(FileSystemBrowser::ExistingDirectory, this).exec(ui->fileTransferDefaultSourceDirectory);
+}
+
+
+
+void FileTransferConfigurationPage::browseDestinationDirectory()
+{
+	FileSystemBrowser(FileSystemBrowser::ExistingDirectory, this).exec(ui->fileTransferDestinationDirectory);
+}
+
+
+
+void FileTransferConfigurationPage::browseFilesToCollectSourceDirectory()
+{
+	FileSystemBrowser(FileSystemBrowser::ExistingDirectory, this).exec(ui->filesToCollectSourceDirectory);
+}
+
+
+
+void FileTransferConfigurationPage::browseCollectedFilesDestinationDirectory()
+{
+	FileSystemBrowser(FileSystemBrowser::ExistingDirectory, this).exec(ui->collectedFilesDestinationDirectory);
+}

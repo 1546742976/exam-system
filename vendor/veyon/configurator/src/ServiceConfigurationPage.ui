@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ServiceConfigurationPage</class>
+ <widget class="QWidget" name="ServiceConfigurationPage">
+  <property name="windowTitle">
+   <string notr="true">Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="title">
+      <string>General</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_12">
+      <item row="1" column="0" colspan="2">
+       <widget class="QCheckBox" name="failedAuthenticationNotificationsEnabled">
+        <property name="text">
+         <string>Show notification when an unauthorized access is blocked</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <widget class="QCheckBox" name="remoteConnectionNotificationsEnabled">
+        <property name="text">
+         <string>Show notification on remote connection</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="serverConnectionLimitLabel">
+        <property name="text">
+         <string>Maximum simultaneous server connections</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QSpinBox" name="serverConnectionLimit">
+        <property name="toolTip">
+         <string>Limits simultaneous remote connections to protect the server against resource exhaustion.</string>
+        </property>
+        <property name="minimum">
+         <number>1</number>
+        </property>
+        <property name="maximum">
+         <number>10000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="2">
+       <widget class="QCheckBox" name="isTrayIconHidden">
+        <property name="text">
+         <string>Hide tray icon</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QCheckBox" name="autostartService">
+        <property name="text">
+         <string>Autostart</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_16">
+          <property name="text">
+           <string>State:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="serviceState">
+          <property name="font">
+           <font>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Stopped</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_9">
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="startService">
+          <property name="text">
+           <string>Start service</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../core/resources/core.qrc">
+            <normaloff>:/core/media-playback-start.png</normaloff>:/core/media-playback-start.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="stopService">
+          <property name="text">
+           <string>Stop service</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../core/resources/core.qrc">
+            <normaloff>:/core/media-playback-stop.png</normaloff>:/core/media-playback-stop.png</iconset>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Session mode</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QRadioButton" name="localSessionModeEnabled">
+        <property name="text">
+         <string>Local session mode (single server instance for primary local session)</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">sessionModeButtonGroup</string>
+        </attribute>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="activeSessionModeEnabled">
+        <property name="toolTip">
+         <string>Enable if a single Veyon Server instance should be launched for the currently active session, no matter if local or remote.</string>
+        </property>
+        <property name="text">
+         <string>Active session mode (single server instance for active local or remote session)</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">sessionModeButtonGroup</string>
+        </attribute>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="multiSessionModeEnabled">
+        <property name="toolTip">
+         <string>Enabling this option will make the service launch a server process for every interactive session on a computer.
+Typically this is required to support terminal servers.</string>
+        </property>
+        <property name="text">
+         <string>Multi session mode (distinct server instance for each local and remote desktop session)</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">sessionModeButtonGroup</string>
+        </attribute>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>Maximum session count</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="maximumSessionCount">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="minimum">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <number>1000</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="networkPortNumbersGroupBox">
+     <property name="title">
+      <string>Network port numbers</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_11">
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>Demo server</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_15">
+        <property name="text">
+         <string>Internal VNC server</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>Veyon server</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QSpinBox" name="demoServerPort">
+        <property name="minimum">
+         <number>1024</number>
+        </property>
+        <property name="maximum">
+         <number>65535</number>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QSpinBox" name="veyonServerPort">
+        <property name="minimum">
+         <number>1024</number>
+        </property>
+        <property name="maximum">
+         <number>65535</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QSpinBox" name="vncServerPort">
+        <property name="minimum">
+         <number>1024</number>
+        </property>
+        <property name="maximum">
+         <number>65535</number>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QSpinBox" name="featureWorkerManagerPort">
+        <property name="minimum">
+         <number>1024</number>
+        </property>
+        <property name="maximum">
+         <number>65535</number>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_14">
+        <property name="text">
+         <string>Feature manager</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="miscSettingsGroupBox">
+     <property name="title">
+      <string>Miscellaneous settings</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QCheckBox" name="isFirewallExceptionEnabled">
+        <property name="text">
+         <string>Enable firewall exception</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="localConnectOnly">
+        <property name="text">
+         <string>Allow connections from localhost only</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="clipboardSynchronizationDisabled">
+        <property name="text">
+         <string>Disable clipboard synchronization</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="vncServerGroupBox">
+     <property name="title">
+      <string>VNC server</string>
+     </property>
+     <layout class="QVBoxLayout" name="vncServerGroupBoxLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Plugin:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="vncServerPlugin">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="sessionMetaDataGroupBox">
+     <property name="title">
+      <string>Session metadata</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="sessionMetaDataContentLabel">
+        <property name="text">
+         <string>Content</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="sessionMetaDataContent">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <item>
+         <property name="text">
+          <string>None</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Value of an environment variable</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Value of a registry key</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="sessionMetaDataEnvironmentVariableLabel">
+        <property name="text">
+         <string>Environment variable name</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="sessionMetaDataEnvironmentVariable"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="sessionMetaDataRegistryKeyLabel">
+        <property name="text">
+         <string>Registry key name</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="sessionMetaDataRegistryKey">
+        <property name="toolTip">
+         <string>Optionally enter a regular expression with a capture to extract a part of the computer name and use it as the display name for the computer.
+
+Example: [^-]*-(PC[0-9]*)</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>isTrayIconHidden</tabstop>
+  <tabstop>failedAuthenticationNotificationsEnabled</tabstop>
+  <tabstop>remoteConnectionNotificationsEnabled</tabstop>
+  <tabstop>autostartService</tabstop>
+  <tabstop>startService</tabstop>
+  <tabstop>stopService</tabstop>
+  <tabstop>localSessionModeEnabled</tabstop>
+  <tabstop>activeSessionModeEnabled</tabstop>
+  <tabstop>multiSessionModeEnabled</tabstop>
+  <tabstop>maximumSessionCount</tabstop>
+  <tabstop>serverConnectionLimit</tabstop>
+  <tabstop>veyonServerPort</tabstop>
+  <tabstop>vncServerPort</tabstop>
+  <tabstop>featureWorkerManagerPort</tabstop>
+  <tabstop>demoServerPort</tabstop>
+  <tabstop>isFirewallExceptionEnabled</tabstop>
+  <tabstop>localConnectOnly</tabstop>
+  <tabstop>clipboardSynchronizationDisabled</tabstop>
+  <tabstop>vncServerPlugin</tabstop>
+  <tabstop>sessionMetaDataContent</tabstop>
+  <tabstop>sessionMetaDataEnvironmentVariable</tabstop>
+  <tabstop>sessionMetaDataRegistryKey</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../../core/resources/core.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>vncServerPlugin</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>ServiceConfigurationPage</receiver>
+   <slot>updateVncServerPluginConfigurationWidget()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>381</x>
+     <y>703</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>340</x>
+     <y>484</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>startService</sender>
+   <signal>clicked()</signal>
+   <receiver>ServiceConfigurationPage</receiver>
+   <slot>startService()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>230</x>
+     <y>118</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>207</x>
+     <y>234</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>stopService</sender>
+   <signal>clicked()</signal>
+   <receiver>ServiceConfigurationPage</receiver>
+   <slot>stopService()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>342</x>
+     <y>118</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>207</x>
+     <y>234</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>multiSessionModeEnabled</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>maximumSessionCount</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>320</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>295</x>
+     <y>415</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>updateVncServerPluginConfigurationWidget()</slot>
+  <slot>startService()</slot>
+  <slot>stopService()</slot>
+ </slots>
+ <buttongroups>
+  <buttongroup name="sessionModeButtonGroup"/>
+ </buttongroups>
+</ui>

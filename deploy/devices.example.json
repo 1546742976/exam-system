@@ -1,0 +1,9 @@
+[
+  {
+    "id": "seat01",
+    "origin": "https://seat01.exam.local:11080",
+    "caFile": "/etc/exam-monitor/seat01-ca.pem",
+    "keyFile": "/etc/exam-monitor/seat01-private.pem",
+    "keyName": "exam-seat01"
+  }
+]

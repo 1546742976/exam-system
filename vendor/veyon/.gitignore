@@ -1,0 +1,6 @@
+.vagrant/*
+.DS_Store
+svg
+Makefile
+plugins/addons
+plugins/extra

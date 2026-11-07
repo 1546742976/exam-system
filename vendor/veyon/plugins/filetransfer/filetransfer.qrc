@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/filetransfer" >
+        <file>collect-files.png</file>
+        <file>distribute-files.png</file>
+        <file>distribute-files-dark.png</file>
+        <file>file-scheduled.png</file>
+        <file>file-transferring.png</file>
+        <file>file-waiting.png</file>
+        <file>file-finished.png</file>
+    </qresource>
+</RCC>

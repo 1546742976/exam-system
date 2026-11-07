@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/configurator">
+        <file>veyon-configurator.png</file>
+        <file>help-about.png</file>
+        <file>network-vpn.png</file>
+        <file>configure-shortcuts.png</file>
+        <file>application-x-ms-dos-executable.png</file>
+        <file>application-x-sharedlib.png</file>
+        <file>vcs-conflicting.png</file>
+        <file>vcs-normal.png</file>
+        <file>vcs-removed.png</file>
+        <file>access-rule-ask.png</file>
+    </qresource>
+</RCC>

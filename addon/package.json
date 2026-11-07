@@ -1,0 +1,1 @@
+{"name":"hydro-veyon-monitor-addon","version":"0.1.0","main":"index.ts","peerDependencies":{"hydrooj":"5.1.0"}}

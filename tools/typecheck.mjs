@@ -1,0 +1,10 @@
+import ts from 'typescript';
+import path from 'node:path';
+const config = ts.readConfigFile('tsconfig.json', ts.sys.readFile);
+const parsed = ts.parseJsonConfigFileContent(config.config, ts.sys, process.cwd());
+const program = ts.createProgram(parsed.fileNames, parsed.options);
+const all = ts.getPreEmitDiagnostics(program);
+const owned = all.filter(d => !d.file || !d.file.fileName.replaceAll('\\','/').includes('/node_modules/'));
+console.log(ts.formatDiagnosticsWithColorAndContext(owned,{getCurrentDirectory:()=>process.cwd(),getCanonicalFileName:f=>path.resolve(f),getNewLine:()=> '\n'}));
+console.log(`Project diagnostics: ${owned.length}; upstream source diagnostics excluded: ${all.length-owned.length}`);
+process.exitCode = owned.length ? 1 : 0;
